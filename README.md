@@ -159,3 +159,29 @@ GEO stage not run.
 - Census has no rat. Rat comes from GEO and is sparse (VTA, mediobasal hypothalamus, nucleus accumbens, a few treated cortex/hippocampus series).
 - Single-nucleus and 10x data detect low-abundance receptor transcripts poorly; prefer deeper plate-based sets (Smart-seq) or large 10x atlases and check Grm detection per dataset before conclusions.
 - Next: per-dataset Grm1-8 detection pass on the shortlisted P1/P2 datasets, then region/subtype figures.
+
+<!-- allen-wmb-module1:start -->
+## Module 1: Allen Brain Cell Atlas (whole mouse brain, 10x)
+
+Script: `mglurs_allen_wmb_module1` (patch p005). Streams the 24 public log2 expression files (10Xv2, 10Xv3, Multiome; about 4.0M cells, 151 GB) one at a time, keeps a 45-gene panel for every cell, joins the Allen taxonomy (neurotransmitter, class, subclass, supertype, cluster) and dissection region, then writes long summary tables to `results/allen_wmb/` (one row per cell type x region x gene: `n_cells`, `pct_detected`, `mean_log2`, `mean_log2_detected`, `mean_expm1_log2`). Allen data is CC BY-NC 4.0.
+
+Gene panel: Grm1-8; cell-class markers (Slc17a7, Slc17a6, Gad1, Gad2, Slc32a1, Snap25, Rbfox3, Aqp4, Plp1, Cx3cr1, Pdgfra, Cldn5); housekeeping (Gapdh, Actb, Tubb3, Tuba1a, Eef1a1, Rpl13a, B2m); other neuronal GPCRs (Gabbr1/2, Gpr158, Gprc5b, Drd1, Drd2, Htr2a, Chrm1, Adora1, Cnr1); long neuronal genes (Csmd1, Nrxn1, Nrxn3, Cntnap2, Ctnna2, Ptprd, Dlg2, Auts2).
+
+### Pilot observations (thalamus file `WMB-10Xv2-TH` only, 130,555 cells; full run pending)
+
+- Normalization is `log2(CPM+1)` (read from the file), so detection (log2 > 0) equals a raw count of at least 1.
+- Pooled over all thalamic cells, percent of cells detecting each receptor: Grm1 66.5, Grm2 20.4, Grm3 41.4, Grm4 43.2, Grm5 77.0, Grm6 0.01, Grm7 81.5, Grm8 30.6.
+- Neurons vs glia: Grm5 is detected in 97% of thalamic glutamatergic neurons (class 18 TH Glut, n=68,546) versus 6.6% in Astro-Epen (n=1,114) and 9.0% in OPC-Oligo (n=30,384). Grm7 is 98% in thalamic neurons versus 9.1% and 22.5% in those glial classes. Grm1 is 88% in thalamic neurons versus 38% (Astro-Epen) and 30% (OPC-Oligo). Immune (n=149) and vascular (n=724) cells are low for all three. So the high pooled detection reflects the neuron-rich dissection, not a general or ambient signal.
+- Marker sanity checks pass: Aqp4 is 64% in Astro-Epen, Plp1 is 94% in OPC-Oligo, Gad1 is about 90% in GABAergic classes and 3-6% in glutamatergic classes.
+- Grm6 is essentially absent (0.01%), as expected for a retinal-restricted receptor.
+
+### Limitations
+
+- **Detection saturates in neurons.** The long-gene control Csmd1 is detected in 99% of thalamic glutamatergic neurons, and Gapdh in 98%. With this sequencing depth, `pct_detected` cannot rank neuron types for abundant genes (Grm1, Grm5, Grm7). Use `mean_log2` or `mean_expm1_log2` for those, and keep `pct_detected` for weaker receptors (Grm2, Grm4, Grm8) and for glia-vs-neuron contrasts.
+- **The long-gene control is a weak baseline.** Because long neuronal genes saturate in the same cells, `margin_over_long_pct` in `wmb_grm_top_hits.csv` carries little information in deep 10x data. It is useful only where depth is low.
+- **Ambient RNA.** Plp1 is detected in 30-50% of neurons and Gad1 in a few percent of glutamatergic cells, so low-percent detection (a few percent) is not evidence of expression. Treat only enrichment relative to the appropriate cell classes, not single-digit detection, as meaningful.
+- **Top-hits ranking.** `wmb_grm_top_hits.csv` currently ranks by `pct_detected`; it will be re-ranked by mean expression (p006) after the full run.
+- **Small groups.** Many class and subclass groups in a single dissection have tens of cells or fewer. Use `n_cells` and the `--min-cells` filter before interpreting any rate.
+- **Cell loss.** 657 of 131,212 thalamus cells (0.5%) have no entry in the 20241115 cell metadata and are dropped.
+- **Dissection region is coarse.** `roi` is the dissection region (29 values), not a precise anatomical structure; finer structure (for example CA3) comes from the taxonomy labels at subclass level and below.
+<!-- allen-wmb-module1:end -->
