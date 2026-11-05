@@ -1,0 +1,13 @@
+,Glutamatergic,GABAergic,GABA: PV,GABA: SST,GABA: VIP,GABA: Lamp5/Sncg,Medium spiny,Dopaminergic,Serotonergic,Cholinergic,Noradrenergic,Purkinje,Granule,Mitral/tufted,Other neuron,Astrocyte,Oligodendrocyte lineage,Microglia/immune,Vascular/other
+Olfactory bulb/cortex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cerebellum,1,2,0,0,0,0,0,0,0,0,0,2,2,0,0,2,2,1,2
+Hippocampus,2,2,2,2,2,2,0,0,0,0,0,0,0,0,2,1,1,1,0
+Striatum/pallidum,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Amygdala,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hypothalamus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
+Thalamus/habenula,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Midbrain,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pons/medulla,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cortex,7,6,4,4,4,4,0,0,0,0,0,0,0,0,0,6,7,6,6
+Other,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Whole/unspecified,0,1,0,0,0,0,1,0,0,0,0,0,0,0,2,1,1,2,2
