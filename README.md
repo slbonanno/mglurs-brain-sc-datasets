@@ -45,7 +45,7 @@ Spearman rho by gene.
 
 Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched neuronal subclasses (pooled chemistries).
 
-### ACA
+### Anterior cingulate area (ACA)
 
 <img src="figures/allen_wmb/ACA_fig1_umap_subclass.png" width="520">
 
@@ -63,7 +63,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 021 L4 RSP-ACA Glut (1.9x; 53917; 675); 032 L5 NP CTX Glut (1.9x; 52036; 3.5k); 046 Vip Gaba (1.8x; 48807; 3.9k) |
 | Grm8 | 046 Vip Gaba (2.6x; 18618; 3.9k); 030 L6 CT CTX Glut (2.2x; 13393; 16.9k); 032 L5 NP CTX Glut (1.4x; 10825; 3.5k) |
 
-### AI
+### Agranular insular area (AI)
 
 <img src="figures/allen_wmb/AI_fig1_umap_subclass.png" width="520">
 
@@ -82,7 +82,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 006 L4/5 IT CTX Glut (2.3x; 42322; 12.2k); 046 Vip Gaba (2.0x; 43879; 3.7k); 032 L5 NP CTX Glut (1.9x; 40831; 3.4k) |
 | Grm8 | 046 Vip Gaba (3.6x; 14223; 3.7k); 030 L6 CT CTX Glut (2.4x; 8603; 13.1k); 032 L5 NP CTX Glut (2.0x; 8572; 3.4k) |
 
-### AUD-TEa-PERI-ECT
+### Auditory/temporal/perirhinal/ectorhinal areas (AUD-TEa-PERI-ECT)
 
 <img src="figures/allen_wmb/AUD-TEa-PERI-ECT_fig1_umap_subclass.png" width="520">
 
@@ -101,7 +101,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 046 Vip Gaba (2.2x; 71591; 610); 032 L5 NP CTX Glut (2.2x; 71735; 430); 006 L4/5 IT CTX Glut (1.7x; 49347; 3.7k) |
 | Grm8 | 032 L5 NP CTX Glut (4.3x; 19019; 430); 046 Vip Gaba (4.0x; 17225; 610); 030 L6 CT CTX Glut (3.5x; 12569; 2.2k) |
 
-### AUD
+### Auditory areas (AUD)
 
 <img src="figures/allen_wmb/AUD_fig1_umap_subclass.png" width="520">
 
@@ -119,7 +119,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 006 L4/5 IT CTX Glut (2.2x; 43806; 27.1k); 032 L5 NP CTX Glut (1.6x; 46166; 2.2k); 046 Vip Gaba (1.5x; 42915; 1.9k) |
 | Grm8 | 046 Vip Gaba (5.9x; 13922; 1.9k); 032 L5 NP CTX Glut (4.7x; 11365; 2.2k); 030 L6 CT CTX Glut (3.2x; 6957; 7.3k) |
 
-### CB
+### Cerebellum (CB)
 
 <img src="figures/allen_wmb/CB_fig1_umap_subclass.png" width="520">
 
@@ -137,7 +137,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 295 CBN Dmbx1 Gaba (86.8x; 35887; 3.6k); 310 CBX Golgi Gly-Gaba (13.3x; 15358; 242); 250 CBN Neurod2 Pvalb Glut (5.5x; 6462; 259) |
 | Grm8 | 315 DCO UBC Glut (44.5x; 42232; 486); 310 CBX Golgi Gly-Gaba (24.5x; 25381; 242); 311 CBX MLI Megf11 Gaba (15.6x; 4511; 30.8k) |
 
-### CTXsp
+### Cortical subplate (CTXsp)
 
 <img src="figures/allen_wmb/CTXsp_fig1_umap_subclass.png" width="520">
 
@@ -155,7 +155,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 063 STR D1 Sema5a Gaba (2.5x; 67745; 289); 046 Vip Gaba (2.5x; 65036; 2.1k); 065 IA Mgp Gaba (2.1x; 56606; 1.3k) |
 | Grm8 | 064 STR-PAL Chst9 Gaba (6.7x; 29647; 7.4k); 046 Vip Gaba (2.8x; 18326; 2.1k); 017 CA3 Glut (1.9x; 13067; 347) |
 
-### ENT
+### Entorhinal area (ENT)
 
 <img src="figures/allen_wmb/ENT_fig1_umap_subclass.png" width="520">
 
@@ -174,7 +174,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 046 Vip Gaba (2.3x; 74014; 2.0k); 011 L2 IT ENT-po Glut (1.8x; 57254; 3.5k); 019 L2/3 IT PPP Glut (1.6x; 50794; 4.2k) |
 | Grm8 | 046 Vip Gaba (3.5x; 16698; 2.0k); 031 CT SUB Glut (3.4x; 16874; 724); 004 L6 IT CTX Glut (2.3x; 11414; 281) |
 
-### HIP
+### Hippocampal region (HIP)
 
 <img src="figures/allen_wmb/HIP_fig1_umap_subclass.png" width="520">
 
@@ -193,7 +193,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 037 DG Glut (2.1x; 33985; 80.3k); 046 Vip Gaba (1.4x; 37984; 4.1k) |
 | Grm8 | 046 Vip Gaba (72.3x; 22144; 4.1k); 023 SUB-ProS Glut (5.8x; 5705; 384); 053 Sst Gaba (3.4x; 3277; 1.3k) |
 
-### HY
+### Hypothalamus (HY)
 
 <img src="figures/allen_wmb/HY_fig1_umap_subclass.png" width="520">
 
@@ -212,7 +212,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 144 MM Foxb1 Glut (4.1x; 112018; 8.3k); 143 MM-ant Foxb1 Glut (2.5x; 74801; 5.4k); 064 STR-PAL Chst9 Gaba (1.9x; 59699; 343) |
 | Grm8 | 064 STR-PAL Chst9 Gaba (10.9x; 49427; 343); 109 LGv-ZI Otx2 Gaba (4.4x; 20228; 692); 125 DMH Hmx2 Glut (3.3x; 14832; 2.3k) |
 
-### LSX
+### Lateral septal complex (LSX)
 
 <img src="figures/allen_wmb/LSX_fig1_umap_subclass.png" width="520">
 
@@ -231,7 +231,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 067 LSX Sall3 Pax6 Gaba (4.9x; 96092; 1.0k); 072 LSX Sall3 Lmo1 Gaba (4.4x; 77782; 2.4k); 066 NDB-SI-ant Prdm12 Gaba (2.8x; 60530; 267) |
 | Grm8 | 111 TRS-BAC Sln Glut (6.2x; 65251; 534); 064 STR-PAL Chst9 Gaba (4.9x; 53852; 324); 067 LSX Sall3 Pax6 Gaba (2.0x; 22001; 1.0k) |
 
-### MB
+### Midbrain (MB)
 
 <img src="figures/allen_wmb/MB_fig1_umap_subclass.png" width="520">
 
@@ -250,7 +250,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 269 LDT Fgf7 Gaba (2.7x; 99789; 359); 207 SCs Dmbx1 Gaba (2.5x; 87158; 5.6k); 203 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba (2.0x; 75044; 243) |
 | Grm8 | 269 LDT Fgf7 Gaba (2.8x; 22694; 359); 222 PB Evx2 Glut (2.7x; 21477; 837); 191 PAG-MRN Rln3 Gaba (2.6x; 20783; 216) |
 
-### MO-FRP
+### Somatomotor - Frontal pole (MO-FRP)
 
 <img src="figures/allen_wmb/MO-FRP_fig1_umap_subclass.png" width="520">
 
@@ -268,7 +268,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 006 L4/5 IT CTX Glut (2.3x; 45564; 16.6k); 032 L5 NP CTX Glut (1.6x; 44565; 2.4k); 046 Vip Gaba (1.6x; 44021; 2.7k) |
 | Grm8 | 046 Vip Gaba (4.5x; 17110; 2.7k); 030 L6 CT CTX Glut (2.4x; 9162; 7.1k); 032 L5 NP CTX Glut (2.0x; 8617; 2.4k) |
 
-### MOp
+### Primary motor area (MOp)
 
 <img src="figures/allen_wmb/MOp_fig1_umap_subclass.png" width="520">
 
@@ -286,7 +286,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 006 L4/5 IT CTX Glut (2.6x; 53159; 74.9k); 032 L5 NP CTX Glut (1.8x; 52809; 9.5k); 046 Vip Gaba (1.7x; 50551; 10.8k) |
 | Grm8 | 046 Vip Gaba (3.9x; 19078; 10.8k); 030 L6 CT CTX Glut (2.8x; 11454; 46.1k); 032 L5 NP CTX Glut (2.1x; 11293; 9.5k) |
 
-### MY
+### Medulla (MY)
 
 <img src="figures/allen_wmb/MY_fig1_umap_subclass.png" width="520">
 
@@ -305,7 +305,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 257 SPVC Ccdc172 Glut (5.2x; 150590; 592); 258 SPVC Nmu Glut (3.5x; 101063; 960); 256 SPVC Mafa Glut (3.2x; 86943; 3.4k) |
 | Grm8 | 315 DCO UBC Glut (10.2x; 49290; 6.4k); 235 PG-TRN-LRN Fat2 Glut (5.9x; 46467; 722); 247 MV-SPIV Phox2b Ebf3 Lbx1 Glut (2.4x; 19485; 708) |
 
-### OLF
+### Olfactory areas (OLF)
 
 <img src="figures/allen_wmb/OLF_fig1_umap_subclass.png" width="520">
 
@@ -324,7 +324,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 039 OB Meis2 Thsd7b Gaba (9.4x; 162504; 1.9k); 062 STR D2 Gaba (3.5x; 64774; 204); 061 STR D1 Gaba (3.5x; 63792; 311) |
 | Grm8 | 035 OB Eomes Ms4a15 Glut (5.1x; 34563; 1.5k); 041 OB-in Frmd7 Gaba (3.3x; 12853; 78.7k); 064 STR-PAL Chst9 Gaba (2.8x; 19605; 246) |
 
-### PAL
+### Pallidum (PAL)
 
 <img src="figures/allen_wmb/PAL_fig1_umap_subclass.png" width="520">
 
@@ -343,7 +343,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 063 STR D1 Sema5a Gaba (2.0x; 88113; 3.1k); 061 STR D1 Gaba (1.6x; 72140; 5.9k); 060 OT D3 Folh1 Gaba (1.5x; 69561; 4.5k) |
 | Grm8 | 111 TRS-BAC Sln Glut (8.3x; 54370; 602); 064 STR-PAL Chst9 Gaba (6.8x; 32770; 4.6k); 076 MEA-BST Lhx6 Nfib Gaba (2.3x; 15582; 1.0k) |
 
-### PL-ILA-ORB
+### Prelimbic/infralimbic/orbital areas  (PL-ILA-ORB)
 
 <img src="figures/allen_wmb/PL-ILA-ORB_fig1_umap_subclass.png" width="520">
 
@@ -361,7 +361,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 006 L4/5 IT CTX Glut (2.1x; 46289; 14.2k); 046 Vip Gaba (1.9x; 49112; 3.3k); 032 L5 NP CTX Glut (1.8x; 46511; 4.0k) |
 | Grm8 | 046 Vip Gaba (2.8x; 16972; 3.3k); 030 L6 CT CTX Glut (2.1x; 10697; 21.5k); 003 L5/6 IT TPE-ENT Glut (1.8x; 11590; 711) |
 
-### P
+### Pons (P)
 
 <img src="figures/allen_wmb/P_fig1_umap_subclass.png" width="520">
 
@@ -380,7 +380,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 273 PDTg-PCG Pax6 Gaba (3.0x; 78259; 2.6k); 200 PAG-ND-PCG Onecut1 Gaba (2.0x; 59087; 856); 270 LDT-DTN Gata3 Nfix Gaba (1.9x; 55153; 658) |
 | Grm8 | 315 DCO UBC Glut (8.1x; 64550; 421); 235 PG-TRN-LRN Fat2 Glut (3.2x; 23221; 3.1k); 278 NLL Gata3 Gly-Gaba (2.8x; 23716; 452) |
 
-### RHP
+### Retrohippocampal region (RHP)
 
 <img src="figures/allen_wmb/RHP_fig1_umap_subclass.png" width="520">
 
@@ -398,7 +398,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 046 Vip Gaba (1.8x; 62045; 2.1k); 018 L2 IT PPP-APr Glut (1.6x; 56348; 5.1k); 019 L2/3 IT PPP Glut (1.5x; 47206; 24.2k) |
 | Grm8 | 046 Vip Gaba (3.8x; 22149; 2.1k); 031 CT SUB Glut (3.1x; 16146; 7.0k); 028 L6b/CT ENT Glut (1.8x; 10456; 5.1k) |
 
-### RSP
+### Retrosplenial area (RSP)
 
 <img src="figures/allen_wmb/RSP_fig1_umap_subclass.png" width="520">
 
@@ -416,7 +416,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 021 L4 RSP-ACA Glut (2.6x; 68259; 5.9k); 006 L4/5 IT CTX Glut (1.7x; 47430; 7.4k); 032 L5 NP CTX Glut (1.5x; 42765; 3.5k) |
 | Grm8 | 046 Vip Gaba (2.6x; 13540; 2.6k); 022 L5 ET CTX Glut (1.9x; 10231; 2.3k); 032 L5 NP CTX Glut (1.8x; 9168; 3.5k) |
 
-### SS-GU-VISC
+### Somatosensory/gustatory/visceral areas (SS-GU-VISC)
 
 <img src="figures/allen_wmb/SS-GU-VISC_fig1_umap_subclass.png" width="520">
 
@@ -435,7 +435,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 006 L4/5 IT CTX Glut (2.3x; 44525; 27.5k); 046 Vip Gaba (2.0x; 54747; 2.0k); 032 L5 NP CTX Glut (1.7x; 45490; 2.6k) |
 | Grm8 | 046 Vip Gaba (5.3x; 16755; 2.0k); 032 L5 NP CTX Glut (3.9x; 12481; 2.6k); 030 L6 CT CTX Glut (2.8x; 7792; 11.9k) |
 
-### SSp
+### Primary somatosensory area (SSp)
 
 <img src="figures/allen_wmb/SSp_fig1_umap_subclass.png" width="520">
 
@@ -453,7 +453,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 006 L4/5 IT CTX Glut (2.7x; 48320; 36.5k); 032 L5 NP CTX Glut (1.4x; 45723; 2.3k); 046 Vip Gaba (1.4x; 45300; 1.1k) |
 | Grm8 | 046 Vip Gaba (6.2x; 15927; 1.1k); 032 L5 NP CTX Glut (5.0x; 12392; 2.3k); 030 L6 CT CTX Glut (3.8x; 7511; 10.4k) |
 
-### STRd
+### Striatum dorsal region (STRd)
 
 <img src="figures/allen_wmb/STRd_fig1_umap_subclass.png" width="520">
 
@@ -471,7 +471,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 063 STR D1 Sema5a Gaba (1.3x; 67417; 780); 062 STR D2 Gaba (1.2x; 55500; 18.1k); 061 STR D1 Gaba (1.1x; 52365; 16.7k) |
 | Grm8 | 064 STR-PAL Chst9 Gaba (10.9x; 22023; 437); 061 STR D1 Gaba (1.0x; 2266; 16.7k) |
 
-### STRv
+### Striatum ventral region (STRv)
 
 <img src="figures/allen_wmb/STRv_fig1_umap_subclass.png" width="520">
 
@@ -489,7 +489,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 062 STR D2 Gaba (1.3x; 87842; 11.1k); 061 STR D1 Gaba (1.2x; 84185; 12.3k) |
 | Grm8 | 064 STR-PAL Chst9 Gaba (49.4x; 34021; 1.3k); 045 OB-STR-CTX Inh IMN (6.2x; 9926; 1.1k); 081 ACB-BST-FS D1 Gaba (5.1x; 9054; 305) |
 
-### TEa-PERI-ECT
+### Temporal/perirhinal/ectorhinal areas  (TEa-PERI-ECT)
 
 <img src="figures/allen_wmb/TEa-PERI-ECT_fig1_umap_subclass.png" width="520">
 
@@ -508,7 +508,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 046 Vip Gaba (2.1x; 45886; 2.5k); 006 L4/5 IT CTX Glut (2.1x; 40983; 7.6k); 032 L5 NP CTX Glut (1.9x; 41384; 1.6k) |
 | Grm8 | 030 L6 CT CTX Glut (3.1x; 10408; 9.6k); 046 Vip Gaba (2.8x; 11593; 2.5k); 032 L5 NP CTX Glut (2.2x; 9763; 1.6k) |
 
-### TH
+### Thalamus (TH)
 
 <img src="figures/allen_wmb/TH_fig1_umap_subclass.png" width="520">
 
@@ -527,7 +527,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 153 MG-POL-SGN Nts Glut (1.7x; 55423; 2.0k); 152 RE-Xi Nox4 Glut (1.7x; 52762; 5.5k); 150 CM-IAD-CL-PCN Sema5b Glut (1.6x; 48879; 13.6k) |
 | Grm8 | 109 LGv-ZI Otx2 Gaba (3.9x; 12117; 4.4k); 150 CM-IAD-CL-PCN Sema5b Glut (3.4x; 9525; 13.6k); 168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut (3.3x; 9628; 10.8k) |
 
-### VIS-PTLp
+### Visual/posterior parietal  areas (VIS-PTLp)
 
 <img src="figures/allen_wmb/VIS-PTLp_fig1_umap_subclass.png" width="520">
 
@@ -546,7 +546,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 006 L4/5 IT CTX Glut (2.2x; 62730; 17.3k); 032 L5 NP CTX Glut (1.5x; 62930; 1.1k) |
 | Grm8 | 046 Vip Gaba (6.9x; 20012; 1.4k); 032 L5 NP CTX Glut (4.2x; 13505; 1.1k); 030 L6 CT CTX Glut (3.5x; 9524; 4.8k) |
 
-### VIS
+### Visual areas (VIS)
 
 <img src="figures/allen_wmb/VIS_fig1_umap_subclass.png" width="520">
 
@@ -565,7 +565,7 @@ Per region: UMAP by class, Grm on UMAP, Grm violins per subclass, top enriched n
 | Grm7 | 006 L4/5 IT CTX Glut (2.4x; 50562; 114.8k); 032 L5 NP CTX Glut (1.6x; 50133; 6.7k); 007 L2/3 IT CTX Glut (1.1x; 33342; 47.2k) |
 | Grm8 | 046 Vip Gaba (5.6x; 15382; 12.5k); 030 L6 CT CTX Glut (3.6x; 8914; 36.9k); 032 L5 NP CTX Glut (3.4x; 10528; 6.7k) |
 
-### sAMY
+### Striatum-like amygdalar nuclei (sAMY)
 
 <img src="figures/allen_wmb/sAMY_fig1_umap_subclass.png" width="520">
 
