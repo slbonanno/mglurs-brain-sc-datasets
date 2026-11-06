@@ -163,25 +163,42 @@ GEO stage not run.
 <!-- allen-wmb-module1:start -->
 ## Module 1: Allen Brain Cell Atlas (whole mouse brain, 10x)
 
-Script: `mglurs_allen_wmb_module1` (patch p005). Streams the 24 public log2 expression files (10Xv2, 10Xv3, Multiome; about 4.0M cells, 151 GB) one at a time, keeps a 45-gene panel for every cell, joins the Allen taxonomy (neurotransmitter, class, subclass, supertype, cluster) and dissection region, then writes long summary tables to `results/allen_wmb/` (one row per cell type x region x gene: `n_cells`, `pct_detected`, `mean_log2`, `mean_log2_detected`, `mean_expm1_log2`). Allen data is CC BY-NC 4.0.
+Script: `mglurs_allen_wmb_module1` (p006). Streamed the 24 public log2 expression files (10Xv2, 10Xv3, Multiome; 151 GB, one file at a time), kept a 45-gene panel for every cell, joined the Allen taxonomy (neurotransmitter, class, subclass, supertype, cluster) and dissection region, and wrote long summary tables to `results/allen_wmb/` (one row per cell type x region x gene: `n_cells`, `pct_detected`, `mean_log2`, `mean_log2_detected`, `mean_expm1_log2`). All 4,042,976 cells in the 20241115 cell metadata were matched (16,412 extra cells in the expression files had no metadata entry and were dropped). Allen data is CC BY-NC 4.0.
 
 Gene panel: Grm1-8; cell-class markers (Slc17a7, Slc17a6, Gad1, Gad2, Slc32a1, Snap25, Rbfox3, Aqp4, Plp1, Cx3cr1, Pdgfra, Cldn5); housekeeping (Gapdh, Actb, Tubb3, Tuba1a, Eef1a1, Rpl13a, B2m); other neuronal GPCRs (Gabbr1/2, Gpr158, Gprc5b, Drd1, Drd2, Htr2a, Chrm1, Adora1, Cnr1); long neuronal genes (Csmd1, Nrxn1, Nrxn3, Cntnap2, Ctnna2, Ptprd, Dlg2, Auts2).
 
-### Pilot observations (thalamus file `WMB-10Xv2-TH` only, 130,555 cells; full run pending)
+Normalization in the files is `log2(CPM+1)`, so detection (log2 > 0) equals a raw count of at least 1.
 
-- Normalization is `log2(CPM+1)` (read from the file), so detection (log2 > 0) equals a raw count of at least 1.
-- Pooled over all thalamic cells, percent of cells detecting each receptor: Grm1 66.5, Grm2 20.4, Grm3 41.4, Grm4 43.2, Grm5 77.0, Grm6 0.01, Grm7 81.5, Grm8 30.6.
-- Neurons vs glia: Grm5 is detected in 97% of thalamic glutamatergic neurons (class 18 TH Glut, n=68,546) versus 6.6% in Astro-Epen (n=1,114) and 9.0% in OPC-Oligo (n=30,384). Grm7 is 98% in thalamic neurons versus 9.1% and 22.5% in those glial classes. Grm1 is 88% in thalamic neurons versus 38% (Astro-Epen) and 30% (OPC-Oligo). Immune (n=149) and vascular (n=724) cells are low for all three. So the high pooled detection reflects the neuron-rich dissection, not a general or ambient signal.
-- Marker sanity checks pass: Aqp4 is 64% in Astro-Epen, Plp1 is 94% in OPC-Oligo, Gad1 is about 90% in GABAergic classes and 3-6% in glutamatergic classes.
-- Grm6 is essentially absent (0.01%), as expected for a retinal-restricted receptor.
+### Results (whole atlas, pooled over regions)
+
+Percent of all 4.04M cells detecting each receptor: Grm1 52.3, Grm2 17.1, Grm3 60.5, Grm4 23.5, Grm5 75.8, Grm6 0.03, Grm7 77.3, Grm8 42.8.
+
+Top subclasses by mean log2 expression (min 100 cells; full lists in `results/allen_wmb/wmb_grm_top_hits.csv` and `results/allen_wmb/README.md`):
+
+| Gene | Highest subclasses (mean log2, n cells) |
+|---|---|
+| Grm1 | 313 CBX Purkinje Gaba (11.70, 380); 312 CBX MLI Cdh22 Gaba (10.46, 13,098); 035 OB Eomes Ms4a15 Glut (10.46, 1,651); 311 CBX MLI Megf11 Gaba (10.05, 31,619); 151 TH Prkcd Grin2c Glut (10.01, 68,480) |
+| Grm2 | 310 CBX Golgi Gly-Gaba (8.25, 291); 144 MM Foxb1 Glut (5.80, 8,279); 143 MM-ant Foxb1 Glut (5.40, 5,451); 008 L2/3 IT ENT Glut (4.86, 21,111); 149 PVT-PT Ntrk1 Glut (4.85, 10,258) |
+| Grm3 | 319 Astro-TE NN (10.34, 154,311); 331 Peri NN (10.20, 24,907); 295 CBN Dmbx1 Gaba (9.56, 3,641); 310 CBX Golgi Gly-Gaba (9.33, 291); 327 Oligo NN (8.87, 422,574); 061/062 STR D1/D2 Gaba (8.38/8.33) |
+| Grm4 | 314 CB Granule Glut (7.89, 133,778); 147 AD Serpinb7 Glut (6.80, 720); 151 TH Prkcd Grin2c Glut (6.01, 68,480); 150 CM-IAD-CL-PCN Sema5b Glut (6.00, 13,604); 021 L4 RSP-ACA Glut (5.54, 6,615) |
+| Grm5 | 071/070/069 LSX Prdm12 / Nkx2-1 Gaba (11.68-11.74, about 7,000 each); 258 SPVC Nmu Glut (11.42, 960); 062/061 STR D2/D1 Gaba (11.38/11.37, about 36,000 each); 023 SUB-ProS Glut (11.30, 6,844) |
+| Grm6 | essentially absent: highest is 204 SC Otx2 Gcnt4 Gaba (0.30, 5% detected); all others below 0.15 |
+| Grm7 | 257 SPVC Ccdc172 Glut (11.82, 593); 144 MM Foxb1 Glut (11.52, 8,279); 110 BST-po Iigp1 Glut (11.42, 155); 269 LDT Fgf7 Gaba (11.38, 522); 258 SPVC Nmu Glut (11.38, 960) |
+| Grm8 | 315 DCO UBC Glut (10.55, 7,328); 111 TRS-BAC Sln Glut (10.49, 1,194); 064 STR-PAL Chst9 Gaba (9.82, 18,689); 235 PG-TRN-LRN Fat2 Glut (9.76, 3,894); 191 PAG-MRN Rln3 Gaba (9.59, 228) |
+
+Observations:
+
+- Several rankings match known biology, which supports the pipeline: Grm1 in Purkinje cells and cerebellar interneurons, Grm2 in cerebellar Golgi cells, Grm4 in cerebellar granule cells, Grm3 in astrocytes, pericytes and oligodendrocytes, Grm5 in striatal and septal GABAergic neurons, and near-absent Grm6.
+- Grm3 is the one receptor with high expression in glia (astrocytes and oligodendrocytes) as well as in neurons.
+- Grm2 is the most selective receptor after Grm6 (17% of cells overall): its highest expression is in Golgi cells, mammillary (MM) glutamatergic neurons, and entorhinal L2/3 IT cells.
+- Pilot on thalamus alone (130,555 cells): Grm5 was detected in 97% of thalamic glutamatergic neurons versus 7-9% in astrocytes and oligodendrocyte-lineage cells, and Grm7 in 98% versus 9-23%. Marker genes behaved as expected (Aqp4 in astrocytes, Plp1 in oligodendrocytes, Gad1 in GABAergic classes).
 
 ### Limitations
 
-- **Detection saturates in neurons.** The long-gene control Csmd1 is detected in 99% of thalamic glutamatergic neurons, and Gapdh in 98%. With this sequencing depth, `pct_detected` cannot rank neuron types for abundant genes (Grm1, Grm5, Grm7). Use `mean_log2` or `mean_expm1_log2` for those, and keep `pct_detected` for weaker receptors (Grm2, Grm4, Grm8) and for glia-vs-neuron contrasts.
-- **The long-gene control is a weak baseline.** Because long neuronal genes saturate in the same cells, `margin_over_long_pct` in `wmb_grm_top_hits.csv` carries little information in deep 10x data. It is useful only where depth is low.
-- **Ambient RNA.** Plp1 is detected in 30-50% of neurons and Gad1 in a few percent of glutamatergic cells, so low-percent detection (a few percent) is not evidence of expression. Treat only enrichment relative to the appropriate cell classes, not single-digit detection, as meaningful.
-- **Top-hits ranking.** `wmb_grm_top_hits.csv` currently ranks by `pct_detected`; it will be re-ranked by mean expression (p006) after the full run.
-- **Small groups.** Many class and subclass groups in a single dissection have tens of cells or fewer. Use `n_cells` and the `--min-cells` filter before interpreting any rate.
-- **Cell loss.** 657 of 131,212 thalamus cells (0.5%) have no entry in the 20241115 cell metadata and are dropped.
-- **Dissection region is coarse.** `roi` is the dissection region (29 values), not a precise anatomical structure; finer structure (for example CA3) comes from the taxonomy labels at subclass level and below.
+- **Detection saturates in neurons.** In the thalamus pilot the long-gene control Csmd1 was detected in 99% of glutamatergic neurons, and most top hits above are 100% detected. `pct_detected` cannot rank neuron types for abundant receptors (Grm1, Grm5, Grm7); rank on mean expression. It remains useful for weak receptors (Grm2, Grm4, Grm8) and neuron-vs-glia contrasts.
+- **Absolute scale needs confirmation.** Top Grm5/Grm7 values of 11-12 mean log2(CPM+1) correspond to roughly 2,000-4,000 CPM. Compare against the housekeeping and marker genes in the same table (`gene_group`) before reading absolute levels across genes; relative ordering across cell types for the same gene is the safer comparison. `mean_log2` averages logs, so it compresses differences at the high end; `mean_expm1_log2` is the linear CPM-like mean.
+- **The long-gene control is a weak baseline.** Because long neuronal genes saturate in the same cells, `margin_over_long_pct` in `wmb_grm_top_hits.csv` carries little information in deep 10x data.
+- **Ambient RNA.** Plp1 was detected in 30-50% of neurons and Gad1 in a few percent of glutamatergic cells in the thalamus pilot, so single-digit detection percentages are not evidence of expression.
+- **Small groups.** Many subclasses and supertypes have tens to hundreds of cells in a single dissection; check `n_cells` before interpreting any rate.
+- **Dissection region is coarse.** `roi` is the dissection region (29 values), not a precise anatomical structure; finer structure comes from taxonomy labels at subclass level and below. Only mouse 10x is covered; plate-based, spatial, rat and human data are separate modules.
 <!-- allen-wmb-module1:end -->
