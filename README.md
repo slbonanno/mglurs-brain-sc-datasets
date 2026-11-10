@@ -27,32 +27,32 @@ Goal: mGluR (Grm1-8) expression by fine cell type and brain region in public sin
 - Data: Allen ABC Atlas WMB, 4.04M cells, 10x v2/v3/Multiome 3' GEX, log2(CPM+1), 29 dissection regions (ROI)
 - Labels: class > subclass > supertype > cluster (Allen taxonomy). UMAP: Allen `x`,`y` (10 nearest neighbours share subclass 80-99%; shuffled 4-43%)
 - Colors in all figures = class
-- Overall % cells detecting: Grm1 52, Grm2 17, Grm3 60, Grm4 24, Grm5 76, Grm6 0.03, Grm7 77, Grm8 43
 - Enrichment = (mean CPM in subclass + 1) / (mean CPM in other neurons of the same region + 1); one-sided rank-sum, BH q < 0.05
 - Tables: `results/allen_wmb/` (`master_enrichment.csv.gz`: region x chemistry x gene x subclass)
 
-### Whole brain: Grm1-8 per neuronal class
+Overall % of cells detecting each receptor (all 4.04M cells):
+
+| Grm1 | Grm2 | Grm3 | Grm4 | Grm5 | Grm6 | Grm7 | Grm8 |
+|---|---|---|---|---|---|---|---|
+| 52 | 17 | 60 | 24 | 76 | 0.03 | 77 | 43 |
+
+### Whole brain: subclass x Grm (mean log2 CPM)
 
 All data from Allen Brain Atlas single cell processing pipeline, across different 10x datasets
 v2 and v3 are pooled uncorrected, but the chemistry is not a big confound here (see correlation, later in readme)
 
-Violin = all neurons of a class; dots = subclass means. Heatmap version (subclass x Grm): `figures/allen_wmb/ALL_fig4_heatmap_subclass_grm.png`.
+Top 5 subclasses per class by Grm expression; all subclasses: `figures/allen_wmb/ALL_fig4_heatmap_all_subclasses_full.png`.
+
+<img src="figures/allen_wmb/ALL_fig4_heatmap_subclass_grm.png" width="900">
+
+### Whole brain: Grm1-8 per neuronal class
+
+The atlas has neuronal classes 01–29; each holds many subclasses (~340 total), and thousands of clusters
+Below, are the vln plots showing Grm expression at the toplevel (neuronal classes)
+
+Violin = distribution of per-cell log2(CPM+1) for one Grm across all neurons of a class; dots = subclass means (subclasses with >= 100 cells), darker shade of the class color.
 
 <img src="figures/allen_wmb/ALL_wb_violin_scatter.png" width="900">
-
-### Replicate check: 10x v2 vs v3
-
-Per region x subclass, log2 enrichment in v2 cells vs v3 cells (only subclasses with enough cells in both).
-
-<img src="figures/allen_wmb/ALL_fig5_v2_v3_concordance.png" width="860">
-
-| Grm1 | Grm2 | Grm3 | Grm4 | Grm5 | **Grm6 ⚠️** | Grm7 | Grm8 |
-|---|---|---|---|---|---|---|---|
-| 0.97 | 0.96 | 0.97 | 0.94 | 0.95 | **0.38** | 0.95 | 0.97 |
-
-Spearman rho by gene.
-
-**Grm6 does not replicate (rho = 0.38).** Grm6 is detected in only about 0.03% of brain cells (it is a retina-restricted receptor), so its per-subclass fold changes are driven by a handful of cells and background counts rather than real expression, while the other receptors are expressed in many cells and give stable estimates.
 
 ### Example region: hippocampus
 
@@ -90,6 +90,20 @@ For clusters identified in the previous plot as enriched for both Grm2 and 4, ex
 ## Appendix: other regions
 
 Prioritized (depression / Parkinson's) regions first, then the rest alphabetically.
+
+### Replicate check: 10x v2 vs v3
+
+Per region x subclass, log2 enrichment in v2 cells vs v3 cells (only subclasses with enough cells in both).
+
+<img src="figures/allen_wmb/ALL_fig5_v2_v3_concordance.png" width="860">
+
+| Grm1 | Grm2 | Grm3 | Grm4 | Grm5 | **Grm6 ⚠️** | Grm7 | Grm8 |
+|---|---|---|---|---|---|---|---|
+| 0.97 | 0.96 | 0.97 | 0.94 | 0.95 | **0.38** | 0.95 | 0.97 |
+
+Spearman rho by gene.
+
+**Grm6 does not replicate (rho = 0.38).** Grm6 is detected in only about 0.03% of brain cells (it is a retina-restricted receptor), so its per-subclass fold changes are driven by a handful of cells and background counts rather than real expression, while the other receptors are expressed in many cells and give stable estimates.
 
 ### Prelimbic/infralimbic/orbital areas  (PL-ILA-ORB)
 
