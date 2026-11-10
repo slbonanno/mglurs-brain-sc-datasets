@@ -56,7 +56,7 @@ Violin = distribution of per-cell log2(CPM+1) for one Grm across all neurons of 
 
 ### Example region: hippocampus
 
-UMAP by class and Grm violins per subclass. All other regions are in the appendix. Feature plots (Grm on UMAP) and enrichment tables: `figures/allen_wmb/`, `results/allen_wmb/master_enrichment.csv.gz`.
+UMAP (x and y coordinates directly from ABA, no reclustering) by class and Grm violins per subclass. All other regions are in the appendix. Feature plots (Grm on UMAP) and enrichment tables: `figures/allen_wmb/`, `results/allen_wmb/master_enrichment.csv.gz`.
 
 ### Hippocampal region (HIP)
 
@@ -69,6 +69,8 @@ UMAP by class and Grm violins per subclass. All other regions are in the appendi
 <img src="figures/allen_wmb/GRM2_GRM4_subclass_scatter.png" width="900">
 
 log2(CPM) values for Grm2 and Grm4 are plotted, with each subclass represented.  This does not mean the transcripts were detected in the same single-cells, but reports the overall cluster's expression level
+
+all subclasses were filtered for those with >200 cells, using mean log2(CPM+1) for Grm2 and Grm4 pooled over all regions (i.e. PV GABA neurons, pulled from multiple brain regions).  Subclasses were further filtered for those whose mean is in the top quartile (at or above the 75th percentile of subclass means) for both Grm2 and Grm4 (grey shaded zone on the scatter plot).  The number of subclasses in the graphs below was capped at 12; the total that passed the filtering was: 30
 
 <img src="figures/allen_wmb/GRM2_GRM4_single_cells_panels.png" width="900">
 
