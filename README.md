@@ -43,6 +43,9 @@ Goal: mGluR (Grm1-8) expression by fine cell type and brain region in public sin
 
 ### Whole brain: subclass x Grm (mean log2 CPM)
 
+All data from Allen Brain Atlas single cell processing pipeline, across different 10x datasets
+v2 and v3 are pooled uncorrected, but the chemistry is not a big confound here (see correlation, later in readme)
+
 Top 5 subclasses per class by Grm expression; all subclasses: `figures/allen_wmb/ALL_fig4_heatmap_all_subclasses_full.png`.
 
 <img src="figures/allen_wmb/ALL_fig4_heatmap_subclass_grm.png" width="900">
