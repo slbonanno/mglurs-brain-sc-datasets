@@ -50,7 +50,7 @@ Top 5 subclasses per class by Grm expression; all subclasses: `figures/allen_wmb
 The atlas has neuronal classes 01–29; each holds many subclasses (~340 total), and thousands of clusters
 Below, are the vln plots showing Grm expression at the toplevel (neuronal classes)
 
-Violin = distribution of per-cell log2(CPM+1) for one Grm across all neurons of a class; dots = subclass means (subclasses with >= 100 cells), darker shade of the class color.
+Violin = distribution of per-cell log2(CPM+1) for one Grm across all neurons of a class (color = class).
 
 <img src="figures/allen_wmb/ALL_wb_violin_scatter.png" width="900">
 
