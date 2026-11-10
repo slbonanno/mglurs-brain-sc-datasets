@@ -7,30 +7,20 @@ Goal: mGluR (Grm1-8) expression by fine cell type and brain region in public sin
 
 ## Brain regions
 
-**Focus regions** (depression and Parkinson's circuits):
-
-| Region | Why |
-|---|---|
-| [Prelimbic/infralimbic/orbital areas  (PL-ILA-ORB)](#prelimbicinfralimbicorbital-areas--pl-ila-orb) | Prefrontal cortex (prelimbic, infralimbic, orbital); depression; Grm7/Grm3 heteromers reported in cortex |
-| [Anterior cingulate area (ACA)](#anterior-cingulate-area-aca) | Anterior cingulate cortex; depression |
-| [Hippocampal region (HIP)](#hippocampal-region-hip) | Hippocampus; depression; Grm7/Grm8 and Grm7/Grm2 heteromers reported |
-| [Cortical subplate (CTXsp)](#cortical-subplate-ctxsp) | Cortical subplate incl. basolateral amygdala; depression |
-| [Striatum-like amygdalar nuclei (sAMY)](#striatum-like-amygdalar-nuclei-samy) | Central and medial amygdala; depression |
-| [Striatum dorsal region (STRd)](#striatum-dorsal-region-strd) | Dorsal striatum; Parkinson's (Grm4, Grm2) |
-| [Striatum ventral region (STRv)](#striatum-ventral-region-strv) | Ventral striatum (nucleus accumbens, olfactory tubercle); depression; Parkinson's |
-
-**Appendix** ([all other regions](#appendix-other-regions), 22 Allen dissection regions):
+🟨 = regions of interest: depression circuits (prefrontal, anterior cingulate, hippocampus, amygdala, striatum) and Parkinson's (striatum). Hippocampus is the worked example below; all other regions are in the [appendix](#appendix-other-regions).
 
 | | | |
 |---|---|---|
-| [Agranular insular area (AI)](#agranular-insular-area-ai) | [Auditory areas (AUD)](#auditory-areas-aud) | [Auditory/temporal/perirhinal/ectorhinal areas (AUD-TEa-PERI-ECT)](#auditorytemporalperirhinalectorhinal-areas-aud-tea-peri-ect) |
-| [Cerebellum (CB)](#cerebellum-cb) | [Entorhinal area (ENT)](#entorhinal-area-ent) | [Hypothalamus (HY)](#hypothalamus-hy) |
-| [Lateral septal complex (LSX)](#lateral-septal-complex-lsx) | [Medulla (MY)](#medulla-my) | [Midbrain (MB)](#midbrain-mb) |
-| [Olfactory areas (OLF)](#olfactory-areas-olf) | [Pallidum (PAL)](#pallidum-pal) | [Pons (P)](#pons-p) |
-| [Primary motor area (MOp)](#primary-motor-area-mop) | [Primary somatosensory area (SSp)](#primary-somatosensory-area-ssp) | [Retrohippocampal region (RHP)](#retrohippocampal-region-rhp) |
-| [Retrosplenial area (RSP)](#retrosplenial-area-rsp) | [Somatomotor - Frontal pole (MO-FRP)](#somatomotor---frontal-pole-mo-frp) | [Somatosensory/gustatory/visceral areas (SS-GU-VISC)](#somatosensorygustatoryvisceral-areas-ss-gu-visc) |
-| [Temporal/perirhinal/ectorhinal areas  (TEa-PERI-ECT)](#temporalperirhinalectorhinal-areas--tea-peri-ect) | [Thalamus (TH)](#thalamus-th) | [Visual areas (VIS)](#visual-areas-vis) |
-| [Visual/posterior parietal  areas (VIS-PTLp)](#visualposterior-parietal--areas-vis-ptlp) |  |  |
+| 🟨 **[Prelimbic/infralimbic/orbital areas  (PL-ILA-ORB)](#prelimbicinfralimbicorbital-areas--pl-ila-orb)** | 🟨 **[Anterior cingulate area (ACA)](#anterior-cingulate-area-aca)** | 🟨 **[Hippocampal region (HIP)](#hippocampal-region-hip)** |
+| 🟨 **[Cortical subplate (CTXsp)](#cortical-subplate-ctxsp)** | 🟨 **[Striatum-like amygdalar nuclei (sAMY)](#striatum-like-amygdalar-nuclei-samy)** | 🟨 **[Striatum dorsal region (STRd)](#striatum-dorsal-region-strd)** |
+| 🟨 **[Striatum ventral region (STRv)](#striatum-ventral-region-strv)** | [Agranular insular area (AI)](#agranular-insular-area-ai) | [Auditory areas (AUD)](#auditory-areas-aud) |
+| [Auditory/temporal/perirhinal/ectorhinal areas (AUD-TEa-PERI-ECT)](#auditorytemporalperirhinalectorhinal-areas-aud-tea-peri-ect) | [Cerebellum (CB)](#cerebellum-cb) | [Entorhinal area (ENT)](#entorhinal-area-ent) |
+| [Hypothalamus (HY)](#hypothalamus-hy) | [Lateral septal complex (LSX)](#lateral-septal-complex-lsx) | [Medulla (MY)](#medulla-my) |
+| [Midbrain (MB)](#midbrain-mb) | [Olfactory areas (OLF)](#olfactory-areas-olf) | [Pallidum (PAL)](#pallidum-pal) |
+| [Pons (P)](#pons-p) | [Primary motor area (MOp)](#primary-motor-area-mop) | [Primary somatosensory area (SSp)](#primary-somatosensory-area-ssp) |
+| [Retrohippocampal region (RHP)](#retrohippocampal-region-rhp) | [Retrosplenial area (RSP)](#retrosplenial-area-rsp) | [Somatomotor - Frontal pole (MO-FRP)](#somatomotor---frontal-pole-mo-frp) |
+| [Somatosensory/gustatory/visceral areas (SS-GU-VISC)](#somatosensorygustatoryvisceral-areas-ss-gu-visc) | [Temporal/perirhinal/ectorhinal areas  (TEa-PERI-ECT)](#temporalperirhinalectorhinal-areas--tea-peri-ect) | [Thalamus (TH)](#thalamus-th) |
+| [Visual areas (VIS)](#visual-areas-vis) | [Visual/posterior parietal  areas (VIS-PTLp)](#visualposterior-parietal--areas-vis-ptlp) |  |
 
 ## Module 1: Allen whole mouse brain (10x)
 
@@ -41,95 +31,65 @@ Goal: mGluR (Grm1-8) expression by fine cell type and brain region in public sin
 - Enrichment = (mean CPM in subclass + 1) / (mean CPM in other neurons of the same region + 1); one-sided rank-sum, BH q < 0.05
 - Tables: `results/allen_wmb/` (`master_enrichment.csv.gz`: region x chemistry x gene x subclass)
 
-### Whole brain: subclass x Grm (mean log2 CPM)
+### Whole brain: Grm1-8 per neuronal class
 
-Top 5 subclasses per class by Grm expression; all subclasses: `figures/allen_wmb/ALL_fig4_heatmap_all_subclasses_full.png`.
+All data from Allen Brain Atlas single cell processing pipeline, across different 10x datasets
+v2 and v3 are pooled uncorrected, but the chemistry is not a big confound here (see correlation, later in readme)
 
-<img src="figures/allen_wmb/ALL_fig4_heatmap_subclass_grm.png" width="900">
+Violin = all neurons of a class; dots = subclass means. Heatmap version (subclass x Grm): `figures/allen_wmb/ALL_fig4_heatmap_subclass_grm.png`.
 
-## Analysis: depression and Parkinson's regions
+<img src="figures/allen_wmb/ALL_wb_violin_scatter.png" width="900">
 
-### 1. Are Grm genes low?
+### Replicate check: 10x v2 vs v3
 
-- **Did:** mean CPM (linear) of Grm1-8 in neurons of the focus regions, next to housekeeping, other neuronal GPCRs and long neuronal genes
-- **Shows:** median mean CPM in neurons: Grm 2395, housekeeping 2379, other GPCRs 1098, long neuronal genes 80256. Highest Grm: Grm5 40569, Grm7 28060, Grm8 6516; lowest: Grm6 0
-- **Next:** use these ratios as the 'low vs high' reference in the rest of the analysis
+Per region x subclass, log2 enrichment in v2 cells vs v3 cells (only subclasses with enough cells in both).
 
-<img src="figures/allen_wmb/ALL_fig6_scale_anchor.png" width="900">
+<img src="figures/allen_wmb/ALL_fig5_v2_v3_concordance.png" width="860">
 
-### 2. Which Grm where: glutamatergic vs GABAergic neurons
+| Grm1 | Grm2 | Grm3 | Grm4 | Grm5 | **Grm6 ⚠️** | Grm7 | Grm8 |
+|---|---|---|---|---|---|---|---|
+| 0.97 | 0.96 | 0.97 | 0.94 | 0.95 | **0.38** | 0.95 | 0.97 |
 
-- **Did:** mean CPM of Grm1-8 in glutamatergic vs GABAergic neurons, one row per focus region
-- **Shows:** top 2 Grm per neuron type (mean CPM)
-  - PL-ILA-ORB: glut: Grm5 (28146), Grm7 (27193); GABA: Grm5 (31764), Grm7 (21558)
-  - ACA: glut: Grm7 (29409), Grm5 (24611); GABA: Grm5 (28021), Grm7 (21747)
-  - HIP: glut: Grm5 (38439), Grm7 (29489); GABA: Grm5 (29107), Grm7 (11772)
-  - CTXsp: glut: Grm5 (36291), Grm7 (24910); GABA: Grm5 (50689), Grm7 (32802)
-  - sAMY: glut: Grm7 (38813), Grm5 (36874); GABA: Grm5 (47725), Grm7 (43946)
-  - STRd: glut: Grm5 (32987), Grm7 (24530); GABA: Grm5 (87087), Grm7 (50803)
-  - STRv: glut: Grm5 (28290), Grm7 (22594); GABA: Grm5 (80697), Grm7 (75566)
-- **Next:** subclass level (below) for the Grm7 pairs
+Spearman rho by gene.
 
-<img src="figures/allen_wmb/ALL_fig7_region_neuron_type_overview.png" width="760">
+**Grm6 does not replicate (rho = 0.38).** Grm6 is detected in only about 0.03% of brain cells (it is a retina-restricted receptor), so its per-subclass fold changes are driven by a handful of cells and background counts rather than real expression, while the other receptors are expressed in many cells and give stable estimates.
 
-### 3. Co-expression: Grm7 with Grm8, Grm2, Grm3 (and Grm2 with Grm4)
+### Example region: hippocampus
 
-Heteromers need both receptors in the same cell. Two levels: (a) subclasses where both receptors are high (top quartile of subclass means), (b) within those subclasses, whether single cells carrying one receptor also carry the other more often than chance.
+UMAP by class and Grm violins per subclass. All other regions are in the appendix. Feature plots (Grm on UMAP) and enrichment tables: `figures/allen_wmb/`, `results/allen_wmb/master_enrichment.csv.gz`.
 
-| Pair | Region | Double-high subclasses | Median obs/expected | Median partial rho (depth-adjusted) |
-|---|---|---|---|---|
-| Grm7/Grm8 | PL-ILA-ORB | 1 | 1.05 | 0.06 |
-| Grm7/Grm8 | ACA | 1 | 1.11 | 0.11 |
-| Grm7/Grm8 | HIP | 1 | 0.99 | 0.06 |
-| Grm7/Grm8 | CTXsp | 3 | 1.17 | 0.29 |
-| Grm7/Grm8 | sAMY | 3 | 1.07 | 0.15 |
-| Grm7/Grm8 | STRd | 1 | 0.86 | -0.07 |
-| Grm7/Grm8 | STRv | 0 | - | - |
-| Grm7/Grm2 | PL-ILA-ORB | 2 | 0.98 | -0.00 |
-| Grm7/Grm2 | ACA | 3 | 0.97 | -0.01 |
-| Grm7/Grm2 | HIP | 2 | 1.01 | -0.01 |
-| Grm7/Grm2 | CTXsp | 4 | 1.12 | 0.02 |
-| Grm7/Grm2 | sAMY | 2 | 0.92 | -0.06 |
-| Grm7/Grm2 | STRd | 1 | 0.52 | -0.12 |
-| Grm7/Grm2 | STRv | 0 | - | - |
-| Grm7/Grm3 | PL-ILA-ORB | 4 | 1.17 | 0.22 |
-| Grm7/Grm3 | ACA | 2 | 1.20 | 0.22 |
-| Grm7/Grm3 | HIP | 2 | 1.44 | 0.30 |
-| Grm7/Grm3 | CTXsp | 3 | 1.09 | 0.18 |
-| Grm7/Grm3 | sAMY | 3 | 1.06 | 0.15 |
-| Grm7/Grm3 | STRd | 1 | 1.66 | 0.36 |
-| Grm7/Grm3 | STRv | 2 | 1.23 | 0.22 |
-| Grm2/Grm4 | PL-ILA-ORB | 1 | 1.10 | 0.06 |
-| Grm2/Grm4 | ACA | 3 | 1.03 | 0.03 |
-| Grm2/Grm4 | HIP | 1 | 0.75 | 0.01 |
-| Grm2/Grm4 | CTXsp | 2 | 1.40 | 0.03 |
-| Grm2/Grm4 | sAMY | 1 | 1.02 | -0.02 |
-| Grm2/Grm4 | STRd | 1 | 0.68 | -0.03 |
-| Grm2/Grm4 | STRv | 1 | 1.16 | 0.05 |
+### Hippocampal region (HIP)
 
-obs/expected: fraction of cells high in both divided by the product of the single-receptor fractions (1 = independent). rho: Spearman within subclass, adjusted for genes detected.
+<img src="figures/allen_wmb/HIP_fig1_umap_subclass.png" width="760">
 
-#### Vignette: Hippocampal region (HIP)
+<img src="figures/allen_wmb/HIP_fig2_violins.png" width="900">
 
-- **Did:** subclass mean log2 for each receptor pair (dots = subclasses); labeled subclasses are high in both
-- **Shows:** which neuron types could host each heteromer
-- **Next:** check the same pairs at single-cell level
+## Grm2 and Grm4 coexpression preliminary analysis
 
-<img src="figures/allen_wmb/HIP_fig8_coexpr_subclass.png" width="900">
+<img src="figures/allen_wmb/GRM2_GRM4_subclass_scatter.png" width="900">
 
-- **Did:** in double-high subclasses, observed vs expected fraction of cells high in both, plus depth-adjusted correlation
-- **Shows:** whether the receptors sit in the same cells (obs/expected > 1, rho > 0) or in separate cells of the same type
-- **Next:** same figures for the other focus regions are in the sections below; replicate in independent 10x data
+log2(CPM) values for Grm2 and Grm4 are plotted, with each subclass represented.  This does not mean the transcripts were detected in the same single-cells, but reports the overall cluster's expression level
 
-<img src="figures/allen_wmb/HIP_fig9_coexpr_cells.png" width="900">
+<img src="figures/allen_wmb/GRM2_GRM4_single_cells_panels.png" width="900">
 
-Other focus regions: [PL-ILA-ORB subclass](figures/allen_wmb/PL-ILA-ORB_fig8_coexpr_subclass.png) / [PL-ILA-ORB cells](figures/allen_wmb/PL-ILA-ORB_fig9_coexpr_cells.png), [ACA subclass](figures/allen_wmb/ACA_fig8_coexpr_subclass.png) / [ACA cells](figures/allen_wmb/ACA_fig9_coexpr_cells.png), [CTXsp subclass](figures/allen_wmb/CTXsp_fig8_coexpr_subclass.png) / [CTXsp cells](figures/allen_wmb/CTXsp_fig9_coexpr_cells.png), [sAMY subclass](figures/allen_wmb/sAMY_fig8_coexpr_subclass.png) / [sAMY cells](figures/allen_wmb/sAMY_fig9_coexpr_cells.png), [STRd subclass](figures/allen_wmb/STRd_fig8_coexpr_subclass.png) / [STRd cells](figures/allen_wmb/STRd_fig9_coexpr_cells.png), [STRv subclass](figures/allen_wmb/STRv_fig8_coexpr_subclass.png) / [STRv cells](figures/allen_wmb/STRv_fig9_coexpr_cells.png)
+For clusters identified in the previous plot as enriched for both Grm2 and 4, expression was examined within single cells. expression thresholds were: Grm2 >= 6.2 and Grm4 >= 6.4 log2(CPM+1) per cell (median of neurons with detected expression). Clusters were selected when both receptors were in the top quartile of subclass means (Grm2 >= 1.5, Grm4 >= 2.9); 12 subclasses are shown
 
-Tables: `results/allen_wmb/coexpression/`
+## Caveats
 
-## Focus regions
+- Dissection region (ROI) is coarse; fine identity comes from subclass/supertype/cluster
+- `mean_log2` averages logs; `mean_cpm` is linear
+- Ambient RNA: single-digit % detection is not expression (e.g. Plp1 in 30-50% of neurons)
+- Enrichment is relative to other neurons in the same region; small subclasses (< 200 cells) excluded
+- Allen data: mouse 10x only, CC BY-NC 4.0. Plate-based, spatial, rat, human: not yet
 
-Per region: UMAP by class and Grm violins per subclass. Feature plots (Grm on UMAP) and enrichment tables: `figures/allen_wmb/`, `results/allen_wmb/master_enrichment.csv.gz`.
+## Next
+
+- Independent 10x 3' datasets per region (CELLxGENE Census, literature) to replicate Allen patterns
+- Supertype/cluster-level breakdown of top hits; ambient-RNA flags
+
+## Appendix: other regions
+
+Prioritized (depression / Parkinson's) regions first, then the rest alphabetically.
 
 ### Prelimbic/infralimbic/orbital areas  (PL-ILA-ORB)
 
@@ -142,12 +102,6 @@ Per region: UMAP by class and Grm violins per subclass. Feature plots (Grm on UM
 <img src="figures/allen_wmb/ACA_fig1_umap_subclass.png" width="760">
 
 <img src="figures/allen_wmb/ACA_fig2_violins.png" width="900">
-
-### Hippocampal region (HIP)
-
-<img src="figures/allen_wmb/HIP_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/HIP_fig2_violins.png" width="900">
 
 ### Cortical subplate (CTXsp)
 
@@ -172,21 +126,6 @@ Per region: UMAP by class and Grm violins per subclass. Feature plots (Grm on UM
 <img src="figures/allen_wmb/STRv_fig1_umap_subclass.png" width="760">
 
 <img src="figures/allen_wmb/STRv_fig2_violins.png" width="900">
-
-## Caveats
-
-- Dissection region (ROI) is coarse; fine identity comes from subclass/supertype/cluster
-- `mean_log2` averages logs; `mean_cpm` is linear
-- Ambient RNA: single-digit % detection is not expression (e.g. Plp1 in 30-50% of neurons)
-- Enrichment is relative to other neurons in the same region; small subclasses (< 200 cells) excluded
-- Allen data: mouse 10x only, CC BY-NC 4.0. Plate-based, spatial, rat, human: not yet
-
-## Next
-
-- Independent 10x 3' datasets per region (CELLxGENE Census, literature) to replicate Allen patterns
-- Supertype/cluster-level breakdown of top hits; ambient-RNA flags
-
-## Appendix: other regions
 
 ### Agranular insular area (AI)
 

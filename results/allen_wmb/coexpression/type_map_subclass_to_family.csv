@@ -1,0 +1,316 @@
+subclass,class,family
+005 L5 IT CTX Glut,01 IT-ET Glut,IT Glut
+006 L4/5 IT CTX Glut,01 IT-ET Glut,IT Glut
+004 L6 IT CTX Glut,01 IT-ET Glut,IT Glut
+003 L5/6 IT TPE-ENT Glut,01 IT-ET Glut,IT Glut
+060 OT D3 Folh1 Gaba,09 CNU-LGE GABA,other GABAergic
+030 L6 CT CTX Glut,02 NP-CT-L6b Glut,CT/NP/ET/L6b Glut
+002 IT EP-CLA Glut,01 IT-ET Glut,IT Glut
+041 OB-in Frmd7 Gaba,05 OB-IMN GABA,other GABAergic
+042 OB-out Frmd7 Gaba,05 OB-IMN GABA,other GABAergic
+044 OB Dopa-Gaba,05 OB-IMN GABA,other GABAergic
+029 L6b CTX Glut,02 NP-CT-L6b Glut,CT/NP/ET/L6b Glut
+007 L2/3 IT CTX Glut,01 IT-ET Glut,IT Glut
+010 IT AON-TT-DP Glut,01 IT-ET Glut,IT Glut
+022 L5 ET CTX Glut,01 IT-ET Glut,CT/NP/ET/L6b Glut
+036 HPF CR Glut,03 OB-CR Glut,other Glut
+025 CA2-FC-IG Glut,01 IT-ET Glut,hippocampal Glut
+020 L2/3 IT RSP Glut,01 IT-ET Glut,IT Glut
+021 L4 RSP-ACA Glut,01 IT-ET Glut,other Glut
+053 Sst Gaba,07 CTX-MGE GABA,SST interneuron (GABA)
+047 Sncg Gaba,06 CTX-CGE GABA,SNCG interneuron (GABA)
+052 Pvalb Gaba,07 CTX-MGE GABA,PV interneuron (GABA)
+032 L5 NP CTX Glut,02 NP-CT-L6b Glut,CT/NP/ET/L6b Glut
+051 Pvalb chandelier Gaba,07 CTX-MGE GABA,PV interneuron (GABA)
+046 Vip Gaba,06 CTX-CGE GABA,VIP interneuron (GABA)
+048 RHP-COA Ndnf Gaba,06 CTX-CGE GABA,other GABAergic
+049 Lamp5 Gaba,06 CTX-CGE GABA,LAMP5 interneuron (GABA)
+050 Lamp5 Lhx6 Gaba,07 CTX-MGE GABA,LAMP5 interneuron (GABA)
+056 Sst Chodl Gaba,08 CNU-MGE GABA,SST interneuron (GABA)
+061 STR D1 Gaba,09 CNU-LGE GABA,D1 MSN (GABA)
+062 STR D2 Gaba,09 CNU-LGE GABA,D2 MSN (GABA)
+064 STR-PAL Chst9 Gaba,09 CNU-LGE GABA,other GABAergic
+063 STR D1 Sema5a Gaba,09 CNU-LGE GABA,D1 MSN (GABA)
+065 IA Mgp Gaba,09 CNU-LGE GABA,other GABAergic
+114 COAa-PAA-MEA Barhl2 Glut,13 CNU-HYa Glut,other Glut
+033 NP SUB Glut,02 NP-CT-L6b Glut,CT/NP/ET/L6b Glut
+031 CT SUB Glut,02 NP-CT-L6b Glut,CT/NP/ET/L6b Glut
+080 CEA-AAA-BST Six3 Sp9 Gaba,11 CNU-HYa GABA,other GABAergic
+074 MEA-BST Lhx6 Sp9 Gaba,11 CNU-HYa GABA,other GABAergic
+076 MEA-BST Lhx6 Nfib Gaba,11 CNU-HYa GABA,other GABAergic
+001 CLA-EPd-CTX Car3 Glut,01 IT-ET Glut,other Glut
+038 DG-PIR Ex IMN,04 DG-IMN Glut,hippocampal Glut
+043 OB-mi Frmd7 Gaba,05 OB-IMN GABA,other GABAergic
+094 SCH Six6 Cdc14a Gaba,12 HY GABA,other GABAergic
+097 PVHd-SBPV Six3 Prox1 Gaba,12 HY GABA,other GABAergic
+009 L2/3 IT PIR-ENTl Glut,01 IT-ET Glut,IT Glut
+099 SBPV-PVa Six6 Satb2 Gaba,12 HY GABA,other GABAergic
+098 AHN-SBPV-PVHd Pdrm12 Gaba,12 HY GABA,other GABAergic
+090 BST-MPN Six3 Nrgn Gaba,11 CNU-HYa GABA,other GABAergic
+086 MPO-ADP Lhx8 Gaba,11 CNU-HYa GABA,other GABAergic
+027 L6b EPd Glut,02 NP-CT-L6b Glut,CT/NP/ET/L6b Glut
+106 PVpo-VMPO-MPN Hmx2 Gaba,12 HY GABA,other GABAergic
+124 MPN-MPO-PVpo Hmx2 Glut,14 HY Glut,other Glut
+125 DMH Hmx2 Glut,14 HY Glut,other Glut
+126 ARH-PVp Tbx3 Glut,14 HY Glut,other Glut
+108 ARH-PVp Tbx3 Gaba,12 HY GABA,other GABAergic
+104 TU-ARH Otp Six6 Gaba,12 HY GABA,other GABAergic
+092 TMv-PMv Tbx3 Hist-Gaba,12 HY GABA,other GABAergic
+105 TMd-DMH Foxd2 Gaba,12 HY GABA,other GABAergic
+102 DMH-LHA Gsx1 Gaba,12 HY GABA,other GABAergic
+107 DMH Hmx2 Gaba,12 HY GABA,other GABAergic
+129 VMH Nr5a1 Glut,14 HY Glut,other Glut
+008 L2/3 IT ENT Glut,01 IT-ET Glut,IT Glut
+095 DMH Prdm13 Gaba,12 HY GABA,other GABAergic
+138 PH Pitx2 Glut,14 HY Glut,other Glut
+135 STN-PSTN Pitx2 Glut,14 HY Glut,other Glut
+140 PMd-LHA Foxb1 Glut,14 HY Glut,other Glut
+137 PH-an Pitx2 Glut,14 HY Glut,other Glut
+028 L6b/CT ENT Glut,02 NP-CT-L6b Glut,CT/NP/ET/L6b Glut
+133 PVH-SO-PVa Otp Glut,14 HY Glut,other Glut
+132 AHN-RCH-LHA Otp Fezf1 Glut,14 HY Glut,other Glut
+117 LHA Barhl2 Glut,13 CNU-HYa Glut,other Glut
+143 MM-ant Foxb1 Glut,16 HY MM Glut,other Glut
+144 MM Foxb1 Glut,16 HY MM Glut,other Glut
+054 STR Prox1 Lhx6 Gaba,08 CNU-MGE GABA,other GABAergic
+066 NDB-SI-ant Prdm12 Gaba,11 CNU-HYa GABA,other GABAergic
+012 MEA Slc17a7 Glut,01 IT-ET Glut,other Glut
+039 OB Meis2 Thsd7b Gaba,05 OB-IMN GABA,other GABAergic
+045 OB-STR-CTX Inh IMN,05 OB-IMN GABA,other GABAergic
+011 L2 IT ENT-po Glut,01 IT-ET Glut,IT Glut
+019 L2/3 IT PPP Glut,01 IT-ET Glut,IT Glut
+246 CU-ECU-SPVI Foxb1 Glut,24 MY Glut,other Glut
+251 NTS Dbh Glut,24 MY Glut,other Glut
+293 PAS-MV Ebf2 Gly-Gaba,27 MY GABA,other GABAergic
+014 LA-BLA-BMA-PA Glut,01 IT-ET Glut,other Glut
+287 MV-SPIV-PRP Dmbx1 Gly-Gaba,27 MY GABA,other GABAergic
+295 CBN Dmbx1 Gaba,27 MY GABA,other GABAergic
+222 PB Evx2 Glut,23 P Glut,other Glut
+182 CUN-PPN Evx2 Meis2 Glut,19 MB Glut,other Glut
+217 PB Lmx1a Glut,23 P Glut,other Glut
+192 PPN-CUN-PCG Otp En1 Gaba,20 MB GABA,other GABAergic
+276 LDT-PCG St18 Gaba,26 P GABA,other GABAergic
+201 PAG-RN Nkx2-2 Otx1 Gaba,20 MB GABA,other GABAergic
+209 SCs Pax7 Nfia Gaba,20 MB GABA,other GABAergic
+198 IC Six3 En2 Gaba,20 MB GABA,other GABAergic
+206 SCm-PAG Cdh23 Gaba,20 MB GABA,other GABAergic
+213 SCsg Gabrr2 Gaba,20 MB GABA,other GABAergic
+285 MY Lhx1 Gly-Gaba,27 MY GABA,other GABAergic
+265 PB Sst Gly-Gaba,26 P GABA,SST interneuron (GABA)
+294 MV Pax6 Gly-Gaba,27 MY GABA,other GABAergic
+250 CBN Neurod2 Pvalb Glut,24 MY Glut,PV interneuron (GABA)
+248 MV-SPIV Zic4 Neurod2 Glut,24 MY Glut,other Glut
+228 PSV Pvalb Lhx2 Glut,23 P Glut,PV interneuron (GABA)
+313 CBX Purkinje Gaba,28 CB GABA,other GABAergic
+309 CB PLI Gly-Gaba,28 CB GABA,other GABAergic
+310 CBX Golgi Gly-Gaba,28 CB GABA,other GABAergic
+311 CBX MLI Megf11 Gaba,28 CB GABA,other GABAergic
+308 DCO Il22 Gly-Gaba,28 CB GABA,other GABAergic
+312 CBX MLI Cdh22 Gaba,28 CB GABA,other GABAergic
+314 CB Granule Glut,29 CB Glut,other Glut
+235 PG-TRN-LRN Fat2 Glut,23 P Glut,other Glut
+220 PB Pax5 Glut,23 P Glut,other Glut
+170 PAG-MRN Tfap2b Glut,19 MB Glut,other Glut
+181 IC Tfap2d Maf Glut,19 MB Glut,other Glut
+160 PAG-SC Neurod2 Meis2 Glut,19 MB Glut,other Glut
+162 CUN Evx2 Lhx2 Glut,19 MB Glut,other Glut
+315 DCO UBC Glut,29 CB Glut,other Glut
+254 VCO Mafa Meis2 Glut,24 MY Glut,other Glut
+261 HB Calcb Chol,24 MY Glut,other Glut
+278 NLL Gata3 Gly-Gaba,26 P GABA,other GABAergic
+233 NLL-SOC Spp1 Glut,23 P Glut,other Glut
+280 NLL-po Pax7 Gaba,26 P GABA,other GABAergic
+297 CU-ECU Pax2 Gly-Gaba,27 MY GABA,other GABAergic
+279 PSV Pax2 Gly-Gaba,26 P GABA,other GABAergic
+079 CEA-BST Six3 Cyp26b1 Gaba,11 CNU-HYa GABA,other GABAergic
+073 MEA-BST Sox6 Gaba,11 CNU-HYa GABA,other GABAergic
+084 BST-SI-AAA Six3 Slc22a3 Gaba,11 CNU-HYa GABA,other GABAergic
+059 GPe-SI Sox6 Cyp26b1 Gaba,09 CNU-LGE GABA,other GABAergic
+081 ACB-BST-FS D1 Gaba,11 CNU-HYa GABA,other GABAergic
+075 MEA-BST Lhx6 Nr2e1 Gaba,11 CNU-HYa GABA,other GABAergic
+037 DG Glut,04 DG-IMN Glut,hippocampal Glut
+077 CEA-BST Gal Avp Gaba,11 CNU-HYa GABA,other GABAergic
+113 MEA-COA-BMA Ccdc42 Glut,13 CNU-HYa Glut,other Glut
+093 RT-ZI Gnb3 Gaba,12 HY GABA,other GABAergic
+082 CEA-BST Ebf1 Pdyn Gaba,11 CNU-HYa GABA,other GABAergic
+083 CEA-BST Rai14 Pdyn Crh Gaba,11 CNU-HYa GABA,other GABAergic
+078 SI-MA-ACB Ebf1 Bnc2 Gaba,11 CNU-HYa GABA,other GABAergic
+122 LHA-MEA Otp Glut,13 CNU-HYa Glut,other Glut
+121 MEA-BST Otp Zic2 Glut,13 CNU-HYa Glut,other Glut
+131 LHA-AHN-PVH Otp Trh Glut,14 HY Glut,other Glut
+013 COAp Grxcr2 Glut,01 IT-ET Glut,other Glut
+120 MEA Otp Foxp2 Glut,13 CNU-HYa Glut,other Glut
+119 SI-MA-LPO-LHA Skor1 Glut,13 CNU-HYa Glut,other Glut
+035 OB Eomes Ms4a15 Glut,03 OB-CR Glut,other Glut
+026 NLOT Rho Glut,01 IT-ET Glut,other Glut
+015 ENTmv-PA-COAp Glut,01 IT-ET Glut,other Glut
+016 CA1-ProS Glut,01 IT-ET Glut,hippocampal Glut
+023 SUB-ProS Glut,01 IT-ET Glut,hippocampal Glut
+017 CA3 Glut,01 IT-ET Glut,hippocampal Glut
+055 STR Lhx8 Gaba,08 CNU-MGE GABA,other GABAergic
+057 NDB-SI-MA-STRv Lhx8 Gaba,08 CNU-MGE GABA,other GABAergic
+103 PVHd-DMH Lhx6 Gaba,12 HY GABA,other GABAergic
+128 VMH Fezf1 Glut,14 HY Glut,other Glut
+101 ZI Pax6 Gaba,12 HY GABA,other GABAergic
+087 MPN-MPO-LPO Lhx6 Zfhx3 Gaba,11 CNU-HYa GABA,other GABAergic
+109 LGv-ZI Otx2 Gaba,12 HY GABA,other GABAergic
+018 L2 IT PPP-APr Glut,01 IT-ET Glut,IT Glut
+024 L5 PPP Glut,01 IT-ET Glut,other Glut
+034 NP PPP Glut,02 NP-CT-L6b Glut,CT/NP/ET/L6b Glut
+118 ADP-MPO Trp73 Glut,13 CNU-HYa Glut,other Glut
+215 SNc-VTA-RAmb Foxa1 Dopa,21 MB Dopa,
+145 MH Tac2 Glut,17 MH-LH Glut,other Glut
+203 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba,20 MB GABA,other GABAergic
+142 HY Gnrh1 Glut,15 HY Gnrh1 Glut,other Glut
+151 TH Prkcd Grin2c Glut,18 TH Glut,other Glut
+096 PVHd Gsc Gaba,12 HY GABA,other GABAergic
+089 PVR Six3 Sox3 Gaba,11 CNU-HYa GABA,other GABAergic
+115 MS-SF Bsx Glut,13 CNU-HYa Glut,other Glut
+088 BST Tac2 Gaba,11 CNU-HYa GABA,other GABAergic
+100 AHN Onecut3 Gaba,12 HY GABA,other GABAergic
+091 ARH-PVi Six6 Dopa-Gaba,12 HY GABA,other GABAergic
+069 LSX Nkx2-1 Gaba,10 LSX GABA,other GABAergic
+190 ND-INC Foxd2 Glut,19 MB Glut,other Glut
+139 PH-LHA Foxb1 Glut,14 HY Glut,other Glut
+202 PRT Tcf7l2 Gaba,20 MB GABA,other GABAergic
+134 PH-ant-LHA Otp Bsx Glut,14 HY Glut,other Glut
+127 DMH-LHA Vgll2 Glut,14 HY Glut,other Glut
+136 PMv-TMv Pitx2 Glut,14 HY Glut,other Glut
+123 DMH Nkx2-4 Glut,14 HY Glut,other Glut
+130 LHA Pmch Glut,14 HY Glut,other Glut
+267 CS-PRNr-PCG Tmem163 Otp Gaba,26 P GABA,other GABAergic
+243 PGRN-PARN-MDRN Hoxb5 Glut,24 MY Glut,other Glut
+112 GPi Tbr1 Cngb3 Gaba-Glut,13 CNU-HYa Glut,other GABAergic
+184 PAG Tcf24 Glut,19 MB Glut,other Glut
+156 MB-ant-ve Dmrta2 Glut,19 MB Glut,other Glut
+168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut,19 MB Glut,other Glut
+141 PH-SUM Foxa1 Glut,14 HY Glut,other Glut
+232 LDT Vsx2 Nkx6-1 Nfib Glut,23 P Glut,other Glut
+116 AVPV-MEPO-SFO Tbr1 Glut,13 CNU-HYa Glut,other Glut
+155 PRC-PAG Pax6 Glut,19 MB Glut,other Glut
+173 PAG Pou4f2 Glut,19 MB Glut,other Glut
+180 SCiw Pitx2 Glut,19 MB Glut,other Glut
+159 IF-RL-CLI-PAG Foxa1 Glut,19 MB Glut,other Glut
+110 BST-po Iigp1 Glut,13 CNU-HYa Glut,other Glut
+216 MB-MY Tph2 Glut-Sero,22 MB-HB Sero,other Glut
+270 LDT-DTN Gata3 Nfix Gaba,26 P GABA,other GABAergic
+111 TRS-BAC Sln Glut,13 CNU-HYa Glut,other Glut
+146 LH Pou4f1 Sox1 Glut,17 MH-LH Glut,other Glut
+221 LDT-PCG Vsx2 Lhx4 Glut,23 P Glut,other Glut
+199 PAG-MRN-RN Foxa2 Gaba,20 MB GABA,other GABAergic
+172 PAG Pou4f1 Ebf2 Glut,19 MB Glut,other Glut
+165 PAG-MRN Pou3f1 Glut,19 MB Glut,other Glut
+230 PRNr Otp Nfib Glut,23 P Glut,other Glut
+264 PRNc Otp Gly-Gaba,26 P GABA,other GABAergic
+167 PRC-PAG Tcf7l2 Irx2 Glut,19 MB Glut,other Glut
+164 APN C1ql4 Glut,19 MB Glut,other Glut
+149 PVT-PT Ntrk1 Glut,18 TH Glut,other Glut
+150 CM-IAD-CL-PCN Sema5b Glut,18 TH Glut,other Glut
+152 RE-Xi Nox4 Glut,18 TH Glut,other Glut
+154 PF Fzd5 Glut,18 TH Glut,other Glut
+058 PAL-STR Gaba-Chol,08 CNU-MGE GABA,other GABAergic
+085 SI-MPO-LPO Lhx8 Gaba,11 CNU-HYa GABA,other GABAergic
+068 LSX Otx2 Gaba,10 LSX GABA,other GABAergic
+070 LSX Prdm12 Slit2 Gaba,10 LSX GABA,other GABAergic
+067 LSX Sall3 Pax6 Gaba,10 LSX GABA,other GABAergic
+148 AV Col27a1 Glut,18 TH Glut,other Glut
+262 Pineal Crx Glut,25 Pineal Glut,other Glut
+302 MV Xdh Gly-Gaba,27 MY GABA,other GABAergic
+177 SCig-an-PPT Foxb1 Glut,19 MB Glut,other Glut
+193 MRN-PPN-CUN Pax8 Gaba,20 MB GABA,other GABAergic
+277 DTN-LDT-IPN Otp Pax3 Gaba,26 P GABA,other GABAergic
+224 PCG-PRNr Vsx2 Nkx6-1 Glut,23 P Glut,other Glut
+231 IPN-LDT Vsx2 Nkx6-1 Glut,23 P Glut,other Glut
+200 PAG-ND-PCG Onecut1 Gaba,20 MB GABA,other GABAergic
+272 LDT-PCG-CS Gata3 Lhx1 Gaba,26 P GABA,other GABAergic
+197 SNr Six3 Gaba,20 MB GABA,other GABAergic
+271 NI-RPO Gata3 Nr4a2 Gaba,26 P GABA,other GABAergic
+273 PDTg-PCG Pax6 Gaba,26 P GABA,other GABAergic
+296 RPA Pax6 Hoxb5 Gly-Gaba,27 MY GABA,other GABAergic
+210 PRT Mecom Gaba,20 MB GABA,other GABAergic
+194 MRN-VTN-PPN Pax5 Cdh23 Gaba,20 MB GABA,other GABAergic
+195 SNr-VTA Pax5 Npas1 Gaba,20 MB GABA,other GABAergic
+269 LDT Fgf7 Gaba,26 P GABA,other GABAergic
+207 SCs Dmbx1 Gaba,20 MB GABA,other GABAergic
+237 PRP-NI-PRNc-GRN Otp Glut,24 MY Glut,other Glut
+263 CS-RPO Meis2 Gaba,26 P GABA,other GABAergic
+283 PRP Otp Gly-Gaba,27 MY GABA,other GABAergic
+226 PRNc-PARN Tlx1 Glut,23 P Glut,other Glut
+238 NTS Phox2b Glut,24 MY Glut,other Glut
+289 MDRNd Prox1 Pax6 Gly-Gaba,27 MY GABA,other GABAergic
+247 MV-SPIV Phox2b Ebf3 Lbx1 Glut,24 MY Glut,other Glut
+259 MDRNd Bves Glut,24 MY Glut,other Glut
+266 PRNc Prox1 Brs3 Gly-Gaba,26 P GABA,other GABAergic
+305 SPVI-SPVC Sall3 Nfib Gly-Gaba,27 MY GABA,other GABAergic
+245 SPVI-SPVC Tlx3 Ebf3 Glut,24 MY Glut,other Glut
+229 PB-NTS Phox2b Ebf3 Lmx1b Glut,23 P Glut,other Glut
+257 SPVC Ccdc172 Glut,24 MY Glut,other Glut
+304 NTS-PARN Neurod2 Gly-Gaba,27 MY GABA,other GABAergic
+300 PARN-MDRNd-NTS Gbx2 Gly-Gaba,27 MY GABA,other GABAergic
+306 SPVI-SPVC Sall3 Lhx1 Gly-Gaba,27 MY GABA,other GABAergic
+171 PAG Pou4f1 Bnc2 Glut,19 MB Glut,other Glut
+185 SCig Tfap2b Chrnb3 Glut,19 MB Glut,other Glut
+166 MRN Pou3f1 C1ql4 Glut,19 MB Glut,other Glut
+071 LSX Prdm12 Zeb2 Gaba,10 LSX GABA,other GABAergic
+040 OB Trdn Gaba,05 OB-IMN GABA,other GABAergic
+163 APN C1ql2 Glut,19 MB Glut,other Glut
+147 AD Serpinb7 Glut,18 TH Glut,other Glut
+072 LSX Sall3 Lmo1 Gaba,10 LSX GABA,other GABAergic
+189 PAG Ucn Glut,19 MB Glut,other Glut
+158 MRN-PAG Nkx6-1 Glut,19 MB Glut,other Glut
+252 DMX VII Tbx20 Chol,24 MY Glut,other Glut
+175 SC Bnc2 Glut,19 MB Glut,other Glut
+169 PAG-SC Pou4f1 Zic1 Glut,19 MB Glut,other Glut
+183 PBG Mtnr1a Glut-Chol,19 MB Glut,other Glut
+268 CS-PRNr-DR En1 Sox2 Gaba,26 P GABA,other GABAergic
+275 PDTg Otp Olig3 Gaba,26 P GABA,other GABAergic
+214 IPN Otp Crisp1 Gaba,20 MB GABA,other GABAergic
+225 PRNc-NI-SG-RPO Vsx2 Nr4a2 Glut,23 P Glut,other Glut
+205 SC-PAG Lef1 Emx2 Gaba,20 MB GABA,other GABAergic
+211 SC Tnnt1 Gli3 Gaba,20 MB GABA,other GABAergic
+161 PAG Pou4f3 Glut,19 MB Glut,other Glut
+196 PAG-PPN Pax5 Sox21 Gaba,20 MB GABA,other GABAergic
+191 PAG-MRN Rln3 Gaba,20 MB GABA,other GABAergic
+204 SC Otx2 Gcnt4 Gaba,20 MB GABA,other GABAergic
+212 SCs Lef1 Gli3 Gaba,20 MB GABA,other GABAergic
+208 SC Lef1 Otx2 Gaba,20 MB GABA,other GABAergic
+187 SCsg Pde5a Glut,19 MB Glut,other Glut
+223 B-PB Nr4a2 Glut,23 P Glut,other Glut
+178 SCig Foxb1 Otx2 Glut,19 MB Glut,other Glut
+290 MY Prox1 Lmo7 Gly-Gaba,27 MY GABA,other GABAergic
+281 POR Gata3 Gly-Gaba,26 P GABA,other GABAergic
+234 MEV Ppp1r1c Glut,19 MB Glut,other Glut
+179 SCdg-PAG Tfap2b Glut,19 MB Glut,other Glut
+174 PAG Pou4f2 Mesi2 Glut,19 MB Glut,other Glut
+188 SCop Sln Glut,19 MB Glut,other Glut
+176 SCig Foxb1 Glut,19 MB Glut,other Glut
+186 SCop Pou4f2 Neurod2 Glut,19 MB Glut,other Glut
+219 PB-SUT Tlx3 Lhx2 Glut,23 P Glut,other Glut
+153 MG-POL-SGN Nts Glut,18 TH Glut,other Glut
+218 PSV Lmx1a Trpv6 Glut,23 P Glut,other Glut
+255 SPVO Mafa Meis2 Glut,24 MY Glut,other Glut
+157 RN Spp1 Glut,19 MB Glut,other Glut
+301 MV Nr4a2 Gly-Gaba,27 MY GABA,other GABAergic
+227 PB-PSV Phox2b Glut,23 P Glut,other Glut
+274 PDTg Otp Shroom3 Gaba,26 P GABA,other GABAergic
+288 MDRN Hoxb5 Ebf2 Gly-Gaba,27 MY GABA,other GABAergic
+299 MARN-PPY Ngfr Gly-Gaba,27 MY GABA,other GABAergic
+307 RO-RPA Pkd2l1 Gaba,27 MY GABA,other GABAergic
+298 PRP Gata3 Slc6a5 Gly-Gaba,27 MY GABA,other GABAergic
+253 IO Fgl2 Glut,24 MY Glut,other Glut
+286 PPY-PGRNl Vip Glyc-Gaba,27 MY GABA,VIP interneuron (GABA)
+284 GRN-IRN-MDRNd Ikzf1 Gly-Gaba,27 MY GABA,other GABAergic
+240 MDRNv Lhx4 Qrfprl Glut,24 MY Glut,other Glut
+241 NTS Mbnl3 Glut,24 MY Glut,other Glut
+244 MV-SPIV Slc6a2 Glut,24 MY Glut,other Glut
+236 IRN Vip Glut,24 MY Glut,VIP interneuron (GABA)
+282 POR Spp1 Gly-Gaba,26 P GABA,other GABAergic
+242 PGRNd Dmbx1 Glut,24 MY Glut,other Glut
+239 MARN-GRN Pyy Glut,24 MY Glut,other Glut
+291 NTS-MDRNd Prox1 Zic1 Gly-Gaba,27 MY GABA,other GABAergic
+292 MV Nkx6-1 Gly-Gaba,27 MY GABA,other GABAergic
+249 NTS Aldh1a2 Glut,24 MY Glut,other Glut
+260 MDRNv Crp Glut,24 MY Glut,other Glut
+258 SPVC Nmu Glut,24 MY Glut,other Glut
+256 SPVC Mafa Glut,24 MY Glut,other Glut
+303 IRN Dmbx1 Pax2 Gly-Gaba,27 MY GABA,other GABAergic

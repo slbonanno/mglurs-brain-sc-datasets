@@ -1,0 +1,574 @@
+## ALLEN: class x subclass counts per region (neurons only), subclasses matching key terms
+
+# ACA: 80538 neurons, 9 classes, 36 subclasses, 132 supertypes
+  01 IT-ET Glut (44144): 005 L5 IT CTX Glut (10601); 007 L2/3 IT CTX Glut (9532); 006 L4/5 IT CTX Glut (9205); 004 L6 IT CTX Glut (9114); 020 L2/3 IT RSP Glut (2664); 022 L5 ET CTX Glut (1971); 021 L4 RSP-ACA Glut (675); 025 CA2-FC-IG Glut (202); 003 L5/6 IT TPE-ENT Glut (81); 010 IT AON-TT-DP Glut (61); 002 IT EP-CLA Glut (38)
+  02 NP-CT-L6b Glut (22161): 030 L6 CT CTX Glut (16901); 032 L5 NP CTX Glut (3541); 029 L6b CTX Glut (1709); 033 NP SUB Glut (8); 031 CT SUB Glut (2)
+  03 OB-CR Glut (60): 036 HPF CR Glut (60)
+  05 OB-IMN GABA (38): 042 OB-out Frmd7 Gaba (20); 041 OB-in Frmd7 Gaba (13); 044 OB Dopa-Gaba (5)
+  06 CTX-CGE GABA (7813): 046 Vip Gaba (3932); 049 Lamp5 Gaba (2872); 047 Sncg Gaba (1002); 048 RHP-COA Ndnf Gaba (7)
+  07 CTX-MGE GABA (6173): 053 Sst Gaba (3890); 052 Pvalb Gaba (1983); 050 Lamp5 Lhx6 Gaba (213); 051 Pvalb chandelier Gaba (87)
+  08 CNU-MGE GABA (133): 056 Sst Chodl Gaba (133)
+  09 CNU-LGE GABA (15): 062 STR D2 Gaba (6); 060 OT D3 Folh1 Gaba (4); 061 STR D1 Gaba (2); 064 STR-PAL Chst9 Gaba (1); 063 STR D1 Sema5a Gaba (1); 065 IA Mgp Gaba (1)
+  13 CNU-HYa Glut (1): 114 COAa-PAA-MEA Barhl2 Glut (1)
+
+# AI: 74243 neurons, 14 classes, 70 subclasses, 201 supertypes
+  01 IT-ET Glut (37163): 006 L4/5 IT CTX Glut (12177); 007 L2/3 IT CTX Glut (7697); 001 CLA-EPd-CTX Car3 Glut (5779); 002 IT EP-CLA Glut (4037); 004 L6 IT CTX Glut (3372); 003 L5/6 IT TPE-ENT Glut (1278); 022 L5 ET CTX Glut (1134); 005 L5 IT CTX Glut (843); 009 L2/3 IT PIR-ENTl Glut (816); 010 IT AON-TT-DP Glut (27); 012 MEA Slc17a7 Glut (2); 008 L2/3 IT ENT Glut (1)
+  02 NP-CT-L6b Glut (17048): 030 L6 CT CTX Glut (13072); 032 L5 NP CTX Glut (3409); 029 L6b CTX Glut (439); 027 L6b EPd Glut (117); 028 L6b/CT ENT Glut (11)
+  03 OB-CR Glut (49): 036 HPF CR Glut (49)
+  04 DG-IMN Glut (20): 038 DG-PIR Ex IMN (20)
+  05 OB-IMN GABA (56): 044 OB Dopa-Gaba (46); 043 OB-mi Frmd7 Gaba (5); 041 OB-in Frmd7 Gaba (4); 042 OB-out Frmd7 Gaba (1)
+  06 CTX-CGE GABA (9096): 046 Vip Gaba (3706); 049 Lamp5 Gaba (3704); 047 Sncg Gaba (1662); 048 RHP-COA Ndnf Gaba (24)
+  07 CTX-MGE GABA (10255): 053 Sst Gaba (5983); 052 Pvalb Gaba (3617); 050 Lamp5 Lhx6 Gaba (370); 051 Pvalb chandelier Gaba (285)
+  08 CNU-MGE GABA (367): 056 Sst Chodl Gaba (360); 054 STR Prox1 Lhx6 Gaba (7)
+  09 CNU-LGE GABA (60): 064 STR-PAL Chst9 Gaba (28); 065 IA Mgp Gaba (12); 063 STR D1 Sema5a Gaba (8); 061 STR D1 Gaba (7); 062 STR D2 Gaba (5)
+  11 CNU-HYa GABA (38): 080 CEA-AAA-BST Six3 Sp9 Gaba (28); 090 BST-MPN Six3 Nrgn Gaba (3); 074 MEA-BST Lhx6 Sp9 Gaba (2); 076 MEA-BST Lhx6 Nfib Gaba (2); 086 MPO-ADP Lhx8 Gaba (2); 066 NDB-SI-ant Prdm12 Gaba (1)
+  12 HY GABA (31): 097 PVHd-SBPV Six3 Prox1 Gaba (4); 098 AHN-SBPV-PVHd Pdrm12 Gaba (4); 106 PVpo-VMPO-MPN Hmx2 Gaba (4); 105 TMd-DMH Foxd2 Gaba (4); 108 ARH-PVp Tbx3 Gaba (3); 102 DMH-LHA Gsx1 Gaba (3); 094 SCH Six6 Cdc14a Gaba (2); 104 TU-ARH Otp Six6 Gaba (2); 095 DMH Prdm13 Gaba (2); 099 SBPV-PVa Six6 Satb2 Gaba (1); 092 TMv-PMv Tbx3 Hist-Gaba (1); 107 DMH Hmx2 Gaba (1)
+  13 CNU-HYa Glut (27): 114 COAa-PAA-MEA Barhl2 Glut (26); 117 LHA Barhl2 Glut (1)
+  14 HY Glut (25): 133 PVH-SO-PVa Otp Glut (7); 129 VMH Nr5a1 Glut (4); 125 DMH Hmx2 Glut (3); 138 PH Pitx2 Glut (3); 124 MPN-MPO-PVpo Hmx2 Glut (2); 132 AHN-RCH-LHA Otp Fezf1 Glut (2); 126 ARH-PVp Tbx3 Glut (1); 135 STN-PSTN Pitx2 Glut (1); 140 PMd-LHA Foxb1 Glut (1); 137 PH-an Pitx2 Glut (1)
+  16 HY MM Glut (8): 143 MM-ant Foxb1 Glut (6); 144 MM Foxb1 Glut (2)
+
+# AUD-TEa-PERI-ECT: 15735 neurons, 12 classes, 43 subclasses, 134 supertypes
+  01 IT-ET Glut (9942): 006 L4/5 IT CTX Glut (3683); 007 L2/3 IT CTX Glut (3297); 001 CLA-EPd-CTX Car3 Glut (774); 004 L6 IT CTX Glut (764); 022 L5 ET CTX Glut (590); 003 L5/6 IT TPE-ENT Glut (422); 005 L5 IT CTX Glut (318); 002 IT EP-CLA Glut (53); 008 L2/3 IT ENT Glut (22); 009 L2/3 IT PIR-ENTl Glut (14); 019 L2/3 IT PPP Glut (3); 011 L2 IT ENT-po Glut (1) ...
+  02 NP-CT-L6b Glut (2865): 030 L6 CT CTX Glut (2216); 032 L5 NP CTX Glut (430); 029 L6b CTX Glut (160); 028 L6b/CT ENT Glut (55); 027 L6b EPd Glut (4)
+  03 OB-CR Glut (14): 036 HPF CR Glut (14)
+  04 DG-IMN Glut (1): 038 DG-PIR Ex IMN (1)
+  05 OB-IMN GABA (44): 045 OB-STR-CTX Inh IMN (28); 039 OB Meis2 Thsd7b Gaba (6); 041 OB-in Frmd7 Gaba (6); 044 OB Dopa-Gaba (2); 043 OB-mi Frmd7 Gaba (1); 042 OB-out Frmd7 Gaba (1)
+  06 CTX-CGE GABA (1238): 046 Vip Gaba (610); 049 Lamp5 Gaba (500); 047 Sncg Gaba (128)
+  07 CTX-MGE GABA (1574): 052 Pvalb Gaba (802); 053 Sst Gaba (713); 051 Pvalb chandelier Gaba (46); 050 Lamp5 Lhx6 Gaba (13)
+  08 CNU-MGE GABA (36): 056 Sst Chodl Gaba (34); 054 STR Prox1 Lhx6 Gaba (2)
+  09 CNU-LGE GABA (17): 064 STR-PAL Chst9 Gaba (13); 062 STR D2 Gaba (2); 061 STR D1 Gaba (1); 063 STR D1 Sema5a Gaba (1)
+  11 CNU-HYa GABA (1): 080 CEA-AAA-BST Six3 Sp9 Gaba (1)
+  24 MY Glut (2): 246 CU-ECU-SPVI Foxb1 Glut (1); 251 NTS Dbh Glut (1)
+  27 MY GABA (1): 293 PAS-MV Ebf2 Gly-Gaba (1)
+
+# AUD: 69462 neurons, 8 classes, 27 subclasses, 112 supertypes
+  01 IT-ET Glut (49940): 006 L4/5 IT CTX Glut (27105); 007 L2/3 IT CTX Glut (9314); 004 L6 IT CTX Glut (6304); 001 CLA-EPd-CTX Car3 Glut (4044); 005 L5 IT CTX Glut (1781); 022 L5 ET CTX Glut (959); 003 L5/6 IT TPE-ENT Glut (287); 002 IT EP-CLA Glut (146)
+  02 NP-CT-L6b Glut (10888): 030 L6 CT CTX Glut (7347); 032 L5 NP CTX Glut (2236); 029 L6b CTX Glut (1292); 028 L6b/CT ENT Glut (13)
+  03 OB-CR Glut (28): 036 HPF CR Glut (28)
+  05 OB-IMN GABA (52): 041 OB-in Frmd7 Gaba (41); 044 OB Dopa-Gaba (9); 039 OB Meis2 Thsd7b Gaba (1); 042 OB-out Frmd7 Gaba (1)
+  06 CTX-CGE GABA (4410): 049 Lamp5 Gaba (1977); 046 Vip Gaba (1909); 047 Sncg Gaba (524)
+  07 CTX-MGE GABA (3996): 053 Sst Gaba (2421); 052 Pvalb Gaba (1473); 051 Pvalb chandelier Gaba (71); 050 Lamp5 Lhx6 Gaba (31)
+  08 CNU-MGE GABA (142): 056 Sst Chodl Gaba (140); 054 STR Prox1 Lhx6 Gaba (2)
+  09 CNU-LGE GABA (6): 064 STR-PAL Chst9 Gaba (6)
+
+# CB: 166772 neurons, 8 classes, 40 subclasses, 65 supertypes
+  19 MB Glut (97): 181 IC Tfap2d Maf Glut (91); 162 CUN Evx2 Lhx2 Glut (3); 182 CUN-PPN Evx2 Meis2 Glut (1); 170 PAG-MRN Tfap2b Glut (1); 160 PAG-SC Neurod2 Meis2 Glut (1)
+  20 MB GABA (85): 198 IC Six3 En2 Gaba (60); 201 PAG-RN Nkx2-2 Otx1 Gaba (13); 206 SCm-PAG Cdh23 Gaba (6); 213 SCsg Gabrr2 Gaba (3); 192 PPN-CUN-PCG Otp En1 Gaba (2); 209 SCs Pax7 Nfia Gaba (1)
+  23 P Glut (36): 235 PG-TRN-LRN Fat2 Glut (11); 233 NLL-SOC Spp1 Glut (10); 222 PB Evx2 Glut (9); 220 PB Pax5 Glut (3); 217 PB Lmx1a Glut (2); 228 PSV Pvalb Lhx2 Glut (1)
+  24 MY Glut (341): 250 CBN Neurod2 Pvalb Glut (259); 254 VCO Mafa Meis2 Glut (50); 261 HB Calcb Chol (31); 248 MV-SPIV Zic4 Neurod2 Glut (1)
+  26 P GABA (32): 278 NLL Gata3 Gly-Gaba (21); 279 PSV Pax2 Gly-Gaba (6); 265 PB Sst Gly-Gaba (3); 276 LDT-PCG St18 Gaba (1); 280 NLL-po Pax7 Gaba (1)
+  27 MY GABA (3597): 295 CBN Dmbx1 Gaba (3574); 293 PAS-MV Ebf2 Gly-Gaba (13); 287 MV-SPIV-PRP Dmbx1 Gly-Gaba (4); 297 CU-ECU Pax2 Gly-Gaba (3); 285 MY Lhx1 Gly-Gaba (2); 294 MV Pax6 Gly-Gaba (1)
+  28 CB GABA (48257): 311 CBX MLI Megf11 Gaba (30795); 312 CBX MLI Cdh22 Gaba (12805); 309 CB PLI Gly-Gaba (4223); 310 CBX Golgi Gly-Gaba (242); 313 CBX Purkinje Gaba (190); 308 DCO Il22 Gly-Gaba (2)
+  29 CB Glut (114327): 314 CB Granule Glut (113841); 315 DCO UBC Glut (486)
+
+# CTXsp: 75455 neurons, 15 classes, 87 subclasses, 293 supertypes
+  01 IT-ET Glut (42426): 014 LA-BLA-BMA-PA Glut (16778); 002 IT EP-CLA Glut (14775); 001 CLA-EPd-CTX Car3 Glut (4022); 009 L2/3 IT PIR-ENTl Glut (2846); 012 MEA Slc17a7 Glut (1940); 004 L6 IT CTX Glut (761); 017 CA3 Glut (347); 013 COAp Grxcr2 Glut (278); 003 L5/6 IT TPE-ENT Glut (269); 015 ENTmv-PA-COAp Glut (191); 010 IT AON-TT-DP Glut (104); 005 L5 IT CTX Glut (36) ...
+  02 NP-CT-L6b Glut (6650): 027 L6b EPd Glut (3518); 030 L6 CT CTX Glut (2488); 028 L6b/CT ENT Glut (337); 029 L6b CTX Glut (171); 032 L5 NP CTX Glut (134); 033 NP SUB Glut (1); 031 CT SUB Glut (1)
+  03 OB-CR Glut (127): 036 HPF CR Glut (122); 035 OB Eomes Ms4a15 Glut (5)
+  04 DG-IMN Glut (374): 038 DG-PIR Ex IMN (350); 037 DG Glut (24)
+  05 OB-IMN GABA (438): 045 OB-STR-CTX Inh IMN (214); 039 OB Meis2 Thsd7b Gaba (85); 041 OB-in Frmd7 Gaba (80); 042 OB-out Frmd7 Gaba (39); 044 OB Dopa-Gaba (20)
+  06 CTX-CGE GABA (4460): 046 Vip Gaba (2081); 049 Lamp5 Gaba (1208); 047 Sncg Gaba (1086); 048 RHP-COA Ndnf Gaba (85)
+  07 CTX-MGE GABA (5048): 053 Sst Gaba (2609); 052 Pvalb Gaba (1343); 050 Lamp5 Lhx6 Gaba (678); 051 Pvalb chandelier Gaba (418)
+  08 CNU-MGE GABA (763): 056 Sst Chodl Gaba (448); 054 STR Prox1 Lhx6 Gaba (280); 057 NDB-SI-MA-STRv Lhx8 Gaba (21); 055 STR Lhx8 Gaba (14)
+  09 CNU-LGE GABA (9367): 064 STR-PAL Chst9 Gaba (7362); 065 IA Mgp Gaba (1299); 063 STR D1 Sema5a Gaba (289); 062 STR D2 Gaba (267); 061 STR D1 Gaba (139); 059 GPe-SI Sox6 Cyp26b1 Gaba (7); 060 OT D3 Folh1 Gaba (4)
+  11 CNU-HYa GABA (2336): 080 CEA-AAA-BST Six3 Sp9 Gaba (1279); 075 MEA-BST Lhx6 Nr2e1 Gaba (295); 073 MEA-BST Sox6 Gaba (198); 079 CEA-BST Six3 Cyp26b1 Gaba (137); 074 MEA-BST Lhx6 Sp9 Gaba (96); 076 MEA-BST Lhx6 Nfib Gaba (87); 081 ACB-BST-FS D1 Gaba (84); 066 NDB-SI-ant Prdm12 Gaba (63); 082 CEA-BST Ebf1 Pdyn Gaba (60); 083 CEA-BST Rai14 Pdyn Crh Gaba (12); 090 BST-MPN Six3 Nrgn Gaba (11); 084 BST-SI-AAA Six3 Slc22a3 Gaba (6) ...
+  12 HY GABA (7): 093 RT-ZI Gnb3 Gaba (3); 103 PVHd-DMH Lhx6 Gaba (1); 097 PVHd-SBPV Six3 Prox1 Gaba (1); 101 ZI Pax6 Gaba (1); 109 LGv-ZI Otx2 Gaba (1)
+  13 CNU-HYa Glut (3450): 113 MEA-COA-BMA Ccdc42 Glut (2160); 114 COAa-PAA-MEA Barhl2 Glut (1246); 119 SI-MA-LPO-LHA Skor1 Glut (25); 120 MEA Otp Foxp2 Glut (9); 121 MEA-BST Otp Zic2 Glut (6); 122 LHA-MEA Otp Glut (4)
+  14 HY Glut (7): 131 LHA-AHN-PVH Otp Trh Glut (5); 128 VMH Fezf1 Glut (1); 138 PH Pitx2 Glut (1)
+  19 MB Glut (1): 181 IC Tfap2d Maf Glut (1)
+  24 MY Glut (1): 248 MV-SPIV Zic4 Neurod2 Glut (1)
+
+# ENT: 79261 neurons, 12 classes, 54 subclasses, 185 supertypes
+  01 IT-ET Glut (41674): 008 L2/3 IT ENT Glut (19920); 009 L2/3 IT PIR-ENTl Glut (6865); 019 L2/3 IT PPP Glut (4172); 011 L2 IT ENT-po Glut (3544); 003 L5/6 IT TPE-ENT Glut (3309); 002 IT EP-CLA Glut (1503); 015 ENTmv-PA-COAp Glut (1297); 004 L6 IT CTX Glut (281); 007 L2/3 IT CTX Glut (173); 001 CLA-EPd-CTX Car3 Glut (145); 010 IT AON-TT-DP Glut (89); 024 L5 PPP Glut (70) ...
+  02 NP-CT-L6b Glut (21906): 028 L6b/CT ENT Glut (19757); 031 CT SUB Glut (724); 034 NP PPP Glut (621); 030 L6 CT CTX Glut (414); 029 L6b CTX Glut (192); 027 L6b EPd Glut (119); 033 NP SUB Glut (41); 032 L5 NP CTX Glut (38)
+  03 OB-CR Glut (382): 036 HPF CR Glut (378); 035 OB Eomes Ms4a15 Glut (4)
+  04 DG-IMN Glut (17): 038 DG-PIR Ex IMN (17)
+  05 OB-IMN GABA (26): 045 OB-STR-CTX Inh IMN (19); 041 OB-in Frmd7 Gaba (6); 044 OB Dopa-Gaba (1)
+  06 CTX-CGE GABA (6141): 049 Lamp5 Gaba (2252); 046 Vip Gaba (2003); 047 Sncg Gaba (1631); 048 RHP-COA Ndnf Gaba (255)
+  07 CTX-MGE GABA (8972): 053 Sst Gaba (4379); 052 Pvalb Gaba (3530); 050 Lamp5 Lhx6 Gaba (645); 051 Pvalb chandelier Gaba (418)
+  08 CNU-MGE GABA (103): 056 Sst Chodl Gaba (102); 057 NDB-SI-MA-STRv Lhx8 Gaba (1)
+  09 CNU-LGE GABA (5): 064 STR-PAL Chst9 Gaba (4); 065 IA Mgp Gaba (1)
+  11 CNU-HYa GABA (14): 075 MEA-BST Lhx6 Nr2e1 Gaba (9); 073 MEA-BST Sox6 Gaba (5)
+  13 CNU-HYa Glut (19): 114 COAa-PAA-MEA Barhl2 Glut (18); 113 MEA-COA-BMA Ccdc42 Glut (1)
+  28 CB GABA (2): 313 CBX Purkinje Gaba (2)
+
+# HIP: 128929 neurons, 17 classes, 48 subclasses, 132 supertypes
+  01 IT-ET Glut (30507): 016 CA1-ProS Glut (24868); 017 CA3 Glut (4799); 023 SUB-ProS Glut (384); 025 CA2-FC-IG Glut (327); 015 ENTmv-PA-COAp Glut (108); 019 L2/3 IT PPP Glut (10); 004 L6 IT CTX Glut (3); 014 LA-BLA-BMA-PA Glut (2); 010 IT AON-TT-DP Glut (1); 022 L5 ET CTX Glut (1); 021 L4 RSP-ACA Glut (1); 005 L5 IT CTX Glut (1) ...
+  02 NP-CT-L6b Glut (200): 033 NP SUB Glut (164); 031 CT SUB Glut (22); 030 L6 CT CTX Glut (8); 028 L6b/CT ENT Glut (4); 029 L6b CTX Glut (1); 032 L5 NP CTX Glut (1)
+  03 OB-CR Glut (639): 036 HPF CR Glut (639)
+  04 DG-IMN Glut (81349): 037 DG Glut (80255); 038 DG-PIR Ex IMN (1094)
+  05 OB-IMN GABA (185): 045 OB-STR-CTX Inh IMN (185)
+  06 CTX-CGE GABA (9369): 046 Vip Gaba (4064); 049 Lamp5 Gaba (2096); 048 RHP-COA Ndnf Gaba (2061); 047 Sncg Gaba (1148)
+  07 CTX-MGE GABA (6616): 050 Lamp5 Lhx6 Gaba (4816); 053 Sst Gaba (1267); 051 Pvalb chandelier Gaba (281); 052 Pvalb Gaba (252)
+  08 CNU-MGE GABA (24): 056 Sst Chodl Gaba (21); 054 STR Prox1 Lhx6 Gaba (3)
+  09 CNU-LGE GABA (7): 064 STR-PAL Chst9 Gaba (6); 063 STR D1 Sema5a Gaba (1)
+  11 CNU-HYa GABA (12): 075 MEA-BST Lhx6 Nr2e1 Gaba (4); 076 MEA-BST Lhx6 Nfib Gaba (4); 073 MEA-BST Sox6 Gaba (3); 066 NDB-SI-ant Prdm12 Gaba (1)
+  12 HY GABA (1): 109 LGv-ZI Otx2 Gaba (1)
+  13 CNU-HYa Glut (1): 118 ADP-MPO Trp73 Glut (1)
+  15 HY Gnrh1 Glut (1): 142 HY Gnrh1 Glut (1)
+  17 MH-LH Glut (1): 145 MH Tac2 Glut (1)
+  18 TH Glut (2): 151 TH Prkcd Grin2c Glut (2)
+  20 MB GABA (14): 213 SCsg Gabrr2 Gaba (11); 203 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba (3)
+  21 MB Dopa (1): 215 SNc-VTA-RAmb Foxa1 Dopa (1)
+
+# HY: 183095 neurons, 26 classes, 192 subclasses, 561 supertypes
+  01 IT-ET Glut (62): 012 MEA Slc17a7 Glut (62)
+  03 OB-CR Glut (12): 036 HPF CR Glut (11); 035 OB Eomes Ms4a15 Glut (1)
+  05 OB-IMN GABA (2): 041 OB-in Frmd7 Gaba (2)
+  06 CTX-CGE GABA (45): 046 Vip Gaba (27); 049 Lamp5 Gaba (14); 047 Sncg Gaba (2); 048 RHP-COA Ndnf Gaba (2)
+  07 CTX-MGE GABA (10): 053 Sst Gaba (9); 052 Pvalb Gaba (1)
+  08 CNU-MGE GABA (2346): 057 NDB-SI-MA-STRv Lhx8 Gaba (1858); 055 STR Lhx8 Gaba (215); 058 PAL-STR Gaba-Chol (145); 056 Sst Chodl Gaba (114); 054 STR Prox1 Lhx6 Gaba (14)
+  09 CNU-LGE GABA (545): 064 STR-PAL Chst9 Gaba (343); 059 GPe-SI Sox6 Cyp26b1 Gaba (88); 060 OT D3 Folh1 Gaba (60); 062 STR D2 Gaba (21); 061 STR D1 Gaba (19); 063 STR D1 Sema5a Gaba (10); 065 IA Mgp Gaba (4)
+  10 LSX GABA (141): 069 LSX Nkx2-1 Gaba (61); 068 LSX Otx2 Gaba (45); 070 LSX Prdm12 Slit2 Gaba (24); 067 LSX Sall3 Pax6 Gaba (9); 071 LSX Prdm12 Zeb2 Gaba (2)
+  11 CNU-HYa GABA (17095): 090 BST-MPN Six3 Nrgn Gaba (4889); 089 PVR Six3 Sox3 Gaba (3234); 085 SI-MPO-LPO Lhx8 Gaba (2098); 076 MEA-BST Lhx6 Nfib Gaba (1930); 086 MPO-ADP Lhx8 Gaba (1443); 087 MPN-MPO-LPO Lhx6 Zfhx3 Gaba (958); 074 MEA-BST Lhx6 Sp9 Gaba (750); 073 MEA-BST Sox6 Gaba (573); 088 BST Tac2 Gaba (503); 084 BST-SI-AAA Six3 Slc22a3 Gaba (246); 080 CEA-AAA-BST Six3 Sp9 Gaba (139); 081 ACB-BST-FS D1 Gaba (94) ...
+  12 HY GABA (73245): 101 ZI Pax6 Gaba (9858); 098 AHN-SBPV-PVHd Pdrm12 Gaba (7028); 102 DMH-LHA Gsx1 Gaba (6768); 104 TU-ARH Otp Six6 Gaba (6477); 107 DMH Hmx2 Gaba (6439); 106 PVpo-VMPO-MPN Hmx2 Gaba (5944); 097 PVHd-SBPV Six3 Prox1 Gaba (4906); 094 SCH Six6 Cdc14a Gaba (4300); 099 SBPV-PVa Six6 Satb2 Gaba (3939); 108 ARH-PVp Tbx3 Gaba (3145); 103 PVHd-DMH Lhx6 Gaba (3133); 100 AHN Onecut3 Gaba (2611) ...
+  13 CNU-HYa Glut (7726): 116 AVPV-MEPO-SFO Tbr1 Glut (2513); 119 SI-MA-LPO-LHA Skor1 Glut (2179); 117 LHA Barhl2 Glut (1295); 118 ADP-MPO Trp73 Glut (951); 115 MS-SF Bsx Glut (363); 122 LHA-MEA Otp Glut (126); 112 GPi Tbr1 Cngb3 Gaba-Glut (123); 121 MEA-BST Otp Zic2 Glut (85); 111 TRS-BAC Sln Glut (47); 114 COAa-PAA-MEA Barhl2 Glut (23); 113 MEA-COA-BMA Ccdc42 Glut (10); 110 BST-po Iigp1 Glut (7) ...
+  14 HY Glut (64888): 129 VMH Nr5a1 Glut (7800); 134 PH-ant-LHA Otp Bsx Glut (6336); 133 PVH-SO-PVa Otp Glut (6126); 135 STN-PSTN Pitx2 Glut (5535); 124 MPN-MPO-PVpo Hmx2 Glut (4531); 132 AHN-RCH-LHA Otp Fezf1 Glut (4156); 126 ARH-PVp Tbx3 Glut (4103); 123 DMH Nkx2-4 Glut (3633); 139 PH-LHA Foxb1 Glut (3351); 141 PH-SUM Foxa1 Glut (2921); 136 PMv-TMv Pitx2 Glut (2749); 128 VMH Fezf1 Glut (2538) ...
+  15 HY Gnrh1 Glut (110): 142 HY Gnrh1 Glut (110)
+  16 HY MM Glut (13707): 144 MM Foxb1 Glut (8270); 143 MM-ant Foxb1 Glut (5437)
+  17 MH-LH Glut (6): 145 MH Tac2 Glut (5); 146 LH Pou4f1 Sox1 Glut (1)
+  18 TH Glut (1064): 152 RE-Xi Nox4 Glut (519); 149 PVT-PT Ntrk1 Glut (392); 151 TH Prkcd Grin2c Glut (109); 154 PF Fzd5 Glut (29); 150 CM-IAD-CL-PCN Sema5b Glut (11); 148 AV Col27a1 Glut (4)
+  19 MB Glut (1381): 168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut (790); 159 IF-RL-CLI-PAG Foxa1 Glut (359); 167 PRC-PAG Tcf7l2 Irx2 Glut (115); 156 MB-ant-ve Dmrta2 Glut (52); 190 ND-INC Foxd2 Glut (25); 172 PAG Pou4f1 Ebf2 Glut (6); 165 PAG-MRN Pou3f1 Glut (5); 155 PRC-PAG Pax6 Glut (5); 180 SCiw Pitx2 Glut (5); 170 PAG-MRN Tfap2b Glut (4); 162 CUN Evx2 Lhx2 Glut (3); 164 APN C1ql4 Glut (2) ...
+  20 MB GABA (380): 203 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba (245); 213 SCsg Gabrr2 Gaba (50); 202 PRT Tcf7l2 Gaba (49); 200 PAG-ND-PCG Onecut1 Gaba (8); 206 SCm-PAG Cdh23 Gaba (7); 199 PAG-MRN-RN Foxa2 Gaba (6); 197 SNr Six3 Gaba (3); 201 PAG-RN Nkx2-2 Otx1 Gaba (3); 193 MRN-PPN-CUN Pax8 Gaba (2); 210 PRT Mecom Gaba (2); 194 MRN-VTN-PPN Pax5 Cdh23 Gaba (2); 192 PPN-CUN-PCG Otp En1 Gaba (1) ...
+  21 MB Dopa (103): 215 SNc-VTA-RAmb Foxa1 Dopa (103)
+  22 MB-HB Sero (2): 216 MB-MY Tph2 Glut-Sero (2)
+  23 P Glut (51): 221 LDT-PCG Vsx2 Lhx4 Glut (11); 222 PB Evx2 Glut (9); 220 PB Pax5 Glut (7); 217 PB Lmx1a Glut (6); 230 PRNr Otp Nfib Glut (5); 235 PG-TRN-LRN Fat2 Glut (4); 226 PRNc-PARN Tlx1 Glut (3); 232 LDT Vsx2 Nkx6-1 Nfib Glut (2); 224 PCG-PRNr Vsx2 Nkx6-1 Glut (1); 231 IPN-LDT Vsx2 Nkx6-1 Glut (1); 228 PSV Pvalb Lhx2 Glut (1); 229 PB-NTS Phox2b Ebf3 Lmx1b Glut (1)
+  24 MY Glut (88): 243 PGRN-PARN-MDRN Hoxb5 Glut (24); 245 SPVI-SPVC Tlx3 Ebf3 Glut (13); 246 CU-ECU-SPVI Foxb1 Glut (11); 250 CBN Neurod2 Pvalb Glut (11); 238 NTS Phox2b Glut (10); 248 MV-SPIV Zic4 Neurod2 Glut (9); 247 MV-SPIV Phox2b Ebf3 Lbx1 Glut (4); 237 PRP-NI-PRNc-GRN Otp Glut (3); 251 NTS Dbh Glut (1); 259 MDRNd Bves Glut (1); 257 SPVC Ccdc172 Glut (1)
+  25 Pineal Glut (6): 262 Pineal Crx Glut (6)
+  26 P GABA (42): 267 CS-PRNr-PCG Tmem163 Otp Gaba (6); 264 PRNc Otp Gly-Gaba (6); 263 CS-RPO Meis2 Gaba (5); 271 NI-RPO Gata3 Nr4a2 Gaba (4); 273 PDTg-PCG Pax6 Gaba (4); 266 PRNc Prox1 Brs3 Gly-Gaba (4); 276 LDT-PCG St18 Gaba (3); 272 LDT-PCG-CS Gata3 Lhx1 Gaba (3); 269 LDT Fgf7 Gaba (3); 270 LDT-DTN Gata3 Nfix Gaba (2); 277 DTN-LDT-IPN Otp Pax3 Gaba (2)
+  27 MY GABA (37): 304 NTS-PARN Neurod2 Gly-Gaba (8); 283 PRP Otp Gly-Gaba (7); 293 PAS-MV Ebf2 Gly-Gaba (6); 285 MY Lhx1 Gly-Gaba (3); 287 MV-SPIV-PRP Dmbx1 Gly-Gaba (3); 294 MV Pax6 Gly-Gaba (3); 300 PARN-MDRNd-NTS Gbx2 Gly-Gaba (2); 302 MV Xdh Gly-Gaba (1); 296 RPA Pax6 Hoxb5 Gly-Gaba (1); 289 MDRNd Prox1 Pax6 Gly-Gaba (1); 305 SPVI-SPVC Sall3 Nfib Gly-Gaba (1); 306 SPVI-SPVC Sall3 Lhx1 Gly-Gaba (1)
+  28 CB GABA (1): 309 CB PLI Gly-Gaba (1)
+
+# LSX: 33516 neurons, 19 classes, 91 subclasses, 243 supertypes
+  01 IT-ET Glut (259): 010 IT AON-TT-DP Glut (159); 025 CA2-FC-IG Glut (96); 022 L5 ET CTX Glut (3); 007 L2/3 IT CTX Glut (1)
+  02 NP-CT-L6b Glut (79): 029 L6b CTX Glut (32); 030 L6 CT CTX Glut (25); 032 L5 NP CTX Glut (21); 033 NP SUB Glut (1)
+  03 OB-CR Glut (18): 035 OB Eomes Ms4a15 Glut (16); 036 HPF CR Glut (2)
+  04 DG-IMN Glut (6): 038 DG-PIR Ex IMN (6)
+  05 OB-IMN GABA (1350): 045 OB-STR-CTX Inh IMN (679); 041 OB-in Frmd7 Gaba (461); 042 OB-out Frmd7 Gaba (128); 040 OB Trdn Gaba (37); 039 OB Meis2 Thsd7b Gaba (22); 044 OB Dopa-Gaba (17); 043 OB-mi Frmd7 Gaba (6)
+  06 CTX-CGE GABA (88): 046 Vip Gaba (48); 049 Lamp5 Gaba (28); 047 Sncg Gaba (11); 048 RHP-COA Ndnf Gaba (1)
+  07 CTX-MGE GABA (72): 053 Sst Gaba (30); 052 Pvalb Gaba (23); 050 Lamp5 Lhx6 Gaba (15); 051 Pvalb chandelier Gaba (4)
+  08 CNU-MGE GABA (155): 057 NDB-SI-MA-STRv Lhx8 Gaba (83); 055 STR Lhx8 Gaba (30); 056 Sst Chodl Gaba (20); 058 PAL-STR Gaba-Chol (19); 054 STR Prox1 Lhx6 Gaba (3)
+  09 CNU-LGE GABA (387): 064 STR-PAL Chst9 Gaba (324); 061 STR D1 Gaba (23); 060 OT D3 Folh1 Gaba (20); 063 STR D1 Sema5a Gaba (16); 062 STR D2 Gaba (3); 065 IA Mgp Gaba (1)
+  10 LSX GABA (29126): 070 LSX Prdm12 Slit2 Gaba (7631); 069 LSX Nkx2-1 Gaba (7509); 071 LSX Prdm12 Zeb2 Gaba (6520); 068 LSX Otx2 Gaba (4014); 072 LSX Sall3 Lmo1 Gaba (2423); 067 LSX Sall3 Pax6 Gaba (1029)
+  11 CNU-HYa GABA (813): 066 NDB-SI-ant Prdm12 Gaba (267); 090 BST-MPN Six3 Nrgn Gaba (259); 089 PVR Six3 Sox3 Gaba (165); 085 SI-MPO-LPO Lhx8 Gaba (43); 078 SI-MA-ACB Ebf1 Bnc2 Gaba (16); 076 MEA-BST Lhx6 Nfib Gaba (15); 086 MPO-ADP Lhx8 Gaba (13); 087 MPN-MPO-LPO Lhx6 Zfhx3 Gaba (12); 081 ACB-BST-FS D1 Gaba (9); 074 MEA-BST Lhx6 Sp9 Gaba (7); 080 CEA-AAA-BST Six3 Sp9 Gaba (5); 079 CEA-BST Six3 Cyp26b1 Gaba (1) ...
+  12 HY GABA (19): 101 ZI Pax6 Gaba (4); 109 LGv-ZI Otx2 Gaba (4); 106 PVpo-VMPO-MPN Hmx2 Gaba (3); 099 SBPV-PVa Six6 Satb2 Gaba (2); 093 RT-ZI Gnb3 Gaba (2); 104 TU-ARH Otp Six6 Gaba (2); 108 ARH-PVp Tbx3 Gaba (1); 102 DMH-LHA Gsx1 Gaba (1)
+  13 CNU-HYa Glut (1067): 111 TRS-BAC Sln Glut (534); 115 MS-SF Bsx Glut (474); 118 ADP-MPO Trp73 Glut (25); 116 AVPV-MEPO-SFO Tbr1 Glut (18); 119 SI-MA-LPO-LHA Skor1 Glut (6); 117 LHA Barhl2 Glut (5); 110 BST-po Iigp1 Glut (5)
+  14 HY Glut (5): 129 VMH Nr5a1 Glut (1); 128 VMH Fezf1 Glut (1); 135 STN-PSTN Pitx2 Glut (1); 131 LHA-AHN-PVH Otp Trh Glut (1); 132 AHN-RCH-LHA Otp Fezf1 Glut (1)
+  15 HY Gnrh1 Glut (1): 142 HY Gnrh1 Glut (1)
+  17 MH-LH Glut (2): 145 MH Tac2 Glut (1); 146 LH Pou4f1 Sox1 Glut (1)
+  18 TH Glut (63): 151 TH Prkcd Grin2c Glut (39); 148 AV Col27a1 Glut (18); 150 CM-IAD-CL-PCN Sema5b Glut (2); 147 AD Serpinb7 Glut (1); 152 RE-Xi Nox4 Glut (1); 154 PF Fzd5 Glut (1); 149 PVT-PT Ntrk1 Glut (1)
+  19 MB Glut (5): 168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut (2); 156 MB-ant-ve Dmrta2 Glut (1); 172 PAG Pou4f1 Ebf2 Glut (1); 163 APN C1ql2 Glut (1)
+  20 MB GABA (1): 203 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba (1)
+
+# MB: 191456 neurons, 23 classes, 179 subclasses, 462 supertypes
+  01 IT-ET Glut (141): 016 CA1-ProS Glut (119); 017 CA3 Glut (18); 019 L2/3 IT PPP Glut (3); 025 CA2-FC-IG Glut (1)
+  03 OB-CR Glut (10): 036 HPF CR Glut (10)
+  04 DG-IMN Glut (10): 037 DG Glut (8); 038 DG-PIR Ex IMN (2)
+  05 OB-IMN GABA (2): 041 OB-in Frmd7 Gaba (1); 045 OB-STR-CTX Inh IMN (1)
+  06 CTX-CGE GABA (38): 049 Lamp5 Gaba (18); 046 Vip Gaba (9); 047 Sncg Gaba (6); 048 RHP-COA Ndnf Gaba (5)
+  07 CTX-MGE GABA (13): 053 Sst Gaba (4); 051 Pvalb chandelier Gaba (4); 050 Lamp5 Lhx6 Gaba (4); 052 Pvalb Gaba (1)
+  11 CNU-HYa GABA (6): 090 BST-MPN Six3 Nrgn Gaba (3); 078 SI-MA-ACB Ebf1 Bnc2 Gaba (2); 089 PVR Six3 Sox3 Gaba (1)
+  12 HY GABA (250): 101 ZI Pax6 Gaba (137); 093 RT-ZI Gnb3 Gaba (62); 103 PVHd-DMH Lhx6 Gaba (23); 109 LGv-ZI Otx2 Gaba (13); 102 DMH-LHA Gsx1 Gaba (9); 097 PVHd-SBPV Six3 Prox1 Gaba (5); 098 AHN-SBPV-PVHd Pdrm12 Gaba (1)
+  13 CNU-HYa Glut (6): 115 MS-SF Bsx Glut (2); 112 GPi Tbr1 Cngb3 Gaba-Glut (2); 114 COAa-PAA-MEA Barhl2 Glut (1); 117 LHA Barhl2 Glut (1)
+  14 HY Glut (851): 135 STN-PSTN Pitx2 Glut (399); 138 PH Pitx2 Glut (168); 139 PH-LHA Foxb1 Glut (142); 141 PH-SUM Foxa1 Glut (119); 134 PH-ant-LHA Otp Bsx Glut (9); 132 AHN-RCH-LHA Otp Fezf1 Glut (4); 136 PMv-TMv Pitx2 Glut (2); 124 MPN-MPO-PVpo Hmx2 Glut (1); 125 DMH Hmx2 Glut (1); 137 PH-an Pitx2 Glut (1); 133 PVH-SO-PVa Otp Glut (1); 131 LHA-AHN-PVH Otp Trh Glut (1) ...
+  17 MH-LH Glut (35): 145 MH Tac2 Glut (24); 146 LH Pou4f1 Sox1 Glut (11)
+  18 TH Glut (345): 151 TH Prkcd Grin2c Glut (198); 154 PF Fzd5 Glut (132); 149 PVT-PT Ntrk1 Glut (11); 153 MG-POL-SGN Nts Glut (3); 150 CM-IAD-CL-PCN Sema5b Glut (1)
+  19 MB Glut (102384): 181 IC Tfap2d Maf Glut (19960); 172 PAG Pou4f1 Ebf2 Glut (7156); 176 SCig Foxb1 Glut (6770); 173 PAG Pou4f2 Glut (6596); 174 PAG Pou4f2 Mesi2 Glut (5075); 169 PAG-SC Pou4f1 Zic1 Glut (4652); 180 SCiw Pitx2 Glut (4543); 170 PAG-MRN Tfap2b Glut (3587); 187 SCsg Pde5a Glut (3340); 161 PAG Pou4f3 Glut (3147); 165 PAG-MRN Pou3f1 Glut (3113); 188 SCop Sln Glut (3096) ...
+  20 MB GABA (70033): 213 SCsg Gabrr2 Gaba (13642); 205 SC-PAG Lef1 Emx2 Gaba (8373); 207 SCs Dmbx1 Gaba (5592); 206 SCm-PAG Cdh23 Gaba (5010); 198 IC Six3 En2 Gaba (4416); 202 PRT Tcf7l2 Gaba (4261); 201 PAG-RN Nkx2-2 Otx1 Gaba (3415); 209 SCs Pax7 Nfia Gaba (3289); 214 IPN Otp Crisp1 Gaba (2996); 208 SC Lef1 Otx2 Gaba (2400); 212 SCs Lef1 Gli3 Gaba (2139); 210 PRT Mecom Gaba (2054) ...
+  21 MB Dopa (4154): 215 SNc-VTA-RAmb Foxa1 Dopa (4154)
+  22 MB-HB Sero (1508): 216 MB-MY Tph2 Glut-Sero (1508)
+  23 P Glut (5987): 221 LDT-PCG Vsx2 Lhx4 Glut (2143); 232 LDT Vsx2 Nkx6-1 Nfib Glut (1373); 231 IPN-LDT Vsx2 Nkx6-1 Glut (996); 222 PB Evx2 Glut (837); 224 PCG-PRNr Vsx2 Nkx6-1 Glut (330); 220 PB Pax5 Glut (214); 217 PB Lmx1a Glut (55); 235 PG-TRN-LRN Fat2 Glut (11); 233 NLL-SOC Spp1 Glut (8); 228 PSV Pvalb Lhx2 Glut (5); 229 PB-NTS Phox2b Ebf3 Lmx1b Glut (5); 223 B-PB Nr4a2 Glut (4) ...
+  24 MY Glut (198): 243 PGRN-PARN-MDRN Hoxb5 Glut (133); 261 HB Calcb Chol (29); 246 CU-ECU-SPVI Foxb1 Glut (11); 247 MV-SPIV Phox2b Ebf3 Lbx1 Glut (6); 251 NTS Dbh Glut (4); 245 SPVI-SPVC Tlx3 Ebf3 Glut (4); 237 PRP-NI-PRNc-GRN Otp Glut (3); 250 CBN Neurod2 Pvalb Glut (3); 248 MV-SPIV Zic4 Neurod2 Glut (2); 252 DMX VII Tbx20 Chol (1); 255 SPVO Mafa Meis2 Glut (1); 238 NTS Phox2b Glut (1)
+  25 Pineal Glut (97): 262 Pineal Crx Glut (97)
+  26 P GABA (4255): 277 DTN-LDT-IPN Otp Pax3 Gaba (1624); 268 CS-PRNr-DR En1 Sox2 Gaba (738); 273 PDTg-PCG Pax6 Gaba (364); 269 LDT Fgf7 Gaba (359); 272 LDT-PCG-CS Gata3 Lhx1 Gaba (325); 276 LDT-PCG St18 Gaba (267); 267 CS-PRNr-PCG Tmem163 Otp Gaba (221); 270 LDT-DTN Gata3 Nfix Gaba (140); 263 CS-RPO Meis2 Gaba (112); 265 PB Sst Gly-Gaba (38); 278 NLL Gata3 Gly-Gaba (32); 271 NI-RPO Gata3 Nr4a2 Gaba (22) ...
+  27 MY GABA (75): 285 MY Lhx1 Gly-Gaba (60); 304 NTS-PARN Neurod2 Gly-Gaba (4); 295 CBN Dmbx1 Gaba (3); 287 MV-SPIV-PRP Dmbx1 Gly-Gaba (2); 290 MY Prox1 Lmo7 Gly-Gaba (1); 289 MDRNd Prox1 Pax6 Gly-Gaba (1); 293 PAS-MV Ebf2 Gly-Gaba (1); 305 SPVI-SPVC Sall3 Nfib Gly-Gaba (1); 300 PARN-MDRNd-NTS Gbx2 Gly-Gaba (1); 306 SPVI-SPVC Sall3 Lhx1 Gly-Gaba (1)
+  28 CB GABA (539): 311 CBX MLI Megf11 Gaba (364); 312 CBX MLI Cdh22 Gaba (121); 313 CBX Purkinje Gaba (32); 309 CB PLI Gly-Gaba (21); 308 DCO Il22 Gly-Gaba (1)
+  29 CB Glut (519): 314 CB Granule Glut (492); 315 DCO UBC Glut (27)
+
+# MO-FRP: 51714 neurons, 8 classes, 35 subclasses, 118 supertypes
+  01 IT-ET Glut (32378): 006 L4/5 IT CTX Glut (16593); 007 L2/3 IT CTX Glut (9368); 004 L6 IT CTX Glut (3410); 005 L5 IT CTX Glut (2447); 022 L5 ET CTX Glut (384); 001 CLA-EPd-CTX Car3 Glut (79); 020 L2/3 IT RSP Glut (59); 002 IT EP-CLA Glut (28); 003 L5/6 IT TPE-ENT Glut (9); 009 L2/3 IT PIR-ENTl Glut (1)
+  02 NP-CT-L6b Glut (9938): 030 L6 CT CTX Glut (7056); 032 L5 NP CTX Glut (2432); 029 L6b CTX Glut (449); 028 L6b/CT ENT Glut (1)
+  03 OB-CR Glut (11): 036 HPF CR Glut (9); 035 OB Eomes Ms4a15 Glut (2)
+  05 OB-IMN GABA (76): 041 OB-in Frmd7 Gaba (44); 042 OB-out Frmd7 Gaba (14); 039 OB Meis2 Thsd7b Gaba (8); 040 OB Trdn Gaba (3); 045 OB-STR-CTX Inh IMN (3); 043 OB-mi Frmd7 Gaba (2); 044 OB Dopa-Gaba (2)
+  06 CTX-CGE GABA (6184): 049 Lamp5 Gaba (2866); 046 Vip Gaba (2712); 047 Sncg Gaba (606)
+  07 CTX-MGE GABA (3035): 053 Sst Gaba (2137); 052 Pvalb Gaba (808); 050 Lamp5 Lhx6 Gaba (51); 051 Pvalb chandelier Gaba (39)
+  08 CNU-MGE GABA (85): 056 Sst Chodl Gaba (84); 054 STR Prox1 Lhx6 Gaba (1)
+  09 CNU-LGE GABA (7): 064 STR-PAL Chst9 Gaba (4); 063 STR D1 Sema5a Gaba (2); 061 STR D1 Gaba (1)
+
+# MOp: 242906 neurons, 9 classes, 36 subclasses, 124 supertypes
+  01 IT-ET Glut (142276): 006 L4/5 IT CTX Glut (74924); 007 L2/3 IT CTX Glut (29211); 004 L6 IT CTX Glut (19994); 005 L5 IT CTX Glut (16421); 001 CLA-EPd-CTX Car3 Glut (720); 022 L5 ET CTX Glut (635); 020 L2/3 IT RSP Glut (287); 002 IT EP-CLA Glut (48); 003 L5/6 IT TPE-ENT Glut (34); 025 CA2-FC-IG Glut (1); 021 L4 RSP-ACA Glut (1)
+  02 NP-CT-L6b Glut (60194): 030 L6 CT CTX Glut (46146); 032 L5 NP CTX Glut (9522); 029 L6b CTX Glut (4526)
+  03 OB-CR Glut (25): 036 HPF CR Glut (25)
+  05 OB-IMN GABA (52): 041 OB-in Frmd7 Gaba (39); 044 OB Dopa-Gaba (8); 042 OB-out Frmd7 Gaba (2); 045 OB-STR-CTX Inh IMN (2); 043 OB-mi Frmd7 Gaba (1)
+  06 CTX-CGE GABA (23635): 046 Vip Gaba (10773); 049 Lamp5 Gaba (9889); 047 Sncg Gaba (2970); 048 RHP-COA Ndnf Gaba (3)
+  07 CTX-MGE GABA (16126): 053 Sst Gaba (9989); 052 Pvalb Gaba (5513); 050 Lamp5 Lhx6 Gaba (322); 051 Pvalb chandelier Gaba (302)
+  08 CNU-MGE GABA (560): 056 Sst Chodl Gaba (552); 054 STR Prox1 Lhx6 Gaba (7); 057 NDB-SI-MA-STRv Lhx8 Gaba (1)
+  09 CNU-LGE GABA (37): 063 STR D1 Sema5a Gaba (12); 064 STR-PAL Chst9 Gaba (10); 062 STR D2 Gaba (8); 061 STR D1 Gaba (7)
+  11 CNU-HYa GABA (1): 082 CEA-BST Ebf1 Pdyn Gaba (1)
+
+# MY: 83287 neurons, 12 classes, 124 subclasses, 288 supertypes
+  12 HY GABA (7): 101 ZI Pax6 Gaba (7)
+  13 CNU-HYa Glut (1): 117 LHA Barhl2 Glut (1)
+  14 HY Glut (4): 138 PH Pitx2 Glut (2); 134 PH-ant-LHA Otp Bsx Glut (1); 139 PH-LHA Foxb1 Glut (1)
+  19 MB Glut (39): 180 SCiw Pitx2 Glut (15); 160 PAG-SC Neurod2 Meis2 Glut (4); 234 MEV Ppp1r1c Glut (4); 182 CUN-PPN Evx2 Meis2 Glut (3); 158 MRN-PAG Nkx6-1 Glut (2); 155 PRC-PAG Pax6 Glut (2); 170 PAG-MRN Tfap2b Glut (2); 165 PAG-MRN Pou3f1 Glut (2); 169 PAG-SC Pou4f1 Zic1 Glut (1); 167 PRC-PAG Tcf7l2 Irx2 Glut (1); 156 MB-ant-ve Dmrta2 Glut (1); 168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut (1) ...
+  20 MB GABA (80): 200 PAG-ND-PCG Onecut1 Gaba (55); 202 PRT Tcf7l2 Gaba (9); 201 PAG-RN Nkx2-2 Otx1 Gaba (5); 192 PPN-CUN-PCG Otp En1 Gaba (2); 195 SNr-VTA Pax5 Npas1 Gaba (2); 193 MRN-PPN-CUN Pax8 Gaba (2); 214 IPN Otp Crisp1 Gaba (1); 206 SCm-PAG Cdh23 Gaba (1); 194 MRN-VTN-PPN Pax5 Cdh23 Gaba (1); 191 PAG-MRN Rln3 Gaba (1); 205 SC-PAG Lef1 Emx2 Gaba (1)
+  22 MB-HB Sero (117): 216 MB-MY Tph2 Glut-Sero (117)
+  23 P Glut (2576): 235 PG-TRN-LRN Fat2 Glut (722); 229 PB-NTS Phox2b Ebf3 Lmx1b Glut (393); 228 PSV Pvalb Lhx2 Glut (331); 221 LDT-PCG Vsx2 Lhx4 Glut (188); 225 PRNc-NI-SG-RPO Vsx2 Nr4a2 Glut (187); 226 PRNc-PARN Tlx1 Glut (182); 222 PB Evx2 Glut (136); 217 PB Lmx1a Glut (117); 224 PCG-PRNr Vsx2 Nkx6-1 Glut (109); 218 PSV Lmx1a Trpv6 Glut (63); 227 PB-PSV Phox2b Glut (45); 223 B-PB Nr4a2 Glut (32) ...
+  24 MY Glut (25103): 238 NTS Phox2b Glut (5161); 256 SPVC Mafa Glut (3388); 243 PGRN-PARN-MDRN Hoxb5 Glut (3015); 245 SPVI-SPVC Tlx3 Ebf3 Glut (2940); 248 MV-SPIV Zic4 Neurod2 Glut (1960); 251 NTS Dbh Glut (1656); 246 CU-ECU-SPVI Foxb1 Glut (1612); 258 SPVC Nmu Glut (960); 247 MV-SPIV Phox2b Ebf3 Lbx1 Glut (708); 257 SPVC Ccdc172 Glut (592); 254 VCO Mafa Meis2 Glut (526); 244 MV-SPIV Slc6a2 Glut (467) ...
+  26 P GABA (878): 264 PRNc Otp Gly-Gaba (242); 273 PDTg-PCG Pax6 Gaba (156); 266 PRNc Prox1 Brs3 Gly-Gaba (119); 271 NI-RPO Gata3 Nr4a2 Gaba (68); 263 CS-RPO Meis2 Gaba (54); 265 PB Sst Gly-Gaba (42); 278 NLL Gata3 Gly-Gaba (41); 275 PDTg Otp Olig3 Gaba (33); 272 LDT-PCG-CS Gata3 Lhx1 Gaba (29); 277 DTN-LDT-IPN Otp Pax3 Gaba (21); 269 LDT Fgf7 Gaba (20); 279 PSV Pax2 Gly-Gaba (18) ...
+  27 MY GABA (28453): 304 NTS-PARN Neurod2 Gly-Gaba (6202); 293 PAS-MV Ebf2 Gly-Gaba (4493); 300 PARN-MDRNd-NTS Gbx2 Gly-Gaba (3949); 283 PRP Otp Gly-Gaba (2116); 306 SPVI-SPVC Sall3 Lhx1 Gly-Gaba (2002); 285 MY Lhx1 Gly-Gaba (1822); 305 SPVI-SPVC Sall3 Nfib Gly-Gaba (1582); 292 MV Nkx6-1 Gly-Gaba (1256); 287 MV-SPIV-PRP Dmbx1 Gly-Gaba (782); 298 PRP Gata3 Slc6a5 Gly-Gaba (696); 291 NTS-MDRNd Prox1 Zic1 Gly-Gaba (593); 294 MV Pax6 Gly-Gaba (566) ...
+  28 CB GABA (1976): 308 DCO Il22 Gly-Gaba (1351); 311 CBX MLI Megf11 Gaba (203); 309 CB PLI Gly-Gaba (178); 313 CBX Purkinje Gaba (139); 312 CBX MLI Cdh22 Gaba (57); 310 CBX Golgi Gly-Gaba (48)
+  29 CB Glut (24053): 314 CB Granule Glut (17659); 315 DCO UBC Glut (6394)
+
+# OLF: 235212 neurons, 17 classes, 97 subclasses, 325 supertypes
+  01 IT-ET Glut (109065): 009 L2/3 IT PIR-ENTl Glut (50290); 010 IT AON-TT-DP Glut (31474); 013 COAp Grxcr2 Glut (13111); 012 MEA Slc17a7 Glut (4029); 014 LA-BLA-BMA-PA Glut (3543); 002 IT EP-CLA Glut (1907); 026 NLOT Rho Glut (1111); 015 ENTmv-PA-COAp Glut (1025); 001 CLA-EPd-CTX Car3 Glut (998); 008 L2/3 IT ENT Glut (582); 022 L5 ET CTX Glut (505); 007 L2/3 IT CTX Glut (295) ...
+  02 NP-CT-L6b Glut (1479): 030 L6 CT CTX Glut (481); 028 L6b/CT ENT Glut (346); 029 L6b CTX Glut (288); 027 L6b EPd Glut (259); 032 L5 NP CTX Glut (102); 031 CT SUB Glut (2); 034 NP PPP Glut (1)
+  03 OB-CR Glut (1884): 035 OB Eomes Ms4a15 Glut (1549); 036 HPF CR Glut (335)
+  04 DG-IMN Glut (383): 038 DG-PIR Ex IMN (383)
+  05 OB-IMN GABA (101347): 041 OB-in Frmd7 Gaba (78705); 045 OB-STR-CTX Inh IMN (6769); 042 OB-out Frmd7 Gaba (5633); 044 OB Dopa-Gaba (4359); 040 OB Trdn Gaba (3451); 039 OB Meis2 Thsd7b Gaba (1853); 043 OB-mi Frmd7 Gaba (577)
+  06 CTX-CGE GABA (6755): 049 Lamp5 Gaba (2990); 046 Vip Gaba (2413); 047 Sncg Gaba (1120); 048 RHP-COA Ndnf Gaba (232)
+  07 CTX-MGE GABA (2467): 052 Pvalb Gaba (1030); 053 Sst Gaba (819); 050 Lamp5 Lhx6 Gaba (331); 051 Pvalb chandelier Gaba (287)
+  08 CNU-MGE GABA (221): 056 Sst Chodl Gaba (151); 054 STR Prox1 Lhx6 Gaba (49); 057 NDB-SI-MA-STRv Lhx8 Gaba (18); 058 PAL-STR Gaba-Chol (2); 055 STR Lhx8 Gaba (1)
+  09 CNU-LGE GABA (1353): 061 STR D1 Gaba (311); 063 STR D1 Sema5a Gaba (259); 064 STR-PAL Chst9 Gaba (246); 065 IA Mgp Gaba (204); 062 STR D2 Gaba (204); 060 OT D3 Folh1 Gaba (121); 059 GPe-SI Sox6 Cyp26b1 Gaba (8)
+  10 LSX GABA (39): 070 LSX Prdm12 Slit2 Gaba (27); 072 LSX Sall3 Lmo1 Gaba (5); 069 LSX Nkx2-1 Gaba (3); 068 LSX Otx2 Gaba (2); 071 LSX Prdm12 Zeb2 Gaba (1); 067 LSX Sall3 Pax6 Gaba (1)
+  11 CNU-HYa GABA (2059): 073 MEA-BST Sox6 Gaba (1104); 080 CEA-AAA-BST Six3 Sp9 Gaba (388); 066 NDB-SI-ant Prdm12 Gaba (336); 074 MEA-BST Lhx6 Sp9 Gaba (92); 075 MEA-BST Lhx6 Nr2e1 Gaba (79); 076 MEA-BST Lhx6 Nfib Gaba (19); 090 BST-MPN Six3 Nrgn Gaba (12); 081 ACB-BST-FS D1 Gaba (11); 078 SI-MA-ACB Ebf1 Bnc2 Gaba (8); 084 BST-SI-AAA Six3 Slc22a3 Gaba (5); 082 CEA-BST Ebf1 Pdyn Gaba (3); 085 SI-MPO-LPO Lhx8 Gaba (1) ...
+  12 HY GABA (7): 101 ZI Pax6 Gaba (3); 093 RT-ZI Gnb3 Gaba (1); 109 LGv-ZI Otx2 Gaba (1); 096 PVHd Gsc Gaba (1); 098 AHN-SBPV-PVHd Pdrm12 Gaba (1)
+  13 CNU-HYa Glut (8136): 114 COAa-PAA-MEA Barhl2 Glut (5072); 113 MEA-COA-BMA Ccdc42 Glut (2994); 119 SI-MA-LPO-LHA Skor1 Glut (52); 120 MEA Otp Foxp2 Glut (8); 121 MEA-BST Otp Zic2 Glut (5); 118 ADP-MPO Trp73 Glut (2); 122 LHA-MEA Otp Glut (1); 117 LHA Barhl2 Glut (1); 116 AVPV-MEPO-SFO Tbr1 Glut (1)
+  14 HY Glut (13): 138 PH Pitx2 Glut (9); 124 MPN-MPO-PVpo Hmx2 Glut (3); 133 PVH-SO-PVa Otp Glut (1)
+  15 HY Gnrh1 Glut (1): 142 HY Gnrh1 Glut (1)
+  26 P GABA (2): 278 NLL Gata3 Gly-Gaba (2)
+  27 MY GABA (1): 305 SPVI-SPVC Sall3 Nfib Gly-Gaba (1)
+
+# PAL: 57890 neurons, 18 classes, 112 subclasses, 381 supertypes
+  01 IT-ET Glut (170): 012 MEA Slc17a7 Glut (97); 009 L2/3 IT PIR-ENTl Glut (41); 010 IT AON-TT-DP Glut (29); 002 IT EP-CLA Glut (2); 004 L6 IT CTX Glut (1)
+  02 NP-CT-L6b Glut (2): 029 L6b CTX Glut (2)
+  03 OB-CR Glut (64): 036 HPF CR Glut (61); 035 OB Eomes Ms4a15 Glut (3)
+  04 DG-IMN Glut (1): 038 DG-PIR Ex IMN (1)
+  05 OB-IMN GABA (199): 044 OB Dopa-Gaba (69); 039 OB Meis2 Thsd7b Gaba (48); 045 OB-STR-CTX Inh IMN (36); 042 OB-out Frmd7 Gaba (16); 041 OB-in Frmd7 Gaba (15); 043 OB-mi Frmd7 Gaba (12); 040 OB Trdn Gaba (3)
+  06 CTX-CGE GABA (262): 046 Vip Gaba (152); 049 Lamp5 Gaba (91); 047 Sncg Gaba (16); 048 RHP-COA Ndnf Gaba (3)
+  07 CTX-MGE GABA (63): 053 Sst Gaba (49); 052 Pvalb Gaba (7); 050 Lamp5 Lhx6 Gaba (6); 051 Pvalb chandelier Gaba (1)
+  08 CNU-MGE GABA (7974): 057 NDB-SI-MA-STRv Lhx8 Gaba (5327); 056 Sst Chodl Gaba (960); 058 PAL-STR Gaba-Chol (784); 055 STR Lhx8 Gaba (684); 054 STR Prox1 Lhx6 Gaba (219)
+  09 CNU-LGE GABA (24206): 061 STR D1 Gaba (5851); 062 STR D2 Gaba (4970); 064 STR-PAL Chst9 Gaba (4603); 060 OT D3 Folh1 Gaba (4471); 063 STR D1 Sema5a Gaba (3109); 059 GPe-SI Sox6 Cyp26b1 Gaba (1106); 065 IA Mgp Gaba (96)
+  10 LSX GABA (932): 068 LSX Otx2 Gaba (306); 069 LSX Nkx2-1 Gaba (300); 070 LSX Prdm12 Slit2 Gaba (119); 072 LSX Sall3 Lmo1 Gaba (84); 067 LSX Sall3 Pax6 Gaba (64); 071 LSX Prdm12 Zeb2 Gaba (59)
+  11 CNU-HYa GABA (16649): 082 CEA-BST Ebf1 Pdyn Gaba (1761); 081 ACB-BST-FS D1 Gaba (1578); 078 SI-MA-ACB Ebf1 Bnc2 Gaba (1164); 080 CEA-AAA-BST Six3 Sp9 Gaba (1155); 074 MEA-BST Lhx6 Sp9 Gaba (1088); 085 SI-MPO-LPO Lhx8 Gaba (1071); 079 CEA-BST Six3 Cyp26b1 Gaba (1019); 076 MEA-BST Lhx6 Nfib Gaba (1007); 086 MPO-ADP Lhx8 Gaba (1002); 066 NDB-SI-ant Prdm12 Gaba (985); 073 MEA-BST Sox6 Gaba (896); 090 BST-MPN Six3 Nrgn Gaba (799) ...
+  12 HY GABA (857): 093 RT-ZI Gnb3 Gaba (436); 106 PVpo-VMPO-MPN Hmx2 Gaba (184); 101 ZI Pax6 Gaba (108); 102 DMH-LHA Gsx1 Gaba (42); 109 LGv-ZI Otx2 Gaba (36); 100 AHN Onecut3 Gaba (24); 098 AHN-SBPV-PVHd Pdrm12 Gaba (14); 103 PVHd-DMH Lhx6 Gaba (4); 097 PVHd-SBPV Six3 Prox1 Gaba (3); 107 DMH Hmx2 Gaba (3); 096 PVHd Gsc Gaba (2); 108 ARH-PVp Tbx3 Gaba (1)
+  13 CNU-HYa Glut (5838): 119 SI-MA-LPO-LHA Skor1 Glut (3353); 111 TRS-BAC Sln Glut (602); 115 MS-SF Bsx Glut (336); 112 GPi Tbr1 Cngb3 Gaba-Glut (329); 118 ADP-MPO Trp73 Glut (291); 116 AVPV-MEPO-SFO Tbr1 Glut (253); 121 MEA-BST Otp Zic2 Glut (222); 117 LHA Barhl2 Glut (167); 114 COAa-PAA-MEA Barhl2 Glut (96); 122 LHA-MEA Otp Glut (82); 110 BST-po Iigp1 Glut (73); 113 MEA-COA-BMA Ccdc42 Glut (30) ...
+  14 HY Glut (349): 131 LHA-AHN-PVH Otp Trh Glut (144); 124 MPN-MPO-PVpo Hmx2 Glut (85); 132 AHN-RCH-LHA Otp Fezf1 Glut (42); 133 PVH-SO-PVa Otp Glut (37); 135 STN-PSTN Pitx2 Glut (23); 130 LHA Pmch Glut (9); 139 PH-LHA Foxb1 Glut (3); 126 ARH-PVp Tbx3 Glut (2); 125 DMH Hmx2 Glut (1); 127 DMH-LHA Vgll2 Glut (1); 138 PH Pitx2 Glut (1); 134 PH-ant-LHA Otp Bsx Glut (1)
+  15 HY Gnrh1 Glut (76): 142 HY Gnrh1 Glut (76)
+  18 TH Glut (198): 148 AV Col27a1 Glut (188); 151 TH Prkcd Grin2c Glut (7); 147 AD Serpinb7 Glut (3)
+  19 MB Glut (45): 168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut (35); 167 PRC-PAG Tcf7l2 Irx2 Glut (7); 155 PRC-PAG Pax6 Glut (1); 173 PAG Pou4f2 Glut (1); 190 ND-INC Foxd2 Glut (1)
+  20 MB GABA (5): 202 PRT Tcf7l2 Gaba (1); 206 SCm-PAG Cdh23 Gaba (1); 195 SNr-VTA Pax5 Npas1 Gaba (1); 203 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba (1); 213 SCsg Gabrr2 Gaba (1)
+
+# PL-ILA-ORB: 88893 neurons, 15 classes, 50 subclasses, 169 supertypes
+  01 IT-ET Glut (44687): 006 L4/5 IT CTX Glut (14152); 004 L6 IT CTX Glut (11338); 007 L2/3 IT CTX Glut (8869); 005 L5 IT CTX Glut (4419); 022 L5 ET CTX Glut (3739); 002 IT EP-CLA Glut (733); 003 L5/6 IT TPE-ENT Glut (711); 001 CLA-EPd-CTX Car3 Glut (377); 010 IT AON-TT-DP Glut (332); 009 L2/3 IT PIR-ENTl Glut (14); 020 L2/3 IT RSP Glut (2); 008 L2/3 IT ENT Glut (1)
+  02 NP-CT-L6b Glut (27048): 030 L6 CT CTX Glut (21453); 032 L5 NP CTX Glut (3988); 029 L6b CTX Glut (1586); 027 L6b EPd Glut (16); 028 L6b/CT ENT Glut (5)
+  03 OB-CR Glut (96): 036 HPF CR Glut (78); 035 OB Eomes Ms4a15 Glut (18)
+  04 DG-IMN Glut (1): 038 DG-PIR Ex IMN (1)
+  05 OB-IMN GABA (262): 044 OB Dopa-Gaba (78); 042 OB-out Frmd7 Gaba (62); 041 OB-in Frmd7 Gaba (61); 039 OB Meis2 Thsd7b Gaba (51); 045 OB-STR-CTX Inh IMN (9); 043 OB-mi Frmd7 Gaba (1)
+  06 CTX-CGE GABA (7069): 046 Vip Gaba (3277); 049 Lamp5 Gaba (2339); 047 Sncg Gaba (1450); 048 RHP-COA Ndnf Gaba (3)
+  07 CTX-MGE GABA (8617): 053 Sst Gaba (5377); 052 Pvalb Gaba (2869); 051 Pvalb chandelier Gaba (195); 050 Lamp5 Lhx6 Gaba (176)
+  08 CNU-MGE GABA (293): 056 Sst Chodl Gaba (285); 054 STR Prox1 Lhx6 Gaba (8)
+  09 CNU-LGE GABA (789): 062 STR D2 Gaba (355); 061 STR D1 Gaba (312); 063 STR D1 Sema5a Gaba (61); 064 STR-PAL Chst9 Gaba (58); 065 IA Mgp Gaba (3)
+  10 LSX GABA (2): 070 LSX Prdm12 Slit2 Gaba (2)
+  11 CNU-HYa GABA (9): 066 NDB-SI-ant Prdm12 Gaba (7); 080 CEA-AAA-BST Six3 Sp9 Gaba (1); 078 SI-MA-ACB Ebf1 Bnc2 Gaba (1)
+  13 CNU-HYa Glut (17): 115 MS-SF Bsx Glut (12); 114 COAa-PAA-MEA Barhl2 Glut (5)
+  14 HY Glut (1): 131 LHA-AHN-PVH Otp Trh Glut (1)
+  15 HY Gnrh1 Glut (1): 142 HY Gnrh1 Glut (1)
+  19 MB Glut (1): 180 SCiw Pitx2 Glut (1)
+
+# P: 40572 neurons, 17 classes, 148 subclasses, 339 supertypes
+  01 IT-ET Glut (2): 007 L2/3 IT CTX Glut (2)
+  05 OB-IMN GABA (1): 045 OB-STR-CTX Inh IMN (1)
+  06 CTX-CGE GABA (2): 049 Lamp5 Gaba (2)
+  09 CNU-LGE GABA (5): 060 OT D3 Folh1 Gaba (5)
+  12 HY GABA (59): 101 ZI Pax6 Gaba (52); 097 PVHd-SBPV Six3 Prox1 Gaba (4); 109 LGv-ZI Otx2 Gaba (2); 103 PVHd-DMH Lhx6 Gaba (1)
+  13 CNU-HYa Glut (3): 117 LHA Barhl2 Glut (2); 112 GPi Tbr1 Cngb3 Gaba-Glut (1)
+  14 HY Glut (13): 134 PH-ant-LHA Otp Bsx Glut (6); 138 PH Pitx2 Glut (3); 127 DMH-LHA Vgll2 Glut (1); 125 DMH Hmx2 Glut (1); 132 AHN-RCH-LHA Otp Fezf1 Glut (1); 141 PH-SUM Foxa1 Glut (1)
+  19 MB Glut (634): 182 CUN-PPN Evx2 Meis2 Glut (470); 181 IC Tfap2d Maf Glut (24); 170 PAG-MRN Tfap2b Glut (20); 162 CUN Evx2 Lhx2 Glut (14); 155 PRC-PAG Pax6 Glut (12); 160 PAG-SC Neurod2 Meis2 Glut (12); 183 PBG Mtnr1a Glut-Chol (11); 158 MRN-PAG Nkx6-1 Glut (10); 165 PAG-MRN Pou3f1 Glut (9); 156 MB-ant-ve Dmrta2 Glut (8); 180 SCiw Pitx2 Glut (8); 172 PAG Pou4f1 Ebf2 Glut (5) ...
+  20 MB GABA (1811): 200 PAG-ND-PCG Onecut1 Gaba (856); 192 PPN-CUN-PCG Otp En1 Gaba (570); 214 IPN Otp Crisp1 Gaba (90); 198 IC Six3 En2 Gaba (88); 194 MRN-VTN-PPN Pax5 Cdh23 Gaba (66); 202 PRT Tcf7l2 Gaba (45); 193 MRN-PPN-CUN Pax8 Gaba (25); 196 PAG-PPN Pax5 Sox21 Gaba (16); 201 PAG-RN Nkx2-2 Otx1 Gaba (10); 213 SCsg Gabrr2 Gaba (9); 199 PAG-MRN-RN Foxa2 Gaba (9); 207 SCs Dmbx1 Gaba (5) ...
+  21 MB Dopa (17): 215 SNc-VTA-RAmb Foxa1 Dopa (17)
+  22 MB-HB Sero (839): 216 MB-MY Tph2 Glut-Sero (839)
+  23 P Glut (16632): 222 PB Evx2 Glut (3199); 235 PG-TRN-LRN Fat2 Glut (3143); 221 LDT-PCG Vsx2 Lhx4 Glut (2876); 217 PB Lmx1a Glut (2246); 224 PCG-PRNr Vsx2 Nkx6-1 Glut (1473); 225 PRNc-NI-SG-RPO Vsx2 Nr4a2 Glut (990); 228 PSV Pvalb Lhx2 Glut (716); 229 PB-NTS Phox2b Ebf3 Lmx1b Glut (485); 220 PB Pax5 Glut (372); 223 B-PB Nr4a2 Glut (317); 230 PRNr Otp Nfib Glut (211); 226 PRNc-PARN Tlx1 Glut (181) ...
+  24 MY Glut (1778): 237 PRP-NI-PRNc-GRN Otp Glut (949); 243 PGRN-PARN-MDRN Hoxb5 Glut (398); 238 NTS Phox2b Glut (65); 251 NTS Dbh Glut (64); 247 MV-SPIV Phox2b Ebf3 Lbx1 Glut (60); 261 HB Calcb Chol (59); 254 VCO Mafa Meis2 Glut (43); 252 DMX VII Tbx20 Chol (38); 246 CU-ECU-SPVI Foxb1 Glut (35); 250 CBN Neurod2 Pvalb Glut (15); 248 MV-SPIV Zic4 Neurod2 Glut (12); 242 PGRNd Dmbx1 Glut (11) ...
+  26 P GABA (14993): 273 PDTg-PCG Pax6 Gaba (2568); 277 DTN-LDT-IPN Otp Pax3 Gaba (2410); 264 PRNc Otp Gly-Gaba (1692); 263 CS-RPO Meis2 Gaba (1356); 275 PDTg Otp Olig3 Gaba (1070); 267 CS-PRNr-PCG Tmem163 Otp Gaba (960); 271 NI-RPO Gata3 Nr4a2 Gaba (861); 276 LDT-PCG St18 Gaba (809); 272 LDT-PCG-CS Gata3 Lhx1 Gaba (755); 270 LDT-DTN Gata3 Nfix Gaba (658); 268 CS-PRNr-DR En1 Sox2 Gaba (497); 278 NLL Gata3 Gly-Gaba (452) ...
+  27 MY GABA (1137): 285 MY Lhx1 Gly-Gaba (571); 283 PRP Otp Gly-Gaba (196); 287 MV-SPIV-PRP Dmbx1 Gly-Gaba (87); 290 MY Prox1 Lmo7 Gly-Gaba (71); 294 MV Pax6 Gly-Gaba (56); 289 MDRNd Prox1 Pax6 Gly-Gaba (24); 298 PRP Gata3 Slc6a5 Gly-Gaba (20); 304 NTS-PARN Neurod2 Gly-Gaba (20); 301 MV Nr4a2 Gly-Gaba (18); 292 MV Nkx6-1 Gly-Gaba (15); 291 NTS-MDRNd Prox1 Zic1 Gly-Gaba (14); 295 CBN Dmbx1 Gaba (12) ...
+  28 CB GABA (444): 311 CBX MLI Megf11 Gaba (257); 312 CBX MLI Cdh22 Gaba (115); 309 CB PLI Gly-Gaba (48); 308 DCO Il22 Gly-Gaba (13); 313 CBX Purkinje Gaba (10); 310 CBX Golgi Gly-Gaba (1)
+  29 CB Glut (2202): 314 CB Granule Glut (1781); 315 DCO UBC Glut (421)
+
+# RHP: 76710 neurons, 11 classes, 52 subclasses, 176 supertypes
+  01 IT-ET Glut (46135): 019 L2/3 IT PPP Glut (24220); 016 CA1-ProS Glut (6448); 023 SUB-ProS Glut (6383); 018 L2 IT PPP-APr Glut (5116); 024 L5 PPP Glut (1356); 015 ENTmv-PA-COAp Glut (812); 020 L2/3 IT RSP Glut (672); 003 L5/6 IT TPE-ENT Glut (229); 004 L6 IT CTX Glut (194); 006 L4/5 IT CTX Glut (162); 022 L5 ET CTX Glut (129); 011 L2 IT ENT-po Glut (115) ...
+  02 NP-CT-L6b Glut (17490): 031 CT SUB Glut (7031); 028 L6b/CT ENT Glut (5113); 033 NP SUB Glut (2524); 034 NP PPP Glut (2402); 029 L6b CTX Glut (173); 030 L6 CT CTX Glut (144); 032 L5 NP CTX Glut (102); 027 L6b EPd Glut (1)
+  03 OB-CR Glut (553): 036 HPF CR Glut (550); 035 OB Eomes Ms4a15 Glut (3)
+  04 DG-IMN Glut (1829): 037 DG Glut (1730); 038 DG-PIR Ex IMN (99)
+  05 OB-IMN GABA (20): 045 OB-STR-CTX Inh IMN (20)
+  06 CTX-CGE GABA (4531): 046 Vip Gaba (2147); 049 Lamp5 Gaba (1356); 047 Sncg Gaba (656); 048 RHP-COA Ndnf Gaba (372)
+  07 CTX-MGE GABA (6101): 053 Sst Gaba (3744); 052 Pvalb Gaba (1716); 050 Lamp5 Lhx6 Gaba (479); 051 Pvalb chandelier Gaba (162)
+  08 CNU-MGE GABA (34): 056 Sst Chodl Gaba (34)
+  09 CNU-LGE GABA (8): 064 STR-PAL Chst9 Gaba (7); 065 IA Mgp Gaba (1)
+  11 CNU-HYa GABA (7): 073 MEA-BST Sox6 Gaba (3); 076 MEA-BST Lhx6 Nfib Gaba (2); 074 MEA-BST Lhx6 Sp9 Gaba (1); 075 MEA-BST Lhx6 Nr2e1 Gaba (1)
+  23 P Glut (2): 233 NLL-SOC Spp1 Glut (2)
+
+# RSP: 91124 neurons, 9 classes, 34 subclasses, 123 supertypes
+  01 IT-ET Glut (67675): 020 L2/3 IT RSP Glut (30036); 007 L2/3 IT CTX Glut (9962); 005 L5 IT CTX Glut (8111); 006 L4/5 IT CTX Glut (7439); 021 L4 RSP-ACA Glut (5894); 004 L6 IT CTX Glut (3833); 022 L5 ET CTX Glut (2264); 003 L5/6 IT TPE-ENT Glut (66); 018 L2 IT PPP-APr Glut (26); 019 L2/3 IT PPP Glut (26); 023 SUB-ProS Glut (15); 024 L5 PPP Glut (2) ...
+  02 NP-CT-L6b Glut (14082): 030 L6 CT CTX Glut (10349); 032 L5 NP CTX Glut (3489); 029 L6b CTX Glut (200); 033 NP SUB Glut (17); 031 CT SUB Glut (13); 028 L6b/CT ENT Glut (9); 034 NP PPP Glut (5)
+  03 OB-CR Glut (87): 036 HPF CR Glut (87)
+  05 OB-IMN GABA (4): 041 OB-in Frmd7 Gaba (3); 045 OB-STR-CTX Inh IMN (1)
+  06 CTX-CGE GABA (5329): 046 Vip Gaba (2601); 049 Lamp5 Gaba (2245); 047 Sncg Gaba (481); 048 RHP-COA Ndnf Gaba (2)
+  07 CTX-MGE GABA (3811): 053 Sst Gaba (2794); 052 Pvalb Gaba (924); 050 Lamp5 Lhx6 Gaba (61); 051 Pvalb chandelier Gaba (32)
+  08 CNU-MGE GABA (35): 056 Sst Chodl Gaba (35)
+  25 Pineal Glut (95): 262 Pineal Crx Glut (95)
+  28 CB GABA (6): 313 CBX Purkinje Gaba (6)
+
+# SS-GU-VISC: 83171 neurons, 10 classes, 43 subclasses, 145 supertypes
+  01 IT-ET Glut (55899): 006 L4/5 IT CTX Glut (27476); 007 L2/3 IT CTX Glut (12062); 004 L6 IT CTX Glut (6260); 001 CLA-EPd-CTX Car3 Glut (4813); 005 L5 IT CTX Glut (2322); 022 L5 ET CTX Glut (1206); 003 L5/6 IT TPE-ENT Glut (859); 002 IT EP-CLA Glut (841); 009 L2/3 IT PIR-ENTl Glut (54); 010 IT AON-TT-DP Glut (5); 012 MEA Slc17a7 Glut (1)
+  02 NP-CT-L6b Glut (16047): 030 L6 CT CTX Glut (11922); 032 L5 NP CTX Glut (2573); 029 L6b CTX Glut (1541); 027 L6b EPd Glut (5); 028 L6b/CT ENT Glut (5); 031 CT SUB Glut (1)
+  03 OB-CR Glut (8): 036 HPF CR Glut (8)
+  05 OB-IMN GABA (37): 045 OB-STR-CTX Inh IMN (19); 041 OB-in Frmd7 Gaba (10); 042 OB-out Frmd7 Gaba (5); 044 OB Dopa-Gaba (2); 043 OB-mi Frmd7 Gaba (1)
+  06 CTX-CGE GABA (5041): 049 Lamp5 Gaba (2411); 046 Vip Gaba (1995); 047 Sncg Gaba (630); 048 RHP-COA Ndnf Gaba (5)
+  07 CTX-MGE GABA (5888): 053 Sst Gaba (3229); 052 Pvalb Gaba (2434); 051 Pvalb chandelier Gaba (160); 050 Lamp5 Lhx6 Gaba (65)
+  08 CNU-MGE GABA (184): 056 Sst Chodl Gaba (183); 054 STR Prox1 Lhx6 Gaba (1)
+  09 CNU-LGE GABA (48): 064 STR-PAL Chst9 Gaba (21); 065 IA Mgp Gaba (13); 062 STR D2 Gaba (9); 063 STR D1 Sema5a Gaba (3); 061 STR D1 Gaba (2)
+  11 CNU-HYa GABA (14): 080 CEA-AAA-BST Six3 Sp9 Gaba (10); 066 NDB-SI-ant Prdm12 Gaba (2); 075 MEA-BST Lhx6 Nr2e1 Gaba (1); 073 MEA-BST Sox6 Gaba (1)
+  13 CNU-HYa Glut (5): 114 COAa-PAA-MEA Barhl2 Glut (5)
+
+# SSp: 72546 neurons, 10 classes, 26 subclasses, 95 supertypes
+  01 IT-ET Glut (54391): 006 L4/5 IT CTX Glut (36503); 007 L2/3 IT CTX Glut (8657); 004 L6 IT CTX Glut (6488); 005 L5 IT CTX Glut (2294); 001 CLA-EPd-CTX Car3 Glut (293); 022 L5 ET CTX Glut (146); 002 IT EP-CLA Glut (10)
+  02 NP-CT-L6b Glut (14234): 030 L6 CT CTX Glut (10359); 032 L5 NP CTX Glut (2327); 029 L6b CTX Glut (1548)
+  03 OB-CR Glut (6): 036 HPF CR Glut (6)
+  04 DG-IMN Glut (1): 038 DG-PIR Ex IMN (1)
+  05 OB-IMN GABA (6): 045 OB-STR-CTX Inh IMN (3); 041 OB-in Frmd7 Gaba (2); 043 OB-mi Frmd7 Gaba (1)
+  06 CTX-CGE GABA (2620): 049 Lamp5 Gaba (1318); 046 Vip Gaba (1068); 047 Sncg Gaba (234)
+  07 CTX-MGE GABA (1155): 053 Sst Gaba (930); 052 Pvalb Gaba (164); 050 Lamp5 Lhx6 Gaba (36); 051 Pvalb chandelier Gaba (25)
+  08 CNU-MGE GABA (129): 056 Sst Chodl Gaba (129)
+  09 CNU-LGE GABA (3): 063 STR D1 Sema5a Gaba (2); 062 STR D2 Gaba (1)
+  13 CNU-HYa Glut (1): 114 COAa-PAA-MEA Barhl2 Glut (1)
+
+# STRd: 39105 neurons, 9 classes, 37 subclasses, 92 supertypes
+  01 IT-ET Glut (234): 004 L6 IT CTX Glut (116); 014 LA-BLA-BMA-PA Glut (76); 002 IT EP-CLA Glut (37); 009 L2/3 IT PIR-ENTl Glut (5)
+  02 NP-CT-L6b Glut (182): 030 L6 CT CTX Glut (172); 029 L6b CTX Glut (9); 027 L6b EPd Glut (1)
+  04 DG-IMN Glut (14): 038 DG-PIR Ex IMN (14)
+  05 OB-IMN GABA (1776): 045 OB-STR-CTX Inh IMN (1642); 041 OB-in Frmd7 Gaba (77); 042 OB-out Frmd7 Gaba (30); 039 OB Meis2 Thsd7b Gaba (18); 044 OB Dopa-Gaba (7); 040 OB Trdn Gaba (2)
+  06 CTX-CGE GABA (20): 049 Lamp5 Gaba (15); 047 Sncg Gaba (3); 046 Vip Gaba (2)
+  07 CTX-MGE GABA (12): 053 Sst Gaba (5); 052 Pvalb Gaba (4); 050 Lamp5 Lhx6 Gaba (2); 051 Pvalb chandelier Gaba (1)
+  08 CNU-MGE GABA (806): 054 STR Prox1 Lhx6 Gaba (367); 056 Sst Chodl Gaba (230); 055 STR Lhx8 Gaba (178); 058 PAL-STR Gaba-Chol (30); 057 NDB-SI-MA-STRv Lhx8 Gaba (1)
+  09 CNU-LGE GABA (36034): 062 STR D2 Gaba (18139); 061 STR D1 Gaba (16660); 063 STR D1 Sema5a Gaba (780); 064 STR-PAL Chst9 Gaba (437); 065 IA Mgp Gaba (11); 059 GPe-SI Sox6 Cyp26b1 Gaba (7)
+  11 CNU-HYa GABA (27): 079 CEA-BST Six3 Cyp26b1 Gaba (18); 082 CEA-BST Ebf1 Pdyn Gaba (5); 081 ACB-BST-FS D1 Gaba (2); 080 CEA-AAA-BST Six3 Sp9 Gaba (1); 075 MEA-BST Lhx6 Nr2e1 Gaba (1)
+
+# STRv: 38985 neurons, 12 classes, 59 subclasses, 168 supertypes
+  01 IT-ET Glut (198): 010 IT AON-TT-DP Glut (164); 004 L6 IT CTX Glut (18); 009 L2/3 IT PIR-ENTl Glut (9); 002 IT EP-CLA Glut (7)
+  02 NP-CT-L6b Glut (100): 030 L6 CT CTX Glut (80); 027 L6b EPd Glut (11); 029 L6b CTX Glut (8); 032 L5 NP CTX Glut (1)
+  03 OB-CR Glut (57): 036 HPF CR Glut (51); 035 OB Eomes Ms4a15 Glut (6)
+  04 DG-IMN Glut (5): 038 DG-PIR Ex IMN (5)
+  05 OB-IMN GABA (1332): 045 OB-STR-CTX Inh IMN (1083); 041 OB-in Frmd7 Gaba (113); 039 OB Meis2 Thsd7b Gaba (52); 042 OB-out Frmd7 Gaba (42); 044 OB Dopa-Gaba (29); 040 OB Trdn Gaba (11); 043 OB-mi Frmd7 Gaba (2)
+  06 CTX-CGE GABA (106): 046 Vip Gaba (51); 049 Lamp5 Gaba (45); 047 Sncg Gaba (5); 048 RHP-COA Ndnf Gaba (5)
+  07 CTX-MGE GABA (40): 052 Pvalb Gaba (19); 053 Sst Gaba (17); 051 Pvalb chandelier Gaba (2); 050 Lamp5 Lhx6 Gaba (2)
+  08 CNU-MGE GABA (1165): 054 STR Prox1 Lhx6 Gaba (412); 056 Sst Chodl Gaba (335); 055 STR Lhx8 Gaba (326); 058 PAL-STR Gaba-Chol (77); 057 NDB-SI-MA-STRv Lhx8 Gaba (15)
+  09 CNU-LGE GABA (35254): 061 STR D1 Gaba (12350); 062 STR D2 Gaba (11148); 060 OT D3 Folh1 Gaba (7665); 063 STR D1 Sema5a Gaba (2707); 064 STR-PAL Chst9 Gaba (1349); 065 IA Mgp Gaba (20); 059 GPe-SI Sox6 Cyp26b1 Gaba (15)
+  10 LSX GABA (49): 070 LSX Prdm12 Slit2 Gaba (39); 071 LSX Prdm12 Zeb2 Gaba (5); 067 LSX Sall3 Pax6 Gaba (4); 069 LSX Nkx2-1 Gaba (1)
+  11 CNU-HYa GABA (569): 081 ACB-BST-FS D1 Gaba (305); 066 NDB-SI-ant Prdm12 Gaba (96); 080 CEA-AAA-BST Six3 Sp9 Gaba (65); 078 SI-MA-ACB Ebf1 Bnc2 Gaba (44); 085 SI-MPO-LPO Lhx8 Gaba (15); 082 CEA-BST Ebf1 Pdyn Gaba (9); 090 BST-MPN Six3 Nrgn Gaba (8); 086 MPO-ADP Lhx8 Gaba (8); 084 BST-SI-AAA Six3 Slc22a3 Gaba (6); 079 CEA-BST Six3 Cyp26b1 Gaba (5); 083 CEA-BST Rai14 Pdyn Crh Gaba (5); 073 MEA-BST Sox6 Gaba (1) ...
+  13 CNU-HYa Glut (110): 119 SI-MA-LPO-LHA Skor1 Glut (105); 116 AVPV-MEPO-SFO Tbr1 Glut (3); 115 MS-SF Bsx Glut (2)
+
+# TEa-PERI-ECT: 58158 neurons, 10 classes, 45 subclasses, 159 supertypes
+  01 IT-ET Glut (31231): 007 L2/3 IT CTX Glut (8341); 006 L4/5 IT CTX Glut (7634); 001 CLA-EPd-CTX Car3 Glut (5864); 003 L5/6 IT TPE-ENT Glut (4096); 022 L5 ET CTX Glut (2059); 004 L6 IT CTX Glut (1910); 002 IT EP-CLA Glut (514); 008 L2/3 IT ENT Glut (478); 005 L5 IT CTX Glut (268); 009 L2/3 IT PIR-ENTl Glut (40); 019 L2/3 IT PPP Glut (15); 010 IT AON-TT-DP Glut (7) ...
+  02 NP-CT-L6b Glut (13595): 030 L6 CT CTX Glut (9578); 032 L5 NP CTX Glut (1572); 029 L6b CTX Glut (1352); 028 L6b/CT ENT Glut (1069); 031 CT SUB Glut (19); 027 L6b EPd Glut (5)
+  03 OB-CR Glut (133): 036 HPF CR Glut (133)
+  05 OB-IMN GABA (33): 041 OB-in Frmd7 Gaba (30); 044 OB Dopa-Gaba (2); 043 OB-mi Frmd7 Gaba (1)
+  06 CTX-CGE GABA (5921): 049 Lamp5 Gaba (2554); 046 Vip Gaba (2488); 047 Sncg Gaba (863); 048 RHP-COA Ndnf Gaba (16)
+  07 CTX-MGE GABA (6955): 053 Sst Gaba (3472); 052 Pvalb Gaba (3056); 051 Pvalb chandelier Gaba (290); 050 Lamp5 Lhx6 Gaba (137)
+  08 CNU-MGE GABA (213): 056 Sst Chodl Gaba (192); 054 STR Prox1 Lhx6 Gaba (21)
+  09 CNU-LGE GABA (67): 064 STR-PAL Chst9 Gaba (54); 065 IA Mgp Gaba (8); 063 STR D1 Sema5a Gaba (3); 062 STR D2 Gaba (1); 059 GPe-SI Sox6 Cyp26b1 Gaba (1)
+  11 CNU-HYa GABA (9): 080 CEA-AAA-BST Six3 Sp9 Gaba (5); 073 MEA-BST Sox6 Gaba (3); 075 MEA-BST Lhx6 Nr2e1 Gaba (1)
+  28 CB GABA (1): 313 CBX Purkinje Gaba (1)
+
+# TH: 167357 neurons, 25 classes, 155 subclasses, 386 supertypes
+  01 IT-ET Glut (32): 002 IT EP-CLA Glut (28); 012 MEA Slc17a7 Glut (2); 004 L6 IT CTX Glut (1); 001 CLA-EPd-CTX Car3 Glut (1)
+  02 NP-CT-L6b Glut (4): 027 L6b EPd Glut (4)
+  03 OB-CR Glut (26): 036 HPF CR Glut (26)
+  04 DG-IMN Glut (38): 037 DG Glut (33); 038 DG-PIR Ex IMN (5)
+  05 OB-IMN GABA (4): 045 OB-STR-CTX Inh IMN (3); 039 OB Meis2 Thsd7b Gaba (1)
+  06 CTX-CGE GABA (28): 049 Lamp5 Gaba (16); 046 Vip Gaba (10); 047 Sncg Gaba (2)
+  07 CTX-MGE GABA (5): 053 Sst Gaba (3); 050 Lamp5 Lhx6 Gaba (2)
+  08 CNU-MGE GABA (28): 055 STR Lhx8 Gaba (13); 054 STR Prox1 Lhx6 Gaba (5); 056 Sst Chodl Gaba (4); 057 NDB-SI-MA-STRv Lhx8 Gaba (4); 058 PAL-STR Gaba-Chol (2)
+  09 CNU-LGE GABA (129): 064 STR-PAL Chst9 Gaba (46); 061 STR D1 Gaba (30); 059 GPe-SI Sox6 Cyp26b1 Gaba (25); 062 STR D2 Gaba (16); 063 STR D1 Sema5a Gaba (11); 060 OT D3 Folh1 Gaba (1)
+  10 LSX GABA (24): 068 LSX Otx2 Gaba (12); 067 LSX Sall3 Pax6 Gaba (7); 069 LSX Nkx2-1 Gaba (3); 072 LSX Sall3 Lmo1 Gaba (1); 070 LSX Prdm12 Slit2 Gaba (1)
+  11 CNU-HYa GABA (61): 082 CEA-BST Ebf1 Pdyn Gaba (13); 076 MEA-BST Lhx6 Nfib Gaba (12); 074 MEA-BST Lhx6 Sp9 Gaba (11); 078 SI-MA-ACB Ebf1 Bnc2 Gaba (6); 073 MEA-BST Sox6 Gaba (5); 079 CEA-BST Six3 Cyp26b1 Gaba (3); 075 MEA-BST Lhx6 Nr2e1 Gaba (3); 090 BST-MPN Six3 Nrgn Gaba (3); 066 NDB-SI-ant Prdm12 Gaba (3); 083 CEA-BST Rai14 Pdyn Crh Gaba (1); 084 BST-SI-AAA Six3 Slc22a3 Gaba (1)
+  12 HY GABA (15796): 093 RT-ZI Gnb3 Gaba (7452); 109 LGv-ZI Otx2 Gaba (4380); 101 ZI Pax6 Gaba (3702); 097 PVHd-SBPV Six3 Prox1 Gaba (138); 103 PVHd-DMH Lhx6 Gaba (69); 098 AHN-SBPV-PVHd Pdrm12 Gaba (31); 102 DMH-LHA Gsx1 Gaba (10); 096 PVHd Gsc Gaba (5); 107 DMH Hmx2 Gaba (5); 100 AHN Onecut3 Gaba (3); 099 SBPV-PVa Six6 Satb2 Gaba (1)
+  13 CNU-HYa Glut (158): 110 BST-po Iigp1 Glut (70); 117 LHA Barhl2 Glut (39); 119 SI-MA-LPO-LHA Skor1 Glut (16); 118 ADP-MPO Trp73 Glut (10); 111 TRS-BAC Sln Glut (9); 112 GPi Tbr1 Cngb3 Gaba-Glut (5); 121 MEA-BST Otp Zic2 Glut (3); 113 MEA-COA-BMA Ccdc42 Glut (2); 115 MS-SF Bsx Glut (1); 120 MEA Otp Foxp2 Glut (1); 116 AVPV-MEPO-SFO Tbr1 Glut (1); 114 COAa-PAA-MEA Barhl2 Glut (1)
+  14 HY Glut (593): 138 PH Pitx2 Glut (201); 141 PH-SUM Foxa1 Glut (173); 133 PVH-SO-PVa Otp Glut (82); 134 PH-ant-LHA Otp Bsx Glut (56); 132 AHN-RCH-LHA Otp Fezf1 Glut (36); 135 STN-PSTN Pitx2 Glut (15); 139 PH-LHA Foxb1 Glut (14); 131 LHA-AHN-PVH Otp Trh Glut (9); 130 LHA Pmch Glut (2); 140 PMd-LHA Foxb1 Glut (2); 137 PH-an Pitx2 Glut (1); 128 VMH Fezf1 Glut (1) ...
+  15 HY Gnrh1 Glut (1): 142 HY Gnrh1 Glut (1)
+  17 MH-LH Glut (10726): 145 MH Tac2 Glut (7972); 146 LH Pou4f1 Sox1 Glut (2754)
+  18 TH Glut (113729): 151 TH Prkcd Grin2c Glut (68125); 150 CM-IAD-CL-PCN Sema5b Glut (13590); 149 PVT-PT Ntrk1 Glut (9854); 148 AV Col27a1 Glut (7321); 154 PF Fzd5 Glut (6626); 152 RE-Xi Nox4 Glut (5450); 153 MG-POL-SGN Nts Glut (2047); 147 AD Serpinb7 Glut (716)
+  19 MB Glut (15960): 168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut (10752); 167 PRC-PAG Tcf7l2 Irx2 Glut (2248); 163 APN C1ql2 Glut (1072); 164 APN C1ql4 Glut (1068); 155 PRC-PAG Pax6 Glut (199); 166 MRN Pou3f1 C1ql4 Glut (135); 181 IC Tfap2d Maf Glut (109); 156 MB-ant-ve Dmrta2 Glut (73); 159 IF-RL-CLI-PAG Foxa1 Glut (62); 170 PAG-MRN Tfap2b Glut (58); 169 PAG-SC Pou4f1 Zic1 Glut (41); 177 SCig-an-PPT Foxb1 Glut (36) ...
+  20 MB GABA (9619): 203 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba (5614); 213 SCsg Gabrr2 Gaba (2082); 202 PRT Tcf7l2 Gaba (1349); 210 PRT Mecom Gaba (439); 198 IC Six3 En2 Gaba (42); 209 SCs Pax7 Nfia Gaba (29); 200 PAG-ND-PCG Onecut1 Gaba (14); 207 SCs Dmbx1 Gaba (14); 191 PAG-MRN Rln3 Gaba (10); 201 PAG-RN Nkx2-2 Otx1 Gaba (6); 205 SC-PAG Lef1 Emx2 Gaba (5); 199 PAG-MRN-RN Foxa2 Gaba (5) ...
+  21 MB Dopa (25): 215 SNc-VTA-RAmb Foxa1 Dopa (25)
+  23 P Glut (19): 221 LDT-PCG Vsx2 Lhx4 Glut (5); 220 PB Pax5 Glut (5); 222 PB Evx2 Glut (4); 235 PG-TRN-LRN Fat2 Glut (3); 217 PB Lmx1a Glut (1); 232 LDT Vsx2 Nkx6-1 Nfib Glut (1)
+  24 MY Glut (32): 243 PGRN-PARN-MDRN Hoxb5 Glut (12); 246 CU-ECU-SPVI Foxb1 Glut (7); 245 SPVI-SPVC Tlx3 Ebf3 Glut (3); 238 NTS Phox2b Glut (3); 248 MV-SPIV Zic4 Neurod2 Glut (3); 247 MV-SPIV Phox2b Ebf3 Lbx1 Glut (2); 237 PRP-NI-PRNc-GRN Otp Glut (1); 250 CBN Neurod2 Pvalb Glut (1)
+  25 Pineal Glut (306): 262 Pineal Crx Glut (306)
+  26 P GABA (4): 270 LDT-DTN Gata3 Nfix Gaba (2); 269 LDT Fgf7 Gaba (1); 266 PRNc Prox1 Brs3 Gly-Gaba (1)
+  27 MY GABA (10): 293 PAS-MV Ebf2 Gly-Gaba (4); 304 NTS-PARN Neurod2 Gly-Gaba (3); 287 MV-SPIV-PRP Dmbx1 Gly-Gaba (1); 292 MV Nkx6-1 Gly-Gaba (1); 305 SPVI-SPVC Sall3 Nfib Gly-Gaba (1)
+
+# VIS-PTLp: 44092 neurons, 9 classes, 32 subclasses, 120 supertypes
+  01 IT-ET Glut (32429): 006 L4/5 IT CTX Glut (17288); 007 L2/3 IT CTX Glut (8200); 004 L6 IT CTX Glut (3453); 005 L5 IT CTX Glut (2229); 022 L5 ET CTX Glut (984); 001 CLA-EPd-CTX Car3 Glut (219); 003 L5/6 IT TPE-ENT Glut (31); 002 IT EP-CLA Glut (9); 019 L2/3 IT PPP Glut (6); 016 CA1-ProS Glut (5); 017 CA3 Glut (3); 020 L2/3 IT RSP Glut (2)
+  02 NP-CT-L6b Glut (6289): 030 L6 CT CTX Glut (4783); 032 L5 NP CTX Glut (1092); 029 L6b CTX Glut (407); 028 L6b/CT ENT Glut (7)
+  03 OB-CR Glut (7): 036 HPF CR Glut (6); 035 OB Eomes Ms4a15 Glut (1)
+  04 DG-IMN Glut (41): 037 DG Glut (31); 038 DG-PIR Ex IMN (10)
+  05 OB-IMN GABA (21): 041 OB-in Frmd7 Gaba (13); 045 OB-STR-CTX Inh IMN (7); 042 OB-out Frmd7 Gaba (1)
+  06 CTX-CGE GABA (2738): 046 Vip Gaba (1434); 049 Lamp5 Gaba (1080); 047 Sncg Gaba (224)
+  07 CTX-MGE GABA (2520): 053 Sst Gaba (1411); 052 Pvalb Gaba (1041); 051 Pvalb chandelier Gaba (38); 050 Lamp5 Lhx6 Gaba (30)
+  08 CNU-MGE GABA (46): 056 Sst Chodl Gaba (46)
+  11 CNU-HYa GABA (1): 075 MEA-BST Lhx6 Nr2e1 Gaba (1)
+
+# VIS: 313282 neurons, 8 classes, 35 subclasses, 131 supertypes
+  01 IT-ET Glut (218009): 006 L4/5 IT CTX Glut (114803); 007 L2/3 IT CTX Glut (47171); 004 L6 IT CTX Glut (31269); 005 L5 IT CTX Glut (14427); 022 L5 ET CTX Glut (7982); 001 CLA-EPd-CTX Car3 Glut (1962); 020 L2/3 IT RSP Glut (194); 003 L5/6 IT TPE-ENT Glut (98); 002 IT EP-CLA Glut (94); 021 L4 RSP-ACA Glut (7); 010 IT AON-TT-DP Glut (1); 009 L2/3 IT PIR-ENTl Glut (1)
+  02 NP-CT-L6b Glut (47717): 030 L6 CT CTX Glut (36918); 032 L5 NP CTX Glut (6729); 029 L6b CTX Glut (4013); 028 L6b/CT ENT Glut (56); 031 CT SUB Glut (1)
+  03 OB-CR Glut (58): 036 HPF CR Glut (58)
+  05 OB-IMN GABA (104): 041 OB-in Frmd7 Gaba (89); 045 OB-STR-CTX Inh IMN (7); 044 OB Dopa-Gaba (5); 039 OB Meis2 Thsd7b Gaba (1); 042 OB-out Frmd7 Gaba (1); 043 OB-mi Frmd7 Gaba (1)
+  06 CTX-CGE GABA (24845): 046 Vip Gaba (12498); 049 Lamp5 Gaba (10074); 047 Sncg Gaba (2269); 048 RHP-COA Ndnf Gaba (4)
+  07 CTX-MGE GABA (22200): 053 Sst Gaba (11932); 052 Pvalb Gaba (9642); 050 Lamp5 Lhx6 Gaba (355); 051 Pvalb chandelier Gaba (271)
+  08 CNU-MGE GABA (348): 056 Sst Chodl Gaba (347); 054 STR Prox1 Lhx6 Gaba (1)
+  09 CNU-LGE GABA (1): 064 STR-PAL Chst9 Gaba (1)
+
+# sAMY: 74445 neurons, 17 classes, 103 subclasses, 325 supertypes
+  01 IT-ET Glut (4415): 012 MEA Slc17a7 Glut (3984); 026 NLOT Rho Glut (286); 013 COAp Grxcr2 Glut (60); 009 L2/3 IT PIR-ENTl Glut (38); 014 LA-BLA-BMA-PA Glut (37); 017 CA3 Glut (10)
+  03 OB-CR Glut (413): 036 HPF CR Glut (370); 035 OB Eomes Ms4a15 Glut (43)
+  04 DG-IMN Glut (262): 037 DG Glut (262)
+  05 OB-IMN GABA (35): 039 OB Meis2 Thsd7b Gaba (17); 045 OB-STR-CTX Inh IMN (15); 042 OB-out Frmd7 Gaba (1); 044 OB Dopa-Gaba (1); 041 OB-in Frmd7 Gaba (1)
+  06 CTX-CGE GABA (1248): 049 Lamp5 Gaba (524); 046 Vip Gaba (437); 048 RHP-COA Ndnf Gaba (176); 047 Sncg Gaba (111)
+  07 CTX-MGE GABA (361): 053 Sst Gaba (175); 050 Lamp5 Lhx6 Gaba (73); 052 Pvalb Gaba (62); 051 Pvalb chandelier Gaba (51)
+  08 CNU-MGE GABA (2659): 057 NDB-SI-MA-STRv Lhx8 Gaba (1100); 054 STR Prox1 Lhx6 Gaba (676); 056 Sst Chodl Gaba (611); 058 PAL-STR Gaba-Chol (160); 055 STR Lhx8 Gaba (112)
+  09 CNU-LGE GABA (6810): 064 STR-PAL Chst9 Gaba (3766); 062 STR D2 Gaba (1808); 061 STR D1 Gaba (572); 065 IA Mgp Gaba (262); 063 STR D1 Sema5a Gaba (201); 059 GPe-SI Sox6 Cyp26b1 Gaba (186); 060 OT D3 Folh1 Gaba (15)
+  11 CNU-HYa GABA (38761): 073 MEA-BST Sox6 Gaba (8705); 082 CEA-BST Ebf1 Pdyn Gaba (6966); 074 MEA-BST Lhx6 Sp9 Gaba (6461); 079 CEA-BST Six3 Cyp26b1 Gaba (4675); 080 CEA-AAA-BST Six3 Sp9 Gaba (3568); 076 MEA-BST Lhx6 Nfib Gaba (3495); 075 MEA-BST Lhx6 Nr2e1 Gaba (2400); 090 BST-MPN Six3 Nrgn Gaba (550); 085 SI-MPO-LPO Lhx8 Gaba (365); 078 SI-MA-ACB Ebf1 Bnc2 Gaba (262); 084 BST-SI-AAA Six3 Slc22a3 Gaba (238); 083 CEA-BST Rai14 Pdyn Crh Gaba (214) ...
+  12 HY GABA (97): 093 RT-ZI Gnb3 Gaba (34); 101 ZI Pax6 Gaba (13); 106 PVpo-VMPO-MPN Hmx2 Gaba (11); 098 AHN-SBPV-PVHd Pdrm12 Gaba (5); 107 DMH Hmx2 Gaba (5); 099 SBPV-PVa Six6 Satb2 Gaba (4); 097 PVHd-SBPV Six3 Prox1 Gaba (4); 108 ARH-PVp Tbx3 Gaba (4); 102 DMH-LHA Gsx1 Gaba (4); 094 SCH Six6 Cdc14a Gaba (3); 100 AHN Onecut3 Gaba (3); 096 PVHd Gsc Gaba (2) ...
+  13 CNU-HYa Glut (19119): 113 MEA-COA-BMA Ccdc42 Glut (9654); 114 COAa-PAA-MEA Barhl2 Glut (3677); 119 SI-MA-LPO-LHA Skor1 Glut (2180); 120 MEA Otp Foxp2 Glut (1504); 121 MEA-BST Otp Zic2 Glut (1255); 122 LHA-MEA Otp Glut (752); 118 ADP-MPO Trp73 Glut (54); 117 LHA Barhl2 Glut (36); 116 AVPV-MEPO-SFO Tbr1 Glut (4); 111 TRS-BAC Sln Glut (2); 115 MS-SF Bsx Glut (1)
+  14 HY Glut (235): 133 PVH-SO-PVa Otp Glut (136); 131 LHA-AHN-PVH Otp Trh Glut (48); 139 PH-LHA Foxb1 Glut (10); 124 MPN-MPO-PVpo Hmx2 Glut (9); 132 AHN-RCH-LHA Otp Fezf1 Glut (6); 129 VMH Nr5a1 Glut (5); 141 PH-SUM Foxa1 Glut (5); 126 ARH-PVp Tbx3 Glut (3); 134 PH-ant-LHA Otp Bsx Glut (3); 138 PH Pitx2 Glut (3); 123 DMH Nkx2-4 Glut (2); 135 STN-PSTN Pitx2 Glut (2) ...
+  16 HY MM Glut (15): 143 MM-ant Foxb1 Glut (8); 144 MM Foxb1 Glut (7)
+  19 MB Glut (5): 168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut (3); 167 PRC-PAG Tcf7l2 Irx2 Glut (2)
+  20 MB GABA (4): 195 SNr-VTA Pax5 Npas1 Gaba (2); 200 PAG-ND-PCG Onecut1 Gaba (1); 213 SCsg Gabrr2 Gaba (1)
+  21 MB Dopa (1): 215 SNc-VTA-RAmb Foxa1 Dopa (1)
+  29 CB Glut (5): 314 CB Granule Glut (5)
+
+## CENSUS h5ads: obs columns, and label values matching key terms
+
+# 1229ecc2-b067-4664-91da-0251aec31574.h5ad: 205722 cells; columns: ['author_cell_type', 'cellClass', 'orig.ident', 'donor_id', 'QC_Gene_total_count', 'treatment', 'QC_MT.pct', 'development_stage_ontology_term_id', 'sex_ontology_term_id', 'self_reported_ethnicity_ontology_term_id', 'disease_ontology_term_id', 'tissue_ontology_term_id', 'assay_ontology_term_id', 'suspension_type', 'cell_type_ontology_term_id', 'is_primary_data', 'Cre', 'THR', 'tissue_type', 'THR_expr', 'cell_type', 'assay', 'disease', 'sex', 'tissue', 'self_reported_ethnicity', 'development_stage', 'observation_joinid']
+  [author_cell_type] 40 values; key-term hits (6): Pvalb (8755); Sst (6709); Lamp5 (4053); Vip (4024); Sncg (878); Sst.Chodl (212)
+  [cellClass] 7 values; key-term hits (2): Excitatory Neurons (123829); Inhibitory Neurons (24631)
+  [orig.ident] 29 values; key-term hits (29): pSabatiniLabsMMrCTXM2i7d221004C (10418); pSabatiniLabsMMrCTXM2i10d221004C (9432); pSabatiniLabsMMrCTXM2i7d221004B (9330); pSabatiniLabsMMrCTXM2i8d221004C (9125); pSabatiniLabsMMrCTXMOpiBd220318BR1 (9117); pSabatiniLabsMMrCTXMOpiBd220318BR2 (8994); pSabatiniLabsMMrCTXM2i8d221004B (8873); pSabatiniLabsMMrCTXM2iDd2210043 (8331); pSabatiniLabsMMrCTXM2i9d221004A (8329); pSabatiniLabsMMrCTXM2i10d221004B (8263); pSabatiniLabsMMrCTXM2i7d221004A (8177); pSabatiniLabsMMrCTXM2i8d221004A (8131); pSabatiniLabsMMrCTXM2i9d221004C (8020); pSabatiniLabsMMrCTXM2i10d221004A (7971); pSabatiniLabsMMrCTXM2i9d221004B (7857); pSabatiniLabsMMrCTXMOpiBd220318BL (7361); pSabatiniLabsMMrCTXMOpiAd220318AR (6980); pSabatiniLabsMMrCTXMOpiAd220318AL (6429); pSabatiniLabsMMrCTXM2iCd2210041 (6299); pSabatiniLabsMMrCTXM2iDd2210041 (6256); pSabatiniLabsMMrCTXM2iDd2210042 (6158); pSabatiniLabsMMrCTXM2iCd2210042 (6140); pSabatiniLabsMMrCTXM2iBd2210041 (5595); pSabatiniLabsMMrCTXM2iBd2210043 (5085); pSabatiniLabsMMrCTXM2iCd2210043 (4712)
+  [donor_id] 10 values; key-term hits (0):  | first values: 7; 8; 10; pilotB; 9; D; C; B
+  [cell_type_ontology_term_id] 22 values; key-term hits (0):  | first values: CL:4030059; CL:4030062; CL:0000127; CL:4030064; CL:4023042; CL:0000128; CL:4023041; CL:4023018
+  [cell_type] 22 values; key-term hits (13): L2/3 intratelencephalic projecting glutamatergic neuron (33781); L4/5 intratelencephalic projecting glutamatergic neuron (27628); L5 intratelencephalic projecting glutamatergic neuron (21331); L6 corticothalamic-projecting glutamatergic cortical neuron (18132); L5 extratelencephalic projecting glutamatergic cortical neuron (9698); pvalb GABAergic cortical interneuron (8755); sst GABAergic cortical interneuron (6921); L5/6 near-projecting glutamatergic neuron (6524); L6 intratelencephalic projecting glutamatergic neuron (6445); lamp5 GABAergic cortical interneuron (4053); VIP GABAergic cortical interneuron (4024); sncg GABAergic cortical interneuron (878); L6b glutamatergic cortical neuron (290)
+
+# 12990215-ad1a-4106-8536-7388327a616f.h5ad: 107742 cells; columns: ['author_cell_type', 'cellClass', 'orig.ident', 'donor_id', 'QC_Gene_total_count', 'treatment', 'THRB', 'QC_MT.pct', 'development_stage_ontology_term_id', 'sex_ontology_term_id', 'self_reported_ethnicity_ontology_term_id', 'disease_ontology_term_id', 'tissue_ontology_term_id', 'assay_ontology_term_id', 'suspension_type', 'cell_type_ontology_term_id', 'is_primary_data', 'tissue_type', 'cell_type', 'assay', 'disease', 'sex', 'tissue', 'self_reported_ethnicity', 'development_stage', 'observation_joinid']
+  [author_cell_type] 39 values; key-term hits (6): Pvalb (4312); Sst (3459); Lamp5 (2203); Vip (2128); Sncg (455); Sst.Chodl (110)
+  [cellClass] 7 values; key-term hits (2): Excitatory Neurons (62795); Inhibitory Neurons (12667)
+  [orig.ident] 20 values; key-term hits (20): pSabatiniLabsMMrCTXM2i21d221004B (10101); pSabatiniLabsMMrCTXM2i21d221004A (8708); pSabatiniLabsMMrCTXM2i20d221004B (8479); pSabatiniLabsMMrCTXM2i22d221004A (7813); pSabatiniLabsMMrCTXM2i14d221004B (7528); pSabatiniLabsMMrCTXM2i20d221004A (7381); pSabatiniLabsMMrCTXM2i17d221004A (7320); pSabatiniLabsMMrCTXM2i22d221004B (7023); pSabatiniLabsMMrCTXM2i15d221004B (6050); pSabatiniLabsMMrCTXM2i13d221004B (5493); pSabatiniLabsMMrCTXM2i14d221004A (5283); pSabatiniLabsMMrCTXM2i15d221004A (4943); pSabatiniLabsMMrCTXM2i17d221004B (4472); pSabatiniLabsMMrCTXM2i18d221004C (3766); pSabatiniLabsMMrCTXM2i17d221004C (3396); pSabatiniLabsMMrCTXM2i18d221004B (3058); pSabatiniLabsMMrCTXM2i14d221004C (2661); pSabatiniLabsMMrCTXM2i18d221004A (1754); pSabatiniLabsMMrCTXM2i13d221004A (1437); pSabatiniLabsMMrCTXM2i13d221004C (1076)
+  [donor_id] 8 values; key-term hits (0):  | first values: 21; 20; 14; 17; 22; 15; 18; 13
+  [cell_type_ontology_term_id] 21 values; key-term hits (0):  | first values: CL:4030059; CL:4030062; CL:0000127; CL:4030064; CL:0000128; CL:0000129; CL:4023041; CL:4023042
+  [cell_type] 21 values; key-term hits (13): L2/3 intratelencephalic projecting glutamatergic neuron (22050); L4/5 intratelencephalic projecting glutamatergic neuron (15930); L5 intratelencephalic projecting glutamatergic neuron (10899); L5 extratelencephalic projecting glutamatergic cortical neuron (4787); L6 corticothalamic-projecting glutamatergic cortical neuron (4492); pvalb GABAergic cortical interneuron (4312); sst GABAergic cortical interneuron (3569); L5/6 near-projecting glutamatergic neuron (3204); lamp5 GABAergic cortical interneuron (2203); VIP GABAergic cortical interneuron (2128); L6 intratelencephalic projecting glutamatergic neuron (1428); sncg GABAergic cortical interneuron (455); L6b glutamatergic cortical neuron (5)
+
+# 35081d47-99bf-4507-9541-735428df9a9f.h5ad: 406187 cells; columns: ['BICCN_cluster_id', 'QC', 'BICCN_cluster_label', 'BICCN_subclass_label', 'BICCN_class_label', 'cluster_color', 'size', 'temp_class_label', 'BICCN_ontology_term_id', 'assay_ontology_term_id', 'disease_ontology_term_id', 'tissue_ontology_term_id', 'BICCN_project', 'cell_type_ontology_term_id', 'self_reported_ethnicity_ontology_term_id', 'development_stage_ontology_term_id', 'sex_ontology_term_id', 'is_primary_data', 'donor_id', 'suspension_type', 'tissue_type', 'cell_type', 'assay', 'disease', 'sex', 'tissue', 'self_reported_ethnicity', 'development_stage', 'observation_joinid']
+  [BICCN_cluster_label] 244 values; key-term hits (107): Lamp5 Slc35d3 (5513); Pvalb Il1rapl2 (4506); Pvalb Reln (3464); Vip Crispld2 (2474); Vip Chat (2419); Sst Myh8_2 (2341); Lamp5 Pdlim5 (2239); Pvalb Gpr149 (1937); Sst Calb2 (1497); Vip Igfbp6 (1413); Lamp5 Slc35d3_1 (1275); Vip Gpc3 (1260); Sst C1ql3_1 (1038); Sst Crhr2_1 (945); Sst Etv1_2 (912); Vip Htr1f_1 (893); Sst Hpse_3 (863); Sst Myh8_1 (831); Pvalb Prdm8_2 (797); Sst Chodl (753); Pvalb Il1rapl2_1 (709); Vip Lypd1 (690); Sst Pvalb Etv1_3 (658); Vip C1ql1_1 (650); Lamp5 Egln3_2 (648)
+  [BICCN_subclass_label] 24 values; key-term hits (5): Vip (15961); Sst (15733); Pvalb (14706); Lamp5 (12656); Sncg (2594)
+  [BICCN_class_label] 3 values; key-term hits (2): Glutamatergic (282893); GABAergic (61782)
+  [cluster_color] 172 values; key-term hits (4): #7C2D1F (19019); #D2A328 (1497); #FC26D2 (65); #D27A2A (55)
+  [temp_class_label] 25 values; key-term hits (15): GlutamatergicL5 IT (105637); GlutamatergicL2/3 IT (66893); GlutamatergicL6 CT (62674); GlutamatergicL6 IT (22034); GABAergicVip (15961); GABAergicSst (15733); GABAergicPvalb (14706); GABAergicLamp5 (12656); GlutamatergicL5/6 NP (12475); GlutamatergicL5 ET (6643); GlutamatergicL6b (5801); GABAergicSncg (2594); GlutamatergicL6 IT Car3 (720); GABAergicProg/IP (132); GlutamatergicCR (16)
+  [BICCN_ontology_term_id] 24 values; key-term hits (0):  | first values: ILX:0770157; ILX:0770156; ILX:0770162; ILX:0770158; ILX:0770140; ILX:0770141; ILX:0770151; ILX:0770152
+  [assay_ontology_term_id] 3 values; key-term hits (0):  | first values: EFO:0009922; EFO:0009899; EFO:0700016
+  [BICCN_project] 6 values; key-term hits (0):  | first values: 10X_nuclei_v3_Broad; 10X_cells_v2_AIBS; 10X_cells_v3_AIBS; 10X_nuclei_v3_AIBS; SMARTer_cells_MOp; SMARTer_nuclei_MOp
+  [cell_type_ontology_term_id] 12 values; key-term hits (0):  | first values: CL:0000679; CL:0000617; CL:0000128; CL:0000127; CL:0000235; CL:0002453; CL:0000115; CL:0000708
+  [donor_id] 75 values; key-term hits (0):  | first values: 352357; 352353; 427311; 352356; 427378; M008; F008; F005
+  [cell_type] 12 values; key-term hits (2): glutamatergic neuron (282893); GABAergic neuron (61782)
+  [assay] 3 values; key-term hits (0):  | first values: 10x 3' v3; 10x 3' v2; Smart-seq v4
+
+# 3bbb6cf9-72b9-41be-b568-656de6eb18b5.h5ad: 79667 cells; columns: ['age', 'n_genes_by_counts', 'total_counts', 'total_counts_mt', 'n_genes', 'n_counts', 'clust_annot', 'sex_ontology_term_id', 'suspension_type', 'cell_type_ontology_term_id', 'assay_ontology_term_id', 'tissue_ontology_term_id', 'disease_ontology_term_id', 'self_reported_ethnicity_ontology_term_id', 'development_stage_ontology_term_id', 'donor_id', 'is_primary_data', 'cell_type_annot', 'tissue_type', 'cell_type', 'assay', 'disease', 'sex', 'tissue', 'self_reported_ethnicity', 'development_stage', 'observation_joinid']
+  [clust_annot] 43 values; key-term hits (10): MSN-D1-1 (4571); MSN-D2 (4196); MSN-D1-2 (1080); InN-Pvalb-1 (874); InN-Sst-1 (702); InN-Sst-2 (690); InN-Vip (622); InN-Lamp5 (542); InN-Pvalb-3 (538); InN-Pvalb-2 (391)
+  [cell_type_ontology_term_id] 13 values; key-term hits (0):  | first values: CL:0000540; CL:0000128; CL:1001474; CL:0000127; CL:0000498; CL:0000129; CL:0002453; CL:0000115
+  [donor_id] 4 values; key-term hits (0):  | first values: 10X_MsBrainAgingSpatialDonor_5; 10X_MsBrainAgingSpatialDonor_7; 10X_MsBrainAgingSpatialDonor_6; 10X_MsBrainAgingSpatialDonor_8
+  [cell_type_annot] 13 values; key-term hits (1): MSN (9847)
+  [cell_type] 13 values; key-term hits (2): medium spiny neuron (9847); inhibitory interneuron (5999)
+
+# 58b01044-c5e5-4b0f-8a2d-6ebf951e01ff.h5ad: 130908 cells; columns: ['sample_id', 'site', 'study', 'n_genes_by_counts', 'total_counts', 'pct_counts_mt', 'pct_counts_rb', 'assay_ontology_term_id', 'cell_type_ontology_term_id', 'development_stage_ontology_term_id', 'disease_ontology_term_id', 'donor_id', 'is_primary_data', 'self_reported_ethnicity_ontology_term_id', 'sex_ontology_term_id', 'suspension_type', 'tissue_ontology_term_id', 'author_cell_type', 'tissue_type', 'cell_type', 'assay', 'disease', 'sex', 'tissue', 'self_reported_ethnicity', 'development_stage', 'observation_joinid']
+  [sample_id] 51 values; key-term hits (0):  | first values: GSM4983999; GSM4983998; GSM5328995; GSM5328997; GSM5328998; GSM4904369; GSM5328999; GSM5329013
+  [site] 9 values; key-term hits (0):  | first values: dura mater; bone marrow; dural meninges; coronal suture; whole brain; whole brain + dura; brain meninges; choroid plexus
+  [study] 6 values; key-term hits (0):  | first values: Brioschi; Rustenhoven; Farmer; Shemer; Schafflick; van Hove
+  [assay_ontology_term_id] 3 values; key-term hits (0):  | first values: EFO:0011025; EFO:0009922; EFO:0009899
+  [cell_type_ontology_term_id] 16 values; key-term hits (0):  | first values: CL:0000775; CL:0000236; CL:0000499; CL:0000576; CL:0000235; CL:0000115; CL:0000625; CL:0000624
+  [development_stage_ontology_term_id] 7 values; key-term hits (0):  | first values: MmusDv:0000091; MmusDv:0000062; MmusDv:0000034; MmusDv:0000032; MmusDv:0000155; MmusDv:0000087; MmusDv:0000063
+  [donor_id] 51 values; key-term hits (4): Meninges, young, CD13+ (2695); Meninges, old, CD13+ (1297); Brain, old, CD13+ (703); Brain, young, CD13+ (586)
+  [sex_ontology_term_id] 3 values; key-term hits (0):  | first values: PATO:0000383; PATO:0000384; unknown
+  [tissue_ontology_term_id] 7 values; key-term hits (0):  | first values: UBERON:0002363; UBERON:0002371; UBERON:0010506; UBERON:0002489; UBERON:0000955; UBERON:0003547; UBERON:0000416
+  [author_cell_type] 16 values; key-term hits (0):  | first values: Neutrophil; B cell; Stromal; Monocyte; Macrophage; Endothelial; CD8 T cell; CD4 T cell
+  [cell_type] 16 values; key-term hits (0):  | first values: neutrophil; B cell; stromal cell; monocyte; macrophage; endothelial cell; CD8-positive, alpha-beta T cell; CD4-positive, alpha-beta T cell
+  [assay] 3 values; key-term hits (0):  | first values: 10x 5' v1; 10x 3' v3; 10x 3' v2
+  [sex] 3 values; key-term hits (0):  | first values: female; male; unknown
+  [tissue] 7 values; key-term hits (0):  | first values: dura mater; bone marrow; meningeal dura mater; coronal suture; brain; brain meninx; subdural space
+  [development_stage] 7 values; key-term hits (0):  | first values: 20-month-old stage and over; 2-month-old stage; Theiler stage 25; Theiler stage 23; 9-week-old stage; 16-month-old stage; 3-month-old stage
+
+# 72eb2332-b308-4014-8d25-95233a9aff1e.h5ad: 115282 cells; columns: ['orig_cluster', 'orig_sub_cluster', 'broad_lineage', 'author_cell_type', 'dev_state', 'subtype', 'precisest_label', 'tissue_id', 'batch', 'size_factor', 'donor_id', 'assay_ontology_term_id', 'cell_type_ontology_term_id', 'development_stage_ontology_term_id', 'disease_ontology_term_id', 'self_reported_ethnicity_ontology_term_id', 'sex_ontology_term_id', 'tissue_ontology_term_id', 'suspension_type', 'is_primary_data', 'tissue_fragment', 'author_stage', 'individual_id', 'tissue_type', 'cell_type', 'assay', 'disease', 'sex', 'tissue', 'self_reported_ethnicity', 'development_stage', 'observation_joinid']
+  [orig_cluster] 61 values; key-term hits (0):  | first values: 0.0; 1.0; 2.0; 3.0; 4.0; 5.0; 6.0; 7.0
+  [broad_lineage] 6 values; key-term hits (0):  | first values: VZ; RL/EGL; glia; RL/NTZ; other; mesoderm
+  [author_cell_type] 24 values; key-term hits (2): glut_DN (3521); GABA_DN (3135)
+  [dev_state] 39 values; key-term hits (2): glut_DN_defined (3521); GABA_DN_defined (3135)
+  [subtype] 37 values; key-term hits (3): glut_DN_ventral (2438); glut_DN_posterior (1083); isth_N_Sst (548)
+  [precisest_label] 67 values; key-term hits (4): GABA_DN_defined (3135); glut_DN_ventral (2438); glut_DN_posterior (1083); isth_N_Sst (548)
+  [tissue_id] 28 values; key-term hits (0):  | first values: MOU F1 E11.5 290817 Cr / MOU F3 E11.5 290817 Cr / MOU F6 E11.5 290817 Cr; MOU M3 E13.5 041218 Cr; MOU M9+F10 E10.5 101218 Cer; MOU M2 9W 260319 Cer L; MOU M7 E12.5 230817 Cer; MOU F9 E13.5 130917 Cr; MOU F4 E13.5 130917 Cr; MOU F3 NB 061217 Cr
+  [batch] 30 values; key-term hits (0):  | first values: SN104; SN250; SN150; SN251; SN073; SN015; SN014; SN128
+  [donor_id] 24 values; key-term hits (0):  | first values: pooled; 041218 M3; 260319 M2; 230817 M7; 130917 F9; 130917 F4; 061217 F3; 230817 F1
+  [cell_type_ontology_term_id] 22 values; key-term hits (0):  | first values: CL:0000126; CL:0001031; CL:0000121; CL:0000031; unknown; CL:0002362; CL:0000099; CL:0000679
+  [development_stage_ontology_term_id] 11 values; key-term hits (0):  | first values: MmusDv:0000029; MmusDv:0000027; MmusDv:0000025; MmusDv:0000028; MmusDv:0000036; MmusDv:0000062; MmusDv:0000032; MmusDv:0000034
+  [sex_ontology_term_id] 3 values; key-term hits (0):  | first values: PATO:0000383; PATO:0000384; unknown
+  [tissue_fragment] 4 values; key-term hits (0):  | first values: whole; pool of 3; half; pool of 2
+  [author_stage] 12 values; key-term hits (0):  | first values: E13.5; E11.5; E10.5; E12.5; P0; adult (9 weeks); E15.5; E17.5
+  [individual_id] 28 values; key-term hits (0):  | first values: 290817 F1, F3, F6; 041218 M3; 101218 M9, F10; 260319 M2; 230817 M7; 130917 F9; 130917 F4; 061217 F3
+  [cell_type] 22 values; key-term hits (2): glutamatergic neuron (3521); GABAergic neuron (3135)
+  [sex] 3 values; key-term hits (0):  | first values: female; male; unknown
+  [development_stage] 11 values; key-term hits (0):  | first values: Theiler stage 22; Theiler stage 20; Theiler stage 18; Theiler stage 21; Theiler stage 27; 2-month-old stage; Theiler stage 23; Theiler stage 25
+
+# d7291f04-fbbb-4d65-990a-f01fa44e915b.h5ad: 1169213 cells; columns: ['region_label', 'cluster_order', 'cluster_label', 'subclass_label', 'neighborhood_label', 'class_label', 'full_genotype_label', 'facs_population_plan_label', 'sex_ontology_term_id', 'tissue_ontology_term_id', 'self_reported_ethnicity_ontology_term_id', 'cell_type_ontology_term_id', 'donor_id', 'development_stage_ontology_term_id', 'disease_ontology_term_id', 'assay_ontology_term_id', 'is_primary_data', 'suspension_type', 'tissue_type', 'cell_type', 'assay', 'disease', 'sex', 'tissue', 'self_reported_ethnicity', 'development_stage', 'observation_joinid']
+  [region_label] 18 values; key-term hits (0):  | first values: VIS; MOp; HIP; SSp; AUD; PL-ILA-ORB; RSP; ENT
+  [cluster_order] 387 values; key-term hits (0):  | first values: 180; 168; 179; 290; 363; 227; 182; 288
+  [cluster_label] 387 values; key-term hits (112): 12_Lamp5 (20456); 82_Sst (8248); 51_Vip (7920); 116_Pvalb (6978); 11_Lamp5 (6370); 98_Sst (5642); 44_Vip (5610); 37_Sncg (4540); 114_Pvalb (4537); 45_Vip (3955); 46_Vip (3820); 50_Vip (3739); 115_Pvalb (3582); 49_Vip (3314); 99_Sst (3294); 7_Lamp5 Lhx6 (2811); 48_Vip (2786); 88_Sst (2438); 59_Vip Igfbp6 (2436); 43_Vip (2431); 119_Pvalb (2387); 16_Lamp5 (2169); 15_Lamp5 (1969); 117_Pvalb (1888); 123_Pvalb Vipr2 (1803)
+  [subclass_label] 42 values; key-term hits (6): Sst (45467); Vip (43684); Lamp5 (42144); Pvalb (30461); Sncg (13877); Sst Chodl (1961)
+  [neighborhood_label] 8 values; key-term hits (0):  | first values: L4/5/6 IT Car3; NP/CT/L6b; L2/3 IT; CGE; DG/SUB/CA; MGE; PT; Other
+  [class_label] 3 values; key-term hits (2): Glutamatergic (976358); GABAergic (177614)
+  [tissue_ontology_term_id] 17 values; key-term hits (0):  | first values: UBERON:0000411; UBERON:0001384; UBERON:0002421; UBERON:0008933; UBERON:0001393; UBERON:0022352; UBERON:0014918; UBERON:0002728
+  [cell_type_ontology_term_id] 27 values; key-term hits (0):  | first values: CL:4023048; CL:4023040; CL:4023042; CL:4023050; CL:0002608; CL:4023017; CL:4023016; CL:4023011
+  [donor_id] 55 values; key-term hits (0):  | first values: 366676; 366678; 381917; 365619; 352357; 352353; 446701; 352356
+  [development_stage_ontology_term_id] 4 values; key-term hits (0):  | first values: MmusDv:0000154; MmusDv:0000152; unknown; MmusDv:0000155
+  [cell_type] 27 values; key-term hits (17): L4/5 intratelencephalic projecting glutamatergic neuron of the primary motor cortex (334150); L2/3-6 intratelencephalic projecting glutamatergic neuron (190759); L6 corticothalamic-projecting glutamatergic cortical neuron (148752); L6 intratelencephalic projecting glutamatergic neuron of the primary motor cortex (79508); sst GABAergic cortical interneuron (45467); VIP GABAergic cortical interneuron (43684); lamp5 GABAergic cortical interneuron (42144); L5/6 near-projecting glutamatergic neuron of the primary motor cortex (36185); L6b glutamatergic cortical neuron (35319); pvalb GABAergic cortical interneuron (30461); L5 extratelencephalic projecting glutamatergic cortical neuron (24192); corticothalamic-projecting glutamatergic cortical neuron (22457); sncg GABAergic cortical interneuron (13877); L2/3 intratelencephalic projecting glutamatergic neuron of the primary motor cortex (13362); glutamatergic neuron (4187); sst chodl GABAergic cortical interneuron (1961); meis2 expressing cortical GABAergic cell (20)
+  [tissue] 17 values; key-term hits (0):  | first values: visual cortex; primary motor cortex; hippocampal formation; primary somatosensory cortex; auditory cortex; medial orbital frontal cortex; retrosplenial granular cortex; entorhinal cortex
+  [development_stage] 4 values; key-term hits (0):  | first values: 8-week-old stage; 7-week-old stage; unknown; 9-week-old stage
+
+# dbb4e1ed-d820-4e83-981f-88ef7eb55a35.h5ad: 384925 cells; columns: ['SRA_ID', 'Sample_ID', 'donor_id', 'development_stage_ontology_term_id', 'sex_ontology_term_id', 'self_reported_ethnicity_ontology_term_id', 'disease_ontology_term_id', 'tissue_ontology_term_id', 'cell_type_ontology_term_id', 'assay_ontology_term_id', 'suspension_type', 'Dataset', 'Batch_ID', 'nCount_RNA', 'nFeature_RNA', 'percent_mt', 'C7_named', 'C25_named', 'C66_named', 'C185_named', 'C286_named', 'C465_named', 'Author_Class_Curated', 'Author_CellType', 'Region_summarized', 'is_primary_data', 'tissue_type', 'cell_type', 'assay', 'disease', 'sex', 'tissue', 'self_reported_ethnicity', 'development_stage', 'observation_joinid']
+  [SRA_ID] 114 values; key-term hits (0):  | first values: NA; SRR13811021; SRR17656005; SRR17656008; SRR14289038; SRR7059019; SRR9280653; SRR9280654
+  [Sample_ID] 126 values; key-term hits (2): Dowsett10xnuc_fasted1 (5527); Dowsett10xnuc_fasted2 (5463)
+  [donor_id] 24 values; key-term hits (0):  | first values: pooled; SRR6854142; SRR6854136; SRR6854077; SRR6854141; SRR6854135; SRR6854080; SRR6854065
+  [development_stage_ontology_term_id] 10 values; key-term hits (0):  | first values: MmusDv:0000062; MmusDv:0000140; MmusDv:0000149; MmusDv:0000141; MmusDv:0000178; MmusDv:0000151; MmusDv:0000144; MmusDv:0000154
+  [sex_ontology_term_id] 3 values; key-term hits (0):  | first values: PATO:0000384; unknown; PATO:0000383
+  [cell_type_ontology_term_id] 13 values; key-term hits (0):  | first values: CL:0000540; CL:0000127; CL:0000128; CL:0002453; CL:0000129; CL:0000115; CL:0002085; CL:0000065
+  [assay_ontology_term_id] 4 values; key-term hits (0):  | first values: EFO:0009922; EFO:0009899; EFO:0008722; EFO:0009901
+  [Dataset] 18 values; key-term hits (0):  | first values: Anderson10x; Kim10x; Dowsett10xnuc; Rupp10x; Morris10x; Moffit10x; Affinati10x; Mousebrainorg10x
+  [Batch_ID] 29 values; key-term hits (0):  | first values: Anderson10x_batch_1; Kim10x_batch_1; Rupp10x_batch_1; Dowsett10xnuc_batch_1; wen10x_batch_1; wenDropseq_batch_1; CampbellDropseq_batch_1; Moffit10x_batch_3
+  [C7_named] 7 values; key-term hits (1): C7-2: GABA (126617)
+  [C25_named] 25 values; key-term hits (7): C25-10: GABA-2 (54371); C25-11: GABA-1 (43549); C25-13: GABA-4 (10658); C25-14: GABA-5 (8775); C25-12: GABA-3 (4932); C25-15: GABA-6 (4105); C25-16: GABA-7 (227)
+  [C66_named] 66 values; key-term hits (23): C66-29: Vipr2.GABA-2 (23271); C66-28: Mixed.GABA-2 (15552); C66-48: Meis2.GABA-5 (8775); C66-31: Lhx1.GABA-2 (7943); C66-34: Il1rapl2.GABA-1 (6598); C66-43: Nts.GABA-1 (6272); C66-30: Onecut2.GABA-2 (5920); C66-42: Lhx8.GABA-1 (5708); C66-47: Sst.GABA-4 (5414); C66-35: Lef1.GABA-1 (5368); C66-46: Agrp.GABA-4 (5244); C66-39: Lhx6.GABA-1 (5150); C66-41: Tbx3.GABA-1 (4392); C66-36: Hmcn1.GABA-1 (4361); C66-49: Satb2.GABA-6 (4105); C66-37: Crh.GABA-1 (2635); C66-45: Ghrh.GABA-3 (2511); C66-44: Nkx2-4.GABA-3 (2421); C66-38: Ppp1r17.GABA-1 (2272); C66-33: Tnfrsf12a.GABA-2 (1056); C66-40: Hdc.GABA-1 (793); C66-32: Aldh3b2.GABA-2 (629); C66-50: Chat.GABA-7 (227)
+  [C185_named] 185 values; key-term hits (70): C185-72: Fam122b.Vipr2.GABA-2 (13419); C185-73: Cck.Vipr2.GABA-2 (6370); C185-79: Cd24a.Lhx1.GABA-2 (4667); C185-115: Npy.Agrp.GABA-4 (4663); C185-108: Gal.Nts.GABA-1 (4046); C185-71: Vip.Vipr2.GABA-2 (3482); C185-66: Unassigned.Mixed.GABA-2 (3403); C185-74: Onecut3.Onecut2.GABA-2 (3383); C185-106: Sox6.Lhx8.GABA-1 (3097); C185-118: Otp.Sst.GABA-4 (2772); C185-67: Pnoc.Mixed.GABA-2 (2643); C185-104: Sytl4.Tbx3.GABA-1 (2616); C185-64: Meis2.Mixed.GABA-2 (2579); C185-114: Ghrh.GABA-3 (2511); C185-65: Unassigned.Mixed.GABA-2 (2479); C185-83: Col6a1.Il1rapl2.GABA-1 (2438); C185-113: Nkx2-4.GABA-3 (2421); C185-96: Ppp1r17.GABA-1 (2272); C185-63: Thrsp.Mixed.GABA-2 (2266); C185-75: Pmfbp1.Onecut2.GABA-2 (2260); C185-121: Abi3bp.Meis2.GABA-5 (2071); C185-91: Gal.Hmcn1.GABA-1 (2060); C185-94: Gal.Crh.GABA-1 (2032); C185-126: Tac1.Meis2.GABA-5 (1963); C185-82: Tbx19.Il1rapl2.GABA-1 (1865)
+  [C286_named] 286 values; key-term hits (113): C286-247: Abhd2.C1ql1.OPC (3632); C286-106: Vip.Vipr2.GABA-2 (3482); C286-176: Serpina3n.Npy.Agrp.GABA-4 (3202); C286-113: Prok2.Fam122b.Vipr2.GABA-2 (3122); C286-115: Cdkn1c.Cck.Vipr2.GABA-2 (2867); C286-95: Meis2.Mixed.GABA-2 (2579); C286-175: Ghrh.GABA-3 (2511); C286-125: Grp.Cd24a.Lhx1.GABA-2 (2490); C286-108: Ppp1r17.Fam122b.Vipr2.GABA-2 (2485); C286-107: Cd79a.Fam122b.Vipr2.GABA-2 (2463); C286-109: Chodl.Fam122b.Vipr2.GABA-2 (2293); C286-170: Dlx1.Gal.Nts.GABA-1 (2258); C286-186: Abi3bp.Meis2.GABA-5 (2071); C286-143: Gal.Hmcn1.GABA-1 (2060); C286-97: Zic3.Unassigned.Mixed.GABA-2 (2048); C286-147: Gal.Crh.GABA-1 (2032); C286-159: Crabp1.Sytl4.Tbx3.GABA-1 (1925); C286-130: Tbx19.Il1rapl2.GABA-1 (1865); C286-149: Grp.Ppp1r17.GABA-1 (1859); C286-167: Hmx2.Gal.Nts.GABA-1 (1788); C286-158: Vgll3.Tbx3.GABA-1 (1776); C286-114: Prr5l.Cck.Vipr2.GABA-2 (1763); C286-111: Igfbp4.Cck.Vipr2.GABA-2 (1740); C286-181: Il1rapl2.Otp.Sst.GABA-4 (1739); C286-112: Nms.Fam122b.Vipr2.GABA-2 (1727)
+  [Author_Class_Curated] 14 values; key-term hits (0):  | first values: Neurons; Astrocytes; Oligodendrocytes; NG/OPC; Immune; Endothelial; Tanycytes; Ependymal
+  [Region_summarized] 16 values; key-term hits (0):  | first values: NA; Arcuate hypothalamic nucleus; Ventromedial hypothalamic nucleus; Suprachiasmatic nucleus; Lateral hypothalamic area; (Pre)Mammillary region; Medial preoptic area; Lateral preoptic area
+  [cell_type] 13 values; key-term hits (0):  | first values: neuron; astrocyte; oligodendrocyte; oligodendrocyte precursor cell; microglial cell; endothelial cell; tanycyte; ependymal cell
+  [assay] 4 values; key-term hits (0):  | first values: 10x 3' v3; 10x 3' v2; Drop-seq; 10x 3' v1
+  [sex] 3 values; key-term hits (0):  | first values: male; unknown; female
+  [development_stage] 10 values; key-term hits (0):  | first values: 2-month-old stage; 1-week-old stage; 4-week-old stage; 2-week-old stage; juvenile stage; 6-week-old stage; 23-day-old stage; 8-week-old stage
+
+# e0ed3c55-aff6-4bb7-b6ff-98a2d90b890c.h5ad: 611034 cells; columns: ['nGene', 'nUMI', 'region', 'organ_region', 'organ_region__ontology_label', 'subcluster', 'cluster', 'BICCN_subclass_label', 'donor_id', 'biosample_id', 'mouse_strain', 'mouse_strain__ontology_label', 'biosample_type', 'preservation_method', 'organ', 'organ__ontology_label', 'BICCN_ontology_term_id', 'assay_ontology_term_id', 'disease_ontology_term_id', 'tissue_ontology_term_id', 'cell_type_ontology_term_id', 'self_reported_ethnicity_ontology_term_id', 'development_stage_ontology_term_id', 'sex_ontology_term_id', 'is_primary_data', 'suspension_type', 'tissue_type', 'cell_type', 'assay', 'disease', 'sex', 'tissue', 'self_reported_ethnicity', 'development_stage', 'observation_joinid']
+  [region] 16 values; key-term hits (0):  | first values: VI; AN2; PRM; PF; IX; SIM; AN1; VII
+  [organ_region] 16 values; key-term hits (0):  | first values: MBA:000000936; MBA:000001064; MBA:000001025; MBA:000001041; MBA:000000957; MBA:000001007; MBA:000001056; MBA:000000944
+  [organ_region__ontology_label] 16 values; key-term hits (0):  | first values: Declive (VI); Crus 2; Paramedian lobule; Paraflocculus; Uvula (IX); Simple lobule; Crus 1; Folium-tuber vermis (VII)
+  [subcluster] 46 values; key-term hits (0):  | first values: Granule_2; Granule_1; Granule_3; MLI1_2; Bergmann_1; Astrocyte_2; Granule_5; MLI1_1
+  [cluster] 18 values; key-term hits (0):  | first values: Granule; Molecular layer interneuron 1 (MLI1); Bergmann; Astrocyte; Purkinje; Oligodendrocyte (ODC); Molecular layer interneuron 2 (MLI2); Endothelial stalk
+  [BICCN_subclass_label] 18 values; key-term hits (0):  | first values: cerebellar granule cell; Molecular layer interneuron 1 (MLI1); Bergmann glial cell; astrocyte of the cerebellum; Purkinje cell; oligodendrocyte; Molecular layer interneuron 2 (MLI2); endothelial stalk cell
+  [donor_id] 6 values; key-term hits (0):  | first values: M006; M002; F002; M001; F001; M003
+  [biosample_id] 47 values; key-term hits (0):  | first values: AN2_M006; VI_M006; PRM_M006; VI_M002; IX_M003; SIM_M002; PF_M001; PF_F002
+  [BICCN_ontology_term_id] 17 values; key-term hits (0):  | first values: cerebellar granule cell; Molecular layer interneuron 1 (MLI1); Bergmann glial cell; ILX:0770141; Purkinje cell; ILX:0770140; Molecular layer interneuron 2 (MLI2); ILX:0770142
+  [cell_type_ontology_term_id] 16 values; key-term hits (0):  | first values: CL:0001031; CL:0000498; CL:0000644; CL:0002603; CL:0000121; CL:0000128; CL:0000099; CL:0002671
+  [cell_type] 16 values; key-term hits (2): inhibitory interneuron (32716); glutamatergic neuron (1613)
