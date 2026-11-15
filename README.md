@@ -149,6 +149,104 @@ Label key:
 - **AUD L5 NP CTX | Grm5+Grm7**: Auditory areas (AUD); subclass 032 L5 NP CTX Glut (class 02 NP-CT-L6b Glut); Grm5 + Grm7; 2,236 cells, 100% co-express
 - **STRd STR D1 Sema5a | Grm5+Grm7**: Striatum dorsal region (STRd); subclass 063 STR D1 Sema5a Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 780 cells, 100% co-express
 
+## Analysis, with regard to subcellular localization of different mGluRs
+
+### Subcellular localization of each receptor
+
+Curated from immuno-electron microscopy literature (from memory; verify the primary references before citing). A heteromer at the cell surface needs both receptors in the same compartment of the same cell, which restricts the pairs worth testing.
+
+| Receptor | Compartment | Localization | Note | References |
+|---|---|---|---|---|
+| Grm1 | Postsynaptic | perisynaptic annulus of dendritic spines and shafts (strong in Purkinje cells, thalamus, olfactory bulb) | DHPG-LTD target | Shigemoto 1997; Luján 1996 |
+| Grm5 | Postsynaptic | perisynaptic annulus of dendritic spines; also intracellular/nuclear membrane | DHPG-LTD target | Luján 1996; O'Malley 2003 |
+| Grm2 | Presynaptic | preterminal axon and extrasynaptic terminal membrane (outside the active zone); some dendritic expression, e.g. cerebellar Golgi cells | senses glutamate spillover | Shigemoto 1997; Ferraguti & Shigemoto 2006 |
+| Grm3 | Presynaptic + postsynaptic (+ glia) | terminals, spines (primate prefrontal cortex) and astrocytes; mouse spine localization less certain | mixed | Jin 2018; Ferraguti & Shigemoto 2006 |
+| Grm4 | Presynaptic | active zone of terminals (cerebellar parallel fibers, striatopallidal) |  | Bradley 1998; Corti 2002 |
+| Grm7 | Presynaptic | active zone, the most widespread; minor dendritic pools on some interneurons | low glutamate affinity | Shigemoto 1996; Dalezios 2002 |
+| Grm8 | Presynaptic | terminals (lateral perforant path, olfactory bulb, BNST) |  | Ferraguti 2005 |
+| Grm6 | Postsynaptic (retina only) | dendritic tips of ON-bipolar cells | excluded from brain pairs | Nomura 1994 |
+
+### Pairs where both receptors share a compartment
+
+Grm3 is counted in both sets. Grm6 is excluded. Heteromer notes are reports from heterologous-cell studies (Doumazane 2011; Kammermeier 2012; Yin 2014), not shown in vivo; verify.
+
+| Set | Pair | Heteromer note |
+|---|---|---|
+| Postsynaptic | Grm1+Grm5 | reported group I heteromer |
+| Postsynaptic | Grm1+Grm3 |  |
+| Postsynaptic | Grm5+Grm3 |  |
+| Presynaptic | Grm2+Grm3 | reported group II heteromer |
+| Presynaptic | Grm2+Grm4 | reported cross-group heteromer |
+| Presynaptic | Grm2+Grm7 | reported cross-group heteromer |
+| Presynaptic | Grm2+Grm8 |  |
+| Presynaptic | Grm3+Grm4 |  |
+| Presynaptic | Grm3+Grm7 |  |
+| Presynaptic | Grm3+Grm8 |  |
+| Presynaptic | Grm4+Grm7 | reported group III heteromer |
+| Presynaptic | Grm4+Grm8 | reported group III heteromer |
+| Presynaptic | Grm7+Grm8 | reported group III heteromer |
+
+13 of 28 pairs remain (tables: `results/allen_wmb/receptor_compartments.csv`, `compartment_pairs.csv`).
+
+### Co-expression restricted to pairs sharing a subcellular compartment
+
+Same analysis and cutoff as above (shared absolute cutoff log2(CPM+1) >= 7; a cell type passes at >= 10% co-expressing cells and >= 25 cells), restricted to the 13 pairs in the table above: postsynaptic (Grm1, Grm5, Grm3) and presynaptic (Grm2, Grm3, Grm4, Grm7, Grm8). Circles = postsynaptic pairs, triangles = presynaptic pairs. Figure files: [pairs_coexpression_subcellular_compartments](figures/allen_wmb/pairs_coexpression_subcellular_compartments/).
+
+<img src="figures/allen_wmb/pairs_coexpression_subcellular_compartments/GRM_COMPART_1_receptor_expression_scatter.png" width="900">
+
+Labeled points are the 15 with the highest mean expression across both receptors (label = region + subclass | receptor pair). Label key:
+
+- **LSX TRS-BAC Sln | Grm7+Grm8**: Lateral septal complex (LSX); subclass 111 TRS-BAC Sln Glut (class 13 CNU-HYa Glut); Grm7 + Grm8 (presynaptic); 534 cells, 100% co-express
+- **PAL TRS-BAC Sln | Grm7+Grm8**: Pallidum (PAL); subclass 111 TRS-BAC Sln Glut (class 13 CNU-HYa Glut); Grm7 + Grm8 (presynaptic); 602 cells, 95% co-express
+- **LSX LSX Prdm12 Zeb2 | Grm1+Grm5**: Lateral septal complex (LSX); subclass 071 LSX Prdm12 Zeb2 Gaba (class 10 LSX GABA); Grm1 + Grm5 (postsynaptic); 6,520 cells, 86% co-express
+- **MY SPVC Ccdc172 | Grm7+Grm8**: Medulla (MY); subclass 257 SPVC Ccdc172 Glut (class 24 MY Glut); Grm7 + Grm8 (presynaptic); 592 cells, 23% co-express
+- **OLF OB Meis2 Thsd7b | Grm3+Grm7**: Olfactory areas (OLF); subclass 039 OB Meis2 Thsd7b Gaba (class 05 OB-IMN GABA); Grm3 + Grm7 (presynaptic); 1,853 cells, 72% co-express
+- **STRv STR-PAL Chst9 | Grm7+Grm8**: Striatum ventral region (STRv); subclass 064 STR-PAL Chst9 Gaba (class 09 CNU-LGE GABA); Grm7 + Grm8 (presynaptic); 1,349 cells, 92% co-express
+- **OLF OB Eomes Ms4a15 | Grm7+Grm8**: Olfactory areas (OLF); subclass 035 OB Eomes Ms4a15 Glut (class 03 OB-CR Glut); Grm7 + Grm8 (presynaptic); 1,549 cells, 62% co-express
+- **MY SPVC Nmu | Grm1+Grm5**: Medulla (MY); subclass 258 SPVC Nmu Glut (class 24 MY Glut); Grm1 + Grm5 (postsynaptic); 960 cells, 98% co-express
+- **MB SCs Dmbx1 | Grm7+Grm8**: Midbrain (MB); subclass 207 SCs Dmbx1 Gaba (class 20 MB GABA); Grm7 + Grm8 (presynaptic); 5,592 cells, 84% co-express
+- **sAMY STR-PAL Chst9 | Grm7+Grm8**: Striatum-like amygdalar nuclei (sAMY); subclass 064 STR-PAL Chst9 Gaba (class 09 CNU-LGE GABA); Grm7 + Grm8 (presynaptic); 3,766 cells, 99% co-express
+- **LSX LSX Sall3 Pax6 | Grm7+Grm8**: Lateral septal complex (LSX); subclass 067 LSX Sall3 Pax6 Gaba (class 10 LSX GABA); Grm7 + Grm8 (presynaptic); 1,029 cells, 83% co-express
+- **MY SPVC Mafa | Grm1+Grm5**: Medulla (MY); subclass 256 SPVC Mafa Glut (class 24 MY Glut); Grm1 + Grm5 (postsynaptic); 3,388 cells, 98% co-express
+- **PAL STR-PAL Chst9 | Grm7+Grm8**: Pallidum (PAL); subclass 064 STR-PAL Chst9 Gaba (class 09 CNU-LGE GABA); Grm7 + Grm8 (presynaptic); 4,603 cells, 95% co-express
+- **PAL STR D1 | Grm3+Grm5**: Pallidum (PAL); subclass 061 STR D1 Gaba (class 09 CNU-LGE GABA); Grm3 + Grm5 (postsynaptic); 5,851 cells, 91% co-express
+- **ENT Vip | Grm7+Grm8**: Entorhinal area (ENT); subclass 046 Vip Gaba (class 06 CTX-CGE GABA); Grm7 + Grm8 (presynaptic); 2,003 cells, 60% co-express
+
+<img src="figures/allen_wmb/pairs_coexpression_subcellular_compartments/GRM_COMPART_2_receptor_expression_scatter_top100.png" width="900">
+
+The 100 highest-expressing hits with zoomed axes; labeled points are ranks 16-45. Label key:
+
+- **PAL STR D2 | Grm3+Grm5**: Pallidum (PAL); subclass 062 STR D2 Gaba (class 09 CNU-LGE GABA); Grm3 + Grm5 (postsynaptic); 4,970 cells, 92% co-express
+- **STRv STR D2 | Grm3+Grm5**: Striatum ventral region (STRv); subclass 062 STR D2 Gaba (class 09 CNU-LGE GABA); Grm3 + Grm5 (postsynaptic); 11,148 cells, 91% co-express
+- **PAL OT D3 Folh1 | Grm1+Grm5**: Pallidum (PAL); subclass 060 OT D3 Folh1 Gaba (class 09 CNU-LGE GABA); Grm1 + Grm5 (postsynaptic); 4,471 cells, 93% co-express
+- **AUD-TEa-PERI-ECT Vip | Grm7+Grm8**: Auditory/temporal/perirhinal/ectorhinal areas (AUD-TEa-PERI-ECT); subclass 046 Vip Gaba (class 06 CTX-CGE GABA); Grm7 + Grm8 (presynaptic); 610 cells, 58% co-express
+- **STRd STR D1 | Grm1+Grm5**: Striatum dorsal region (STRd); subclass 061 STR D1 Gaba (class 09 CNU-LGE GABA); Grm1 + Grm5 (postsynaptic); 16,660 cells, 96% co-express
+- **RHP Vip | Grm7+Grm8**: Retrohippocampal region (RHP); subclass 046 Vip Gaba (class 06 CTX-CGE GABA); Grm7 + Grm8 (presynaptic); 2,147 cells, 67% co-express
+- **STRv STR D1 | Grm3+Grm5**: Striatum ventral region (STRv); subclass 061 STR D1 Gaba (class 09 CNU-LGE GABA); Grm3 + Grm5 (postsynaptic); 12,350 cells, 89% co-express
+- **STRv OT D3 Folh1 | Grm1+Grm5**: Striatum ventral region (STRv); subclass 060 OT D3 Folh1 Gaba (class 09 CNU-LGE GABA); Grm1 + Grm5 (postsynaptic); 7,665 cells, 91% co-express
+- **STRd STR D2 | Grm1+Grm5**: Striatum dorsal region (STRd); subclass 062 STR D2 Gaba (class 09 CNU-LGE GABA); Grm1 + Grm5 (postsynaptic); 18,139 cells, 95% co-express
+- **LSX LSX Sall3 Lmo1 | Grm1+Grm5**: Lateral septal complex (LSX); subclass 072 LSX Sall3 Lmo1 Gaba (class 10 LSX GABA); Grm1 + Grm5 (postsynaptic); 2,423 cells, 29% co-express
+- **STRv STR D2 | Grm3+Grm7**: Striatum ventral region (STRv); subclass 062 STR D2 Gaba (class 09 CNU-LGE GABA); Grm3 + Grm7 (presynaptic); 11,148 cells, 91% co-express
+- **LSX LSX Nkx2-1 | Grm1+Grm5**: Lateral septal complex (LSX); subclass 069 LSX Nkx2-1 Gaba (class 10 LSX GABA); Grm1 + Grm5 (postsynaptic); 7,509 cells, 43% co-express
+- **CTXsp STR-PAL Chst9 | Grm7+Grm8**: Cortical subplate (CTXsp); subclass 064 STR-PAL Chst9 Gaba (class 09 CNU-LGE GABA); Grm7 + Grm8 (presynaptic); 7,362 cells, 98% co-express
+- **PAL STR D1 | Grm3+Grm7**: Pallidum (PAL); subclass 061 STR D1 Gaba (class 09 CNU-LGE GABA); Grm3 + Grm7 (presynaptic); 5,851 cells, 91% co-express
+- **CTXsp Vip | Grm7+Grm8**: Cortical subplate (CTXsp); subclass 046 Vip Gaba (class 06 CTX-CGE GABA); Grm7 + Grm8 (presynaptic); 2,081 cells, 72% co-express
+- **ACA Vip | Grm7+Grm8**: Anterior cingulate area (ACA); subclass 046 Vip Gaba (class 06 CTX-CGE GABA); Grm7 + Grm8 (presynaptic); 3,932 cells, 56% co-express
+- **SS-GU-VISC Vip | Grm7+Grm8**: Somatosensory/gustatory/visceral areas (SS-GU-VISC); subclass 046 Vip Gaba (class 06 CTX-CGE GABA); Grm7 + Grm8 (presynaptic); 1,995 cells, 52% co-express
+- **VIS-PTLp Vip | Grm7+Grm8**: Visual/posterior parietal  areas (VIS-PTLp); subclass 046 Vip Gaba (class 06 CTX-CGE GABA); Grm7 + Grm8 (presynaptic); 1,434 cells, 51% co-express
+- **STRv STR D1 | Grm3+Grm7**: Striatum ventral region (STRv); subclass 061 STR D1 Gaba (class 09 CNU-LGE GABA); Grm3 + Grm7 (presynaptic); 12,350 cells, 89% co-express
+- **MOp Vip | Grm7+Grm8**: Primary motor area (MOp); subclass 046 Vip Gaba (class 06 CTX-CGE GABA); Grm7 + Grm8 (presynaptic); 10,773 cells, 49% co-express
+- **sAMY STR D2 | Grm3+Grm5**: Striatum-like amygdalar nuclei (sAMY); subclass 062 STR D2 Gaba (class 09 CNU-LGE GABA); Grm3 + Grm5 (postsynaptic); 1,808 cells, 78% co-express
+- **P DTN-LDT-IPN Otp Pax3 | Grm7+Grm8**: Pons (P); subclass 277 DTN-LDT-IPN Otp Pax3 Gaba (class 26 P GABA); Grm7 + Grm8 (presynaptic); 2,410 cells, 67% co-express
+- **PL-ILA-ORB Vip | Grm7+Grm8**: Prelimbic/infralimbic/orbital areas  (PL-ILA-ORB); subclass 046 Vip Gaba (class 06 CTX-CGE GABA); Grm7 + Grm8 (presynaptic); 3,277 cells, 55% co-express
+- **SSp Vip | Grm7+Grm8**: Primary somatosensory area (SSp); subclass 046 Vip Gaba (class 06 CTX-CGE GABA); Grm7 + Grm8 (presynaptic); 1,068 cells, 47% co-express
+- **MY SPVC Mafa | Grm7+Grm8**: Medulla (MY); subclass 256 SPVC Mafa Glut (class 24 MY Glut); Grm7 + Grm8 (presynaptic); 3,388 cells, 23% co-express
+- **LSX LSX Sall3 Lmo1 | Grm7+Grm8**: Lateral septal complex (LSX); subclass 072 LSX Sall3 Lmo1 Gaba (class 10 LSX GABA); Grm7 + Grm8 (presynaptic); 2,423 cells, 87% co-express
+- **MB SC Lef1 Otx2 | Grm7+Grm8**: Midbrain (MB); subclass 208 SC Lef1 Otx2 Gaba (class 20 MB GABA); Grm7 + Grm8 (presynaptic); 2,400 cells, 89% co-express
+- **MB SCop Sln | Grm7+Grm8**: Midbrain (MB); subclass 188 SCop Sln Glut (class 19 MB Glut); Grm7 + Grm8 (presynaptic); 3,096 cells, 97% co-express
+- **STRd STR D2 | Grm3+Grm5**: Striatum dorsal region (STRd); subclass 062 STR D2 Gaba (class 09 CNU-LGE GABA); Grm3 + Grm5 (postsynaptic); 18,139 cells, 83% co-express
+- **RHP DG | Grm1+Grm5**: Retrohippocampal region (RHP); subclass 037 DG Glut (class 04 DG-IMN Glut); Grm1 + Grm5 (postsynaptic); 1,730 cells, 99% co-express
+
 ## Caveats
 
 - Dissection region (ROI) is coarse; fine identity comes from subclass/supertype/cluster

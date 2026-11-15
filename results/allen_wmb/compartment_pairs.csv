@@ -1,0 +1,14 @@
+set,pair,heteromer_note
+Postsynaptic,Grm1+Grm5,reported group I heteromer
+Postsynaptic,Grm1+Grm3,
+Postsynaptic,Grm5+Grm3,
+Presynaptic,Grm2+Grm3,reported group II heteromer
+Presynaptic,Grm2+Grm4,reported cross-group heteromer
+Presynaptic,Grm2+Grm7,reported cross-group heteromer
+Presynaptic,Grm2+Grm8,
+Presynaptic,Grm3+Grm4,
+Presynaptic,Grm3+Grm7,
+Presynaptic,Grm3+Grm8,
+Presynaptic,Grm4+Grm7,reported group III heteromer
+Presynaptic,Grm4+Grm8,reported group III heteromer
+Presynaptic,Grm7+Grm8,reported group III heteromer

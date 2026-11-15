@@ -1,0 +1,9 @@
+gene,compartment,localization,note,refs
+Grm1,Postsynaptic,"perisynaptic annulus of dendritic spines and shafts (strong in Purkinje cells, thalamus, olfactory bulb)",DHPG-LTD target,Shigemoto 1997; Luján 1996
+Grm5,Postsynaptic,perisynaptic annulus of dendritic spines; also intracellular/nuclear membrane,DHPG-LTD target,Luján 1996; O'Malley 2003
+Grm2,Presynaptic,"preterminal axon and extrasynaptic terminal membrane (outside the active zone); some dendritic expression, e.g. cerebellar Golgi cells",senses glutamate spillover,Shigemoto 1997; Ferraguti & Shigemoto 2006
+Grm3,Presynaptic + postsynaptic (+ glia),"terminals, spines (primate prefrontal cortex) and astrocytes; mouse spine localization less certain",mixed,Jin 2018; Ferraguti & Shigemoto 2006
+Grm4,Presynaptic,"active zone of terminals (cerebellar parallel fibers, striatopallidal)",,Bradley 1998; Corti 2002
+Grm7,Presynaptic,"active zone, the most widespread; minor dendritic pools on some interneurons",low glutamate affinity,Shigemoto 1996; Dalezios 2002
+Grm8,Presynaptic,"terminals (lateral perforant path, olfactory bulb, BNST)",,Ferraguti 2005
+Grm6,Postsynaptic (retina only),dendritic tips of ON-bipolar cells,excluded from brain pairs,Nomura 1994
