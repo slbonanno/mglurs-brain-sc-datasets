@@ -1,0 +1,5 @@
+cutoff,pair,grm6_pair,n_units,n_pass,max_pct_both
+7,Grm5+Grm7,False,522,505,100.0
+7,Grm1+Grm5,False,522,469,99.08127208480565
+7,Grm1+Grm7,False,522,449,99.28657799274487
+7,Grm5+Grm8,False,522,436,99.25650557620818
