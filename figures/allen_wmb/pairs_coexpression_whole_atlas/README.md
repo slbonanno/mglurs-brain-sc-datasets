@@ -38,6 +38,12 @@ Every passing cell type x pair; top 15 labeled.
 
 <img src="GRM_ALLPAIRS_7_receptor_expression_scatter.png" width="800">
 
+## 8. Top 100, zoomed
+
+Same as 7 restricted to the 100 highest hits with zoomed axes; ranks 16-45 labeled.
+
+<img src="GRM_ALLPAIRS_8_receptor_expression_scatter_top100.png" width="800">
+
 ## 4. Cell type x region dot plots (top pairs)
 
 Rows = subclasses, columns = regions (* = focus), color = % co-expressing, size = cells; last column = regions passing.
