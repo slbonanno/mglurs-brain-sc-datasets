@@ -78,78 +78,11 @@ all subclasses were filtered for those with >200 cells, using mean log2(CPM+1) f
 
 For clusters identified in the previous plot as enriched for both Grm2 and 4, expression was examined within single cells. expression thresholds were: Grm2 >= 6.2 and Grm4 >= 6.4 log2(CPM+1) per cell (median of neurons with detected expression). Clusters were selected when both receptors were in the top quartile of subclass means (Grm2 >= 1.5, Grm4 >= 2.9); 12 subclasses are shown
 
-## Unbiased look at mGluR co-expression (by pairs of receptors) across cell types across the whole ABA dataset
+## Co-expression of mGluR pairs restricted to a shared subcellular compartment
 
-Processing: the unit of analysis is a neuronal subclass within one dissection region (>= 500 cells). All 28 pairs of Grm1-8 were tested. A cell counts as co-expressing a pair when both receptors are above one shared absolute cutoff for all receptors, run at log2(CPM+1) >= 3, 5, 7 (about 7, 31, 127 CPM). A unit passes when >= 10% of its cells (and >= 25 cells) co-express a pair; units and pairs were then ranked at the highest cutoff (log2 >= 7). The dot plots below show, for the top 4 receptor pairs, which cell types pass in which regions. The figures for each processing step (stringency, top hits, pair heatmap, region discordance, threshold check) are in [pairs_coexpression_whole_atlas](figures/allen_wmb/pairs_coexpression_whole_atlas/).
+The first co-expression analysis tested all 28 receptor pairs across all cell types and regions without regard to subcellular localization; that work (stringency, top hits, pair heatmap, dot plots, region discordance, receptor 1 vs receptor 2 scatters) is in [pairs_coexpression_whole_atlas](figures/allen_wmb/pairs_coexpression_whole_atlas/README.md).
 
-<img src="figures/allen_wmb/pairs_coexpression_whole_atlas/GRM_ALLPAIRS_4_dotplot_Grm5_Grm7.png" width="800">
-
-<img src="figures/allen_wmb/pairs_coexpression_whole_atlas/GRM_ALLPAIRS_4_dotplot_Grm1_Grm5.png" width="800">
-
-<img src="figures/allen_wmb/pairs_coexpression_whole_atlas/GRM_ALLPAIRS_4_dotplot_Grm1_Grm7.png" width="800">
-
-<img src="figures/allen_wmb/pairs_coexpression_whole_atlas/GRM_ALLPAIRS_4_dotplot_Grm5_Grm8.png" width="800">
-
-<img src="figures/allen_wmb/pairs_coexpression_whole_atlas/GRM_ALLPAIRS_7_receptor_expression_scatter.png" width="900">
-
-Each point is one cell type (subclass in one region) x receptor pair that passes the cutoff; x and y are the mean expression of the two receptors in the co-expressing cells (receptor 1 is the lower-numbered Grm of the pair); color = % of the unit's cells co-expressing. Labeled points are the 15 with the highest mean expression across both receptors; label = region + subclass | receptor pair.
-
-Label key:
-
-- **MY SPVC Nmu | Grm5+Grm7**: Medulla (MY); subclass 258 SPVC Nmu Glut (class 24 MY Glut); Grm5 + Grm7; 960 cells, 100% co-express
-- **STRv STR D1 | Grm5+Grm7**: Striatum ventral region (STRv); subclass 061 STR D1 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 12,350 cells, 100% co-express
-- **LSX LSX Sall3 Pax6 | Grm5+Grm7**: Lateral septal complex (LSX); subclass 067 LSX Sall3 Pax6 Gaba (class 10 LSX GABA); Grm5 + Grm7; 1,029 cells, 92% co-express
-- **STRv STR D2 | Grm5+Grm7**: Striatum ventral region (STRv); subclass 062 STR D2 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 11,148 cells, 99% co-express
-- **MY SPVC Mafa | Grm5+Grm7**: Medulla (MY); subclass 256 SPVC Mafa Glut (class 24 MY Glut); Grm5 + Grm7; 3,388 cells, 99% co-express
-- **PAL STR D1 | Grm5+Grm7**: Pallidum (PAL); subclass 061 STR D1 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 5,851 cells, 100% co-express
-- **sAMY STR D1 | Grm5+Grm7**: Striatum-like amygdalar nuclei (sAMY); subclass 061 STR D1 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 572 cells, 100% co-express
-- **LSX LSX Sall3 Lmo1 | Grm5+Grm7**: Lateral septal complex (LSX); subclass 072 LSX Sall3 Lmo1 Gaba (class 10 LSX GABA); Grm5 + Grm7; 2,423 cells, 99% co-express
-- **PAL STR D2 | Grm5+Grm7**: Pallidum (PAL); subclass 062 STR D2 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 4,970 cells, 99% co-express
-- **MY SPVI-SPVC Sall3 Lhx1 Gly-Gaba | Grm5+Grm7**: Medulla (MY); subclass 306 SPVI-SPVC Sall3 Lhx1 Gly-Gaba (class 27 MY GABA); Grm5 + Grm7; 2,002 cells, 100% co-express
-- **STRd STR D2 | Grm5+Grm7**: Striatum dorsal region (STRd); subclass 062 STR D2 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 18,139 cells, 100% co-express
-- **STRd STR D1 | Grm5+Grm7**: Striatum dorsal region (STRd); subclass 061 STR D1 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 16,660 cells, 100% co-express
-- **sAMY STR D2 | Grm5+Grm7**: Striatum-like amygdalar nuclei (sAMY); subclass 062 STR D2 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 1,808 cells, 95% co-express
-- **STRv OT D3 Folh1 | Grm5+Grm7**: Striatum ventral region (STRv); subclass 060 OT D3 Folh1 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 7,665 cells, 100% co-express
-- **PAL OT D3 Folh1 | Grm5+Grm7**: Pallidum (PAL); subclass 060 OT D3 Folh1 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 4,471 cells, 100% co-express
-
-<img src="figures/allen_wmb/pairs_coexpression_whole_atlas/GRM_ALLPAIRS_8_receptor_expression_scatter_top100.png" width="900">
-
-Same plot restricted to the 100 highest-expressing hits (ranked by mean expression across both receptors), with axes zoomed to that range so the points spread out. Labeled points are ranks 16-45; ranks 1-15 are labeled in the plot above.
-
-Label key:
-
-- **sAMY MEA-BST Otp Zic2 | Grm5+Grm7**: Striatum-like amygdalar nuclei (sAMY); subclass 121 MEA-BST Otp Zic2 Glut (class 13 CNU-HYa Glut); Grm5 + Grm7; 1,255 cells, 100% co-express
-- **sAMY CEA-BST Six3 Cyp26b1 | Grm5+Grm7**: Striatum-like amygdalar nuclei (sAMY); subclass 079 CEA-BST Six3 Cyp26b1 Gaba (class 11 CNU-HYa GABA); Grm5 + Grm7; 4,675 cells, 100% co-express
-- **PAL STR D1 Sema5a | Grm5+Grm7**: Pallidum (PAL); subclass 063 STR D1 Sema5a Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 3,109 cells, 100% co-express
-- **MY SPVI-SPVC Sall3 Nfib Gly-Gaba | Grm5+Grm7**: Medulla (MY); subclass 305 SPVI-SPVC Sall3 Nfib Gly-Gaba (class 27 MY GABA); Grm5 + Grm7; 1,582 cells, 89% co-express
-- **MB SCsg Gabrr2 | Grm5+Grm7**: Midbrain (MB); subclass 213 SCsg Gabrr2 Gaba (class 20 MB GABA); Grm5 + Grm7; 13,642 cells, 96% co-express
-- **STRv STR-PAL Chst9 | Grm5+Grm7**: Striatum ventral region (STRv); subclass 064 STR-PAL Chst9 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 1,349 cells, 100% co-express
-- **VIS-PTLp L5 NP CTX | Grm5+Grm7**: Visual/posterior parietal  areas (VIS-PTLp); subclass 032 L5 NP CTX Glut (class 02 NP-CT-L6b Glut); Grm5 + Grm7; 1,092 cells, 100% co-express
-- **LSX TRS-BAC Sln | Grm7+Grm8**: Lateral septal complex (LSX); subclass 111 TRS-BAC Sln Glut (class 13 CNU-HYa Glut); Grm7 + Grm8; 534 cells, 100% co-express
-- **MB PAG Pou4f2 Mesi2 | Grm5+Grm7**: Midbrain (MB); subclass 174 PAG Pou4f2 Mesi2 Glut (class 19 MB Glut); Grm5 + Grm7; 5,075 cells, 99% co-express
-- **PL-ILA-ORB L5 NP CTX | Grm5+Grm7**: Prelimbic/infralimbic/orbital areas  (PL-ILA-ORB); subclass 032 L5 NP CTX Glut (class 02 NP-CT-L6b Glut); Grm5 + Grm7; 3,988 cells, 100% co-express
-- **sAMY STR-PAL Chst9 | Grm5+Grm7**: Striatum-like amygdalar nuclei (sAMY); subclass 064 STR-PAL Chst9 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 3,766 cells, 100% co-express
-- **PAL STR-PAL Chst9 | Grm5+Grm7**: Pallidum (PAL); subclass 064 STR-PAL Chst9 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 4,603 cells, 100% co-express
-- **PAL CEA-BST Six3 Cyp26b1 | Grm5+Grm7**: Pallidum (PAL); subclass 079 CEA-BST Six3 Cyp26b1 Gaba (class 11 CNU-HYa GABA); Grm5 + Grm7; 1,019 cells, 100% co-express
-- **ACA L5 NP CTX | Grm5+Grm7**: Anterior cingulate area (ACA); subclass 032 L5 NP CTX Glut (class 02 NP-CT-L6b Glut); Grm5 + Grm7; 3,541 cells, 100% co-express
-- **PAL TRS-BAC Sln | Grm7+Grm8**: Pallidum (PAL); subclass 111 TRS-BAC Sln Glut (class 13 CNU-HYa Glut); Grm7 + Grm8; 602 cells, 95% co-express
-- **MY SPVC Ccdc172 | Grm5+Grm7**: Medulla (MY); subclass 257 SPVC Ccdc172 Glut (class 24 MY Glut); Grm5 + Grm7; 592 cells, 45% co-express
-- **P DTN-LDT-IPN Otp Pax3 | Grm5+Grm7**: Pons (P); subclass 277 DTN-LDT-IPN Otp Pax3 Gaba (class 26 P GABA); Grm5 + Grm7; 2,410 cells, 91% co-express
-- **CTXsp IA Mgp | Grm5+Grm7**: Cortical subplate (CTXsp); subclass 065 IA Mgp Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 1,299 cells, 98% co-express
-- **STRv STR D1 Sema5a | Grm5+Grm7**: Striatum ventral region (STRv); subclass 063 STR D1 Sema5a Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 2,707 cells, 100% co-express
-- **MB SCs Dmbx1 | Grm5+Grm7**: Midbrain (MB); subclass 207 SCs Dmbx1 Gaba (class 20 MB GABA); Grm5 + Grm7; 5,592 cells, 99% co-express
-- **MB IPN Otp Crisp1 | Grm5+Grm7**: Midbrain (MB); subclass 214 IPN Otp Crisp1 Gaba (class 20 MB GABA); Grm5 + Grm7; 2,996 cells, 51% co-express
-- **ENT L2 IT ENT-po | Grm5+Grm7**: Entorhinal area (ENT); subclass 011 L2 IT ENT-po Glut (class 01 IT-ET Glut); Grm5 + Grm7; 3,544 cells, 100% co-express
-- **PAL SI-MA-ACB Ebf1 Bnc2 | Grm5+Grm7**: Pallidum (PAL); subclass 078 SI-MA-ACB Ebf1 Bnc2 Gaba (class 11 CNU-HYa GABA); Grm5 + Grm7; 1,164 cells, 100% co-express
-- **TH SCsg Gabrr2 | Grm5+Grm7**: Thalamus (TH); subclass 213 SCsg Gabrr2 Gaba (class 20 MB GABA); Grm5 + Grm7; 2,082 cells, 99% co-express
-- **TEa-PERI-ECT L5 NP CTX | Grm5+Grm7**: Temporal/perirhinal/ectorhinal areas  (TEa-PERI-ECT); subclass 032 L5 NP CTX Glut (class 02 NP-CT-L6b Glut); Grm5 + Grm7; 1,572 cells, 100% co-express
-- **MB SCdg-PAG Tfap2b | Grm5+Grm7**: Midbrain (MB); subclass 179 SCdg-PAG Tfap2b Glut (class 19 MB Glut); Grm5 + Grm7; 1,750 cells, 100% co-express
-- **LSX LSX Prdm12 Zeb2 | Grm1+Grm5**: Lateral septal complex (LSX); subclass 071 LSX Prdm12 Zeb2 Gaba (class 10 LSX GABA); Grm1 + Grm5; 6,520 cells, 86% co-express
-- **HY MM Foxb1 | Grm1+Grm7**: Hypothalamus (HY); subclass 144 MM Foxb1 Glut (class 16 HY MM Glut); Grm1 + Grm7; 8,270 cells, 99% co-express
-- **AUD L5 NP CTX | Grm5+Grm7**: Auditory areas (AUD); subclass 032 L5 NP CTX Glut (class 02 NP-CT-L6b Glut); Grm5 + Grm7; 2,236 cells, 100% co-express
-- **STRd STR D1 Sema5a | Grm5+Grm7**: Striatum dorsal region (STRd); subclass 063 STR D1 Sema5a Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 780 cells, 100% co-express
-
-## Analysis, with regard to subcellular localization of different mGluRs
+Rationale: a heteromer at the cell surface requires both receptors to be in the same compartment of the same cell. Group I receptors (Grm1, Grm5) sit postsynaptically in the perisynaptic annulus of dendritic spines, which is why DHPG-LTD is a model of their activation; group II and III receptors (Grm2, Grm4, Grm7, Grm8, and in part Grm3) sit mainly at presynaptic terminals. Pairs split across compartments (e.g. Grm1 + Grm7) are unlikely to form surface heteromers, so the analysis is repeated on the pairs expected to share a compartment, with identical cutoffs and pass rule.
 
 ### Subcellular localization of each receptor
 
@@ -188,9 +121,9 @@ Grm3 is counted in both sets. Grm6 is excluded. Heteromer notes are reports from
 
 13 of 28 pairs remain (tables: `results/allen_wmb/receptor_compartments.csv`, `compartment_pairs.csv`).
 
-### Co-expression restricted to pairs sharing a subcellular compartment
+### Results
 
-Same analysis and cutoff as above (shared absolute cutoff log2(CPM+1) >= 7; a cell type passes at >= 10% co-expressing cells and >= 25 cells), restricted to the 13 pairs in the table above: postsynaptic (Grm1, Grm5, Grm3) and presynaptic (Grm2, Grm3, Grm4, Grm7, Grm8). Circles = postsynaptic pairs, triangles = presynaptic pairs. Figure files: [pairs_coexpression_subcellular_compartments](figures/allen_wmb/pairs_coexpression_subcellular_compartments/).
+Same settings as the first analysis (shared absolute cutoff log2(CPM+1) >= 7; a cell type passes at >= 10% co-expressing cells and >= 25 cells), restricted to the 13 pairs in the table above: postsynaptic (Grm1, Grm5, Grm3) and presynaptic (Grm2, Grm3, Grm4, Grm7, Grm8). Circles = postsynaptic pairs, triangles = presynaptic pairs. Figure files: [pairs_coexpression_subcellular_compartments](figures/allen_wmb/pairs_coexpression_subcellular_compartments/).
 
 <img src="figures/allen_wmb/pairs_coexpression_subcellular_compartments/GRM_COMPART_1_receptor_expression_scatter.png" width="900">
 
