@@ -76,6 +76,42 @@ all subclasses were filtered for those with >200 cells, using mean log2(CPM+1) f
 
 For clusters identified in the previous plot as enriched for both Grm2 and 4, expression was examined within single cells. expression thresholds were: Grm2 >= 6.2 and Grm4 >= 6.4 log2(CPM+1) per cell (median of neurons with detected expression). Clusters were selected when both receptors were in the top quartile of subclass means (Grm2 >= 1.5, Grm4 >= 2.9); 12 subclasses are shown
 
+## mGluR co-expression across the whole brain: all pairs
+
+Unit = neuronal subclass in one brain region (>= 500 cells). Every pair of Grm1-8 (28 pairs) was tested. A cell counts as expressing a receptor above one shared absolute cutoff for all receptors: log2(CPM+1) >= 3, 5, 7 (about 7, 31, 127 CPM). A unit passes if >= 10% of its cells co-express a pair (and >= 25 cells).
+
+### Stringency
+
+8065 unit-pair signatures pass at log2 >= 3; 7246 unit-pair signatures pass at log2 >= 5; 4147 unit-pair signatures pass at log2 >= 7; the pairs that hold up best at the highest cutoff: Grm5 + Grm7, Grm1 + Grm5, Grm1 + Grm7.
+
+<img src="figures/allen_wmb/GRM_ALLPAIRS_1_stringency.png" width="800">
+
+### Highest stringency (log2 >= 7): cell types with the highest co-expression
+
+Top hit: 152 RE-Xi Nox4 Glut in HY, Grm5 + Grm7: 100% of 519 cells (observed/expected 1.00). * = focus region.
+
+<img src="figures/allen_wmb/GRM_ALLPAIRS_2_top_hits.png" width="1000">
+
+### Which pairs? All 8 x 8 receptor pairs
+
+<img src="figures/allen_wmb/GRM_ALLPAIRS_3_pair_heatmap.png" width="600">
+
+### Same cell type across regions
+
+<img src="figures/allen_wmb/GRM_ALLPAIRS_4_dotplot_Grm5_Grm7.png" width="800">
+
+<img src="figures/allen_wmb/GRM_ALLPAIRS_4_dotplot_Grm1_Grm5.png" width="800">
+
+<img src="figures/allen_wmb/GRM_ALLPAIRS_4_dotplot_Grm1_Grm7.png" width="800">
+
+<img src="figures/allen_wmb/GRM_ALLPAIRS_4_dotplot_Grm5_Grm8.png" width="800">
+
+Cell types that co-express in some regions but not others:
+
+<img src="figures/allen_wmb/GRM_ALLPAIRS_5_region_discordance.png" width="800">
+
+Tables: `results/allen_wmb/allpairs/` (`allpairs_master.csv.gz`: cutoff x pair x region x subclass).
+
 ## Caveats
 
 - Dissection region (ROI) is coarse; fine identity comes from subclass/supertype/cluster
@@ -92,6 +128,12 @@ For clusters identified in the previous plot as enriched for both Grm2 and 4, ex
 ## Appendix: other regions
 
 Prioritized (depression / Parkinson's) regions first, then the rest alphabetically.
+
+### Threshold sanity check
+
+Distribution of subclass x region mean expression for all eight receptors, with the three cutoffs.
+
+<img src="figures/allen_wmb/GRM_ALLPAIRS_6_threshold_sanity.png" width="700">
 
 ### Replicate check: 10x v2 vs v3
 
