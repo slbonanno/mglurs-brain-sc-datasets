@@ -180,6 +180,18 @@ The 100 highest-expressing hits with zoomed axes; labeled points are ranks 16-45
 - **STRd STR D2 | Grm3+Grm5**: Striatum dorsal region (STRd); subclass 062 STR D2 Gaba (class 09 CNU-LGE GABA); Grm3 + Grm5 (postsynaptic); 18,139 cells, 83% co-express
 - **RHP DG | Grm1+Grm5**: Retrohippocampal region (RHP); subclass 037 DG Glut (class 04 DG-IMN Glut); Grm1 + Grm5 (postsynaptic); 1,730 cells, 99% co-express
 
+## mGluR coexpression in serotonin neurons
+
+SSRIs block the serotonin transporter (SERT), which prolongs the time serotonin stays in the synaptic cleft and extracellular space. This acts on the serotonin neurons themselves through autoreceptors: 5-HT1A on the soma and dendrites, 5-HT1B on axon terminals (5-HT1D is also reported as a terminal autoreceptor in some species), and, in mouse, the excitatory 5-HT2B receptor on raphe neurons. It also acts on cells postsynaptic to serotonin, which express a range of other 5-HT receptors that modulate their signaling. Desensitization of 5-HT1A autoreceptors is thought to contribute to the delayed clinical effect of SSRIs.
+
+Drugs targeting mGluRs on serotonin neurons could have a synergistic or complementary effect to SSRIs.
+
+Serotonin signaling is also less strictly segregated into dendritic input and axonal output than classical synaptic transmission. Raphe neurons release serotonin from axonal varicosities, many without classical synapses, and from the soma and dendrites, with slow, diffusion-based (volume) transmission. This is established for serotonin release (e.g. Quentin et al. 2018, Front Neurosci). For mGluRs it is a hypothesis, not a finding: if serotonin neurons blur the dendrite/axon distinction, the pre- vs postsynaptic rules used in the section above may be less strict here, so co-expression of any Grm pair is considered in these cells.
+
+Grm expression was then explored exclusively in the 2 serotonergic neuron type(s) in this dataset (matched by Allen label name, not by marker expression; types with >= 30 cells): 216 MB-MY Tph2 Glut-Sero (22 MB-HB Sero); 268 CS-PRNr-DR En1 Sox2 Gaba (26 P GABA). Panel A shows mean log2(CPM+1) per receptor; panel B shows the per-cell distributions. The top row is all neurons for reference. Other figures: [serotonergic folder](figures/allen_wmb/serotonergic/).
+
+<img src="figures/allen_wmb/serotonergic/GRM_SERO_3_heatmap_violins.png" width="1000">
+
 ## Caveats
 
 - Dissection region (ROI) is coarse; fine identity comes from subclass/supertype/cluster
