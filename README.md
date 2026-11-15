@@ -76,41 +76,39 @@ all subclasses were filtered for those with >200 cells, using mean log2(CPM+1) f
 
 For clusters identified in the previous plot as enriched for both Grm2 and 4, expression was examined within single cells. expression thresholds were: Grm2 >= 6.2 and Grm4 >= 6.4 log2(CPM+1) per cell (median of neurons with detected expression). Clusters were selected when both receptors were in the top quartile of subclass means (Grm2 >= 1.5, Grm4 >= 2.9); 12 subclasses are shown
 
-## mGluR co-expression across the whole brain: all pairs
+## Unbiased look at mGluR co-expression (by pairs of receptors) across cell types across the whole ABA dataset
 
-Unit = neuronal subclass in one brain region (>= 500 cells). Every pair of Grm1-8 (28 pairs) was tested. A cell counts as expressing a receptor above one shared absolute cutoff for all receptors: log2(CPM+1) >= 3, 5, 7 (about 7, 31, 127 CPM). A unit passes if >= 10% of its cells co-express a pair (and >= 25 cells).
+Processing: the unit of analysis is a neuronal subclass within one dissection region (>= 500 cells). All 28 pairs of Grm1-8 were tested. A cell counts as co-expressing a pair when both receptors are above one shared absolute cutoff for all receptors, run at log2(CPM+1) >= 3, 5, 7 (about 7, 31, 127 CPM). A unit passes when >= 10% of its cells (and >= 25 cells) co-express a pair; units and pairs were then ranked at the highest cutoff (log2 >= 7). The dot plots below show, for the top 4 receptor pairs, which cell types pass in which regions. The figures for each processing step (stringency, top hits, pair heatmap, region discordance, threshold check) are in [pairs_coexpression_whole_atlas](figures/allen_wmb/pairs_coexpression_whole_atlas/).
 
-### Stringency
+<img src="figures/allen_wmb/pairs_coexpression_whole_atlas/GRM_ALLPAIRS_4_dotplot_Grm5_Grm7.png" width="800">
 
-8065 unit-pair signatures pass at log2 >= 3; 7246 unit-pair signatures pass at log2 >= 5; 4147 unit-pair signatures pass at log2 >= 7; the pairs that hold up best at the highest cutoff: Grm5 + Grm7, Grm1 + Grm5, Grm1 + Grm7.
+<img src="figures/allen_wmb/pairs_coexpression_whole_atlas/GRM_ALLPAIRS_4_dotplot_Grm1_Grm5.png" width="800">
 
-<img src="figures/allen_wmb/GRM_ALLPAIRS_1_stringency.png" width="800">
+<img src="figures/allen_wmb/pairs_coexpression_whole_atlas/GRM_ALLPAIRS_4_dotplot_Grm1_Grm7.png" width="800">
 
-### Highest stringency (log2 >= 7): cell types with the highest co-expression
+<img src="figures/allen_wmb/pairs_coexpression_whole_atlas/GRM_ALLPAIRS_4_dotplot_Grm5_Grm8.png" width="800">
 
-Top hit: 152 RE-Xi Nox4 Glut in HY, Grm5 + Grm7: 100% of 519 cells (observed/expected 1.00). * = focus region.
+<img src="figures/allen_wmb/pairs_coexpression_whole_atlas/GRM_ALLPAIRS_7_receptor_expression_scatter.png" width="900">
 
-<img src="figures/allen_wmb/GRM_ALLPAIRS_2_top_hits.png" width="1000">
+Each point is one cell type (subclass in one region) x receptor pair that passes the cutoff; x and y are the mean expression of the two receptors in the co-expressing cells (receptor 1 is the lower-numbered Grm of the pair); color = % of the unit's cells co-expressing. Labeled points are the 15 with the highest mean expression across both receptors; label = region + subclass | receptor pair.
 
-### Which pairs? All 8 x 8 receptor pairs
+Label key:
 
-<img src="figures/allen_wmb/GRM_ALLPAIRS_3_pair_heatmap.png" width="600">
-
-### Same cell type across regions
-
-<img src="figures/allen_wmb/GRM_ALLPAIRS_4_dotplot_Grm5_Grm7.png" width="800">
-
-<img src="figures/allen_wmb/GRM_ALLPAIRS_4_dotplot_Grm1_Grm5.png" width="800">
-
-<img src="figures/allen_wmb/GRM_ALLPAIRS_4_dotplot_Grm1_Grm7.png" width="800">
-
-<img src="figures/allen_wmb/GRM_ALLPAIRS_4_dotplot_Grm5_Grm8.png" width="800">
-
-Cell types that co-express in some regions but not others:
-
-<img src="figures/allen_wmb/GRM_ALLPAIRS_5_region_discordance.png" width="800">
-
-Tables: `results/allen_wmb/allpairs/` (`allpairs_master.csv.gz`: cutoff x pair x region x subclass).
+- **MY SPVC Nmu | Grm5+Grm7**: Medulla (MY); subclass 258 SPVC Nmu Glut (class 24 MY Glut); Grm5 + Grm7; 960 cells, 100% co-express
+- **STRv STR D1 | Grm5+Grm7**: Striatum ventral region (STRv); subclass 061 STR D1 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 12,350 cells, 100% co-express
+- **LSX LSX Sall3 Pax6 | Grm5+Grm7**: Lateral septal complex (LSX); subclass 067 LSX Sall3 Pax6 Gaba (class 10 LSX GABA); Grm5 + Grm7; 1,029 cells, 92% co-express
+- **STRv STR D2 | Grm5+Grm7**: Striatum ventral region (STRv); subclass 062 STR D2 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 11,148 cells, 99% co-express
+- **MY SPVC Mafa | Grm5+Grm7**: Medulla (MY); subclass 256 SPVC Mafa Glut (class 24 MY Glut); Grm5 + Grm7; 3,388 cells, 99% co-express
+- **PAL STR D1 | Grm5+Grm7**: Pallidum (PAL); subclass 061 STR D1 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 5,851 cells, 100% co-express
+- **sAMY STR D1 | Grm5+Grm7**: Striatum-like amygdalar nuclei (sAMY); subclass 061 STR D1 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 572 cells, 100% co-express
+- **LSX LSX Sall3 Lmo1 | Grm5+Grm7**: Lateral septal complex (LSX); subclass 072 LSX Sall3 Lmo1 Gaba (class 10 LSX GABA); Grm5 + Grm7; 2,423 cells, 99% co-express
+- **PAL STR D2 | Grm5+Grm7**: Pallidum (PAL); subclass 062 STR D2 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 4,970 cells, 99% co-express
+- **MY SPVI-SPVC Sall3 Lhx1 Gly-Gaba | Grm5+Grm7**: Medulla (MY); subclass 306 SPVI-SPVC Sall3 Lhx1 Gly-Gaba (class 27 MY GABA); Grm5 + Grm7; 2,002 cells, 100% co-express
+- **STRd STR D2 | Grm5+Grm7**: Striatum dorsal region (STRd); subclass 062 STR D2 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 18,139 cells, 100% co-express
+- **STRd STR D1 | Grm5+Grm7**: Striatum dorsal region (STRd); subclass 061 STR D1 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 16,660 cells, 100% co-express
+- **sAMY STR D2 | Grm5+Grm7**: Striatum-like amygdalar nuclei (sAMY); subclass 062 STR D2 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 1,808 cells, 95% co-express
+- **STRv OT D3 Folh1 | Grm5+Grm7**: Striatum ventral region (STRv); subclass 060 OT D3 Folh1 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 7,665 cells, 100% co-express
+- **PAL OT D3 Folh1 | Grm5+Grm7**: Pallidum (PAL); subclass 060 OT D3 Folh1 Gaba (class 09 CNU-LGE GABA); Grm5 + Grm7; 4,471 cells, 100% co-express
 
 ## Caveats
 
@@ -128,12 +126,6 @@ Tables: `results/allen_wmb/allpairs/` (`allpairs_master.csv.gz`: cutoff x pair x
 ## Appendix: other regions
 
 Prioritized (depression / Parkinson's) regions first, then the rest alphabetically.
-
-### Threshold sanity check
-
-Distribution of subclass x region mean expression for all eight receptors, with the three cutoffs.
-
-<img src="figures/allen_wmb/GRM_ALLPAIRS_6_threshold_sanity.png" width="700">
 
 ### Replicate check: 10x v2 vs v3
 
