@@ -7,20 +7,20 @@ Goal: mGluR (Grm1-8) expression by fine cell type and brain region in public sin
 
 ## Brain regions
 
-🟨 = regions of interest: depression circuits (prefrontal, anterior cingulate, hippocampus, amygdala, striatum) and Parkinson's (striatum). Hippocampus is the worked example below; all other regions are in the [appendix](#appendix-other-regions).
+🟨 = regions of interest: depression circuits (prefrontal, anterior cingulate, hippocampus, amygdala, striatum) and Parkinson's (striatum). Hippocampus is the worked example below; all other regions are in the [regions folder](figures/allen_wmb/regions/README.md).
 
 | | | |
 |---|---|---|
-| 🟨 **[Prelimbic/infralimbic/orbital areas  (PL-ILA-ORB)](#prelimbicinfralimbicorbital-areas--pl-ila-orb)** | 🟨 **[Anterior cingulate area (ACA)](#anterior-cingulate-area-aca)** | 🟨 **[Hippocampal region (HIP)](#hippocampal-region-hip)** |
-| 🟨 **[Cortical subplate (CTXsp)](#cortical-subplate-ctxsp)** | 🟨 **[Striatum-like amygdalar nuclei (sAMY)](#striatum-like-amygdalar-nuclei-samy)** | 🟨 **[Striatum dorsal region (STRd)](#striatum-dorsal-region-strd)** |
-| 🟨 **[Striatum ventral region (STRv)](#striatum-ventral-region-strv)** | [Agranular insular area (AI)](#agranular-insular-area-ai) | [Auditory areas (AUD)](#auditory-areas-aud) |
-| [Auditory/temporal/perirhinal/ectorhinal areas (AUD-TEa-PERI-ECT)](#auditorytemporalperirhinalectorhinal-areas-aud-tea-peri-ect) | [Cerebellum (CB)](#cerebellum-cb) | [Entorhinal area (ENT)](#entorhinal-area-ent) |
-| [Hypothalamus (HY)](#hypothalamus-hy) | [Lateral septal complex (LSX)](#lateral-septal-complex-lsx) | [Medulla (MY)](#medulla-my) |
-| [Midbrain (MB)](#midbrain-mb) | [Olfactory areas (OLF)](#olfactory-areas-olf) | [Pallidum (PAL)](#pallidum-pal) |
-| [Pons (P)](#pons-p) | [Primary motor area (MOp)](#primary-motor-area-mop) | [Primary somatosensory area (SSp)](#primary-somatosensory-area-ssp) |
-| [Retrohippocampal region (RHP)](#retrohippocampal-region-rhp) | [Retrosplenial area (RSP)](#retrosplenial-area-rsp) | [Somatomotor - Frontal pole (MO-FRP)](#somatomotor---frontal-pole-mo-frp) |
-| [Somatosensory/gustatory/visceral areas (SS-GU-VISC)](#somatosensorygustatoryvisceral-areas-ss-gu-visc) | [Temporal/perirhinal/ectorhinal areas  (TEa-PERI-ECT)](#temporalperirhinalectorhinal-areas--tea-peri-ect) | [Thalamus (TH)](#thalamus-th) |
-| [Visual areas (VIS)](#visual-areas-vis) | [Visual/posterior parietal  areas (VIS-PTLp)](#visualposterior-parietal--areas-vis-ptlp) |  |
+| 🟨 **[Prelimbic/infralimbic/orbital areas  (PL-ILA-ORB)](figures/allen_wmb/regions/README.md#prelimbicinfralimbicorbital-areas--pl-ila-orb)** | 🟨 **[Anterior cingulate area (ACA)](figures/allen_wmb/regions/README.md#anterior-cingulate-area-aca)** | 🟨 **[Hippocampal region (HIP)](#example-region-hippocampus)** |
+| 🟨 **[Cortical subplate (CTXsp)](figures/allen_wmb/regions/README.md#cortical-subplate-ctxsp)** | 🟨 **[Striatum-like amygdalar nuclei (sAMY)](figures/allen_wmb/regions/README.md#striatum-like-amygdalar-nuclei-samy)** | 🟨 **[Striatum dorsal region (STRd)](figures/allen_wmb/regions/README.md#striatum-dorsal-region-strd)** |
+| 🟨 **[Striatum ventral region (STRv)](figures/allen_wmb/regions/README.md#striatum-ventral-region-strv)** | [Agranular insular area (AI)](figures/allen_wmb/regions/README.md#agranular-insular-area-ai) | [Auditory areas (AUD)](figures/allen_wmb/regions/README.md#auditory-areas-aud) |
+| [Auditory/temporal/perirhinal/ectorhinal areas (AUD-TEa-PERI-ECT)](figures/allen_wmb/regions/README.md#auditorytemporalperirhinalectorhinal-areas-aud-tea-peri-ect) | [Cerebellum (CB)](figures/allen_wmb/regions/README.md#cerebellum-cb) | [Entorhinal area (ENT)](figures/allen_wmb/regions/README.md#entorhinal-area-ent) |
+| [Hypothalamus (HY)](figures/allen_wmb/regions/README.md#hypothalamus-hy) | [Lateral septal complex (LSX)](figures/allen_wmb/regions/README.md#lateral-septal-complex-lsx) | [Medulla (MY)](figures/allen_wmb/regions/README.md#medulla-my) |
+| [Midbrain (MB)](figures/allen_wmb/regions/README.md#midbrain-mb) | [Olfactory areas (OLF)](figures/allen_wmb/regions/README.md#olfactory-areas-olf) | [Pallidum (PAL)](figures/allen_wmb/regions/README.md#pallidum-pal) |
+| [Pons (P)](figures/allen_wmb/regions/README.md#pons-p) | [Primary motor area (MOp)](figures/allen_wmb/regions/README.md#primary-motor-area-mop) | [Primary somatosensory area (SSp)](figures/allen_wmb/regions/README.md#primary-somatosensory-area-ssp) |
+| [Retrohippocampal region (RHP)](figures/allen_wmb/regions/README.md#retrohippocampal-region-rhp) | [Retrosplenial area (RSP)](figures/allen_wmb/regions/README.md#retrosplenial-area-rsp) | [Somatomotor - Frontal pole (MO-FRP)](figures/allen_wmb/regions/README.md#somatomotor---frontal-pole-mo-frp) |
+| [Somatosensory/gustatory/visceral areas (SS-GU-VISC)](figures/allen_wmb/regions/README.md#somatosensorygustatoryvisceral-areas-ss-gu-visc) | [Temporal/perirhinal/ectorhinal areas  (TEa-PERI-ECT)](figures/allen_wmb/regions/README.md#temporalperirhinalectorhinal-areas--tea-peri-ect) | [Thalamus (TH)](figures/allen_wmb/regions/README.md#thalamus-th) |
+| [Visual areas (VIS)](figures/allen_wmb/regions/README.md#visual-areas-vis) | [Visual/posterior parietal  areas (VIS-PTLp)](figures/allen_wmb/regions/README.md#visualposterior-parietal--areas-vis-ptlp) |  |
 
 ## Module 1: Allen whole mouse brain (10x)
 
@@ -56,13 +56,15 @@ Violin = distribution of per-cell log2(CPM+1) for one Grm across all neurons of 
 
 ### Example region: hippocampus
 
-UMAP (x and y coordinates directly from ABA, no reclustering) by class and Grm violins per subclass. All other regions are in the appendix. Feature plots (Grm on UMAP) and enrichment tables: `figures/allen_wmb/`, `results/allen_wmb/master_enrichment.csv.gz`.
+UMAP (x and y coordinates directly from ABA, no reclustering) by class and Grm violins per subclass. Other regions (UMAP + violins): see the [regions folder](figures/allen_wmb/regions/README.md). Feature plots (Grm on UMAP) and enrichment tables: `figures/allen_wmb/`, `results/allen_wmb/master_enrichment.csv.gz`.
 
 ### Hippocampal region (HIP)
 
 <img src="figures/allen_wmb/HIP_fig1_umap_subclass.png" width="760">
 
 <img src="figures/allen_wmb/HIP_fig2_violins.png" width="900">
+
+More regions: [UMAP and violins for all other regions](figures/allen_wmb/regions/README.md).
 
 ## Grm2 and Grm4 coexpression preliminary analysis
 
@@ -123,9 +125,7 @@ Label key:
 - Independent 10x 3' datasets per region (CELLxGENE Census, literature) to replicate Allen patterns
 - Supertype/cluster-level breakdown of top hits; ambient-RNA flags
 
-## Appendix: other regions
-
-Prioritized (depression / Parkinson's) regions first, then the rest alphabetically.
+## Appendix
 
 ### Replicate check: 10x v2 vs v3
 
@@ -140,171 +140,3 @@ Per region x subclass, log2 enrichment in v2 cells vs v3 cells (only subclasses 
 Spearman rho by gene.
 
 **Grm6 does not replicate (rho = 0.38).** Grm6 is detected in only about 0.03% of brain cells (it is a retina-restricted receptor), so its per-subclass fold changes are driven by a handful of cells and background counts rather than real expression, while the other receptors are expressed in many cells and give stable estimates.
-
-### Prelimbic/infralimbic/orbital areas  (PL-ILA-ORB)
-
-<img src="figures/allen_wmb/PL-ILA-ORB_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/PL-ILA-ORB_fig2_violins.png" width="900">
-
-### Anterior cingulate area (ACA)
-
-<img src="figures/allen_wmb/ACA_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/ACA_fig2_violins.png" width="900">
-
-### Cortical subplate (CTXsp)
-
-<img src="figures/allen_wmb/CTXsp_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/CTXsp_fig2_violins.png" width="900">
-
-### Striatum-like amygdalar nuclei (sAMY)
-
-<img src="figures/allen_wmb/sAMY_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/sAMY_fig2_violins.png" width="900">
-
-### Striatum dorsal region (STRd)
-
-<img src="figures/allen_wmb/STRd_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/STRd_fig2_violins.png" width="900">
-
-### Striatum ventral region (STRv)
-
-<img src="figures/allen_wmb/STRv_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/STRv_fig2_violins.png" width="900">
-
-### Agranular insular area (AI)
-
-<img src="figures/allen_wmb/AI_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/AI_fig2_violins.png" width="900">
-
-### Auditory areas (AUD)
-
-<img src="figures/allen_wmb/AUD_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/AUD_fig2_violins.png" width="900">
-
-### Auditory/temporal/perirhinal/ectorhinal areas (AUD-TEa-PERI-ECT)
-
-<img src="figures/allen_wmb/AUD-TEa-PERI-ECT_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/AUD-TEa-PERI-ECT_fig2_violins.png" width="900">
-
-### Cerebellum (CB)
-
-<img src="figures/allen_wmb/CB_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/CB_fig2_violins.png" width="900">
-
-### Entorhinal area (ENT)
-
-<img src="figures/allen_wmb/ENT_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/ENT_fig2_violins.png" width="900">
-
-### Hypothalamus (HY)
-
-<img src="figures/allen_wmb/HY_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/HY_fig2_violins.png" width="900">
-
-### Lateral septal complex (LSX)
-
-<img src="figures/allen_wmb/LSX_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/LSX_fig2_violins.png" width="900">
-
-### Medulla (MY)
-
-<img src="figures/allen_wmb/MY_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/MY_fig2_violins.png" width="900">
-
-### Midbrain (MB)
-
-<img src="figures/allen_wmb/MB_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/MB_fig2_violins.png" width="900">
-
-### Olfactory areas (OLF)
-
-<img src="figures/allen_wmb/OLF_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/OLF_fig2_violins.png" width="900">
-
-### Pallidum (PAL)
-
-<img src="figures/allen_wmb/PAL_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/PAL_fig2_violins.png" width="900">
-
-### Pons (P)
-
-<img src="figures/allen_wmb/P_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/P_fig2_violins.png" width="900">
-
-### Primary motor area (MOp)
-
-<img src="figures/allen_wmb/MOp_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/MOp_fig2_violins.png" width="900">
-
-### Primary somatosensory area (SSp)
-
-<img src="figures/allen_wmb/SSp_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/SSp_fig2_violins.png" width="900">
-
-### Retrohippocampal region (RHP)
-
-<img src="figures/allen_wmb/RHP_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/RHP_fig2_violins.png" width="900">
-
-### Retrosplenial area (RSP)
-
-<img src="figures/allen_wmb/RSP_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/RSP_fig2_violins.png" width="900">
-
-### Somatomotor - Frontal pole (MO-FRP)
-
-<img src="figures/allen_wmb/MO-FRP_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/MO-FRP_fig2_violins.png" width="900">
-
-### Somatosensory/gustatory/visceral areas (SS-GU-VISC)
-
-<img src="figures/allen_wmb/SS-GU-VISC_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/SS-GU-VISC_fig2_violins.png" width="900">
-
-### Temporal/perirhinal/ectorhinal areas  (TEa-PERI-ECT)
-
-<img src="figures/allen_wmb/TEa-PERI-ECT_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/TEa-PERI-ECT_fig2_violins.png" width="900">
-
-### Thalamus (TH)
-
-<img src="figures/allen_wmb/TH_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/TH_fig2_violins.png" width="900">
-
-### Visual areas (VIS)
-
-<img src="figures/allen_wmb/VIS_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/VIS_fig2_violins.png" width="900">
-
-### Visual/posterior parietal  areas (VIS-PTLp)
-
-<img src="figures/allen_wmb/VIS-PTLp_fig1_umap_subclass.png" width="760">
-
-<img src="figures/allen_wmb/VIS-PTLp_fig2_violins.png" width="900">
