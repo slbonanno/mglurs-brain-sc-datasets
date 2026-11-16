@@ -3,11 +3,11 @@
 
 Dataset catalogs (human, rodent, repositories): [docs/datasets.md](docs/datasets.md)
 
-Goal: mGluR (Grm1-8) expression by fine cell type and brain region in public single-cell data. Brain needs expression levels, not % detected: detection saturates in neurons.
+Goal: mGluR (Grm1-8) expression by fine cell type and brain region in public single-cell data. The brain has elevated levels of mGluRs - % cells positive for the gene is no longer a good measure of enrichment (as in other tissues where GPCR transcript detection is low).
 
 ## Brain regions
 
-🟨 = regions of interest: depression circuits (prefrontal, anterior cingulate, hippocampus, amygdala, striatum) and Parkinson's (striatum). Hippocampus is the worked example below; all other regions are in the [regions folder](figures/allen_wmb/regions/README.md).
+🟨 = regions of interest noted before analysis: depression circuits (prefrontal, anterior cingulate, hippocampus, amygdala, striatum) and Parkinson's (striatum). Hippocampus is an example below; all other regions are in the [regions folder](figures/allen_wmb/regions/README.md).
 
 | | | |
 |---|---|---|
@@ -66,7 +66,9 @@ UMAP (x and y coordinates directly from ABA, no reclustering) by class and Grm v
 
 More regions: [UMAP and violins for all other regions](figures/allen_wmb/regions/README.md).
 
-## Grm2 and Grm4 coexpression preliminary analysis
+# mGluR coexpression analysis
+
+## Grm2 and Grm4
 
 <img src="figures/allen_wmb/GRM2_GRM4_subclass_scatter.png" width="900">
 
@@ -78,15 +80,18 @@ all subclasses were filtered for those with >200 cells, using mean log2(CPM+1) f
 
 For clusters identified in the previous plot as enriched for both Grm2 and 4, expression was examined within single cells. expression thresholds were: Grm2 >= 6.2 and Grm4 >= 6.4 log2(CPM+1) per cell (median of neurons with detected expression). Clusters were selected when both receptors were in the top quartile of subclass means (Grm2 >= 1.5, Grm4 >= 2.9); 12 subclasses are shown
 
-## Co-expression of mGluR pairs restricted to a shared subcellular compartment
+## broader analysis of mGluR pairs - restricted to shared subcellular compartment
 
 The first co-expression analysis tested all 28 receptor pairs across all cell types and regions without regard to subcellular localization; that work (stringency, top hits, pair heatmap, dot plots, region discordance, receptor 1 vs receptor 2 scatters) is in [pairs_coexpression_whole_atlas](figures/allen_wmb/pairs_coexpression_whole_atlas/README.md).
 
-Rationale: a heteromer at the cell surface requires both receptors to be in the same compartment of the same cell. Group I receptors (Grm1, Grm5) sit postsynaptically in the perisynaptic annulus of dendritic spines, which is why DHPG-LTD is a model of their activation; group II and III receptors (Grm2, Grm4, Grm7, Grm8, and in part Grm3) sit mainly at presynaptic terminals. Pairs split across compartments (e.g. Grm1 + Grm7) are unlikely to form surface heteromers, so the analysis is repeated on the pairs expected to share a compartment, with identical cutoffs and pass rule.
+Rationale to filter the analysis: a heteromer at the cell surface requires both receptors to traffic to the same place.
+Group I receptors (Grm1, Grm5) are known to traffic to the shafts of dendritic spines (postsynaptic). They detect Glu spillover and DHPG-LTD works through this mechanism.
+Group II and III receptors (Grm2, Grm4, Grm7, Grm8, and in part Grm3) are mostly at presynaptic terminals.
+Surface heteromers are most likely to form where they are already trafficked to the same subcellular domain - this analysis considers receptor pairs expressed in the same compartment, and uses identical cutoffs and pass rule to the first one.
 
 ### Subcellular localization of each receptor
 
-Curated from immuno-electron microscopy literature (from memory; verify the primary references before citing). A heteromer at the cell surface needs both receptors in the same compartment of the same cell, which restricts the pairs worth testing.
+Curated from immuno-electron microscopy literature (from Claude's memory; citation verification needed).
 
 | Receptor | Compartment | Localization | Note | References |
 |---|---|---|---|---|
@@ -101,7 +106,7 @@ Curated from immuno-electron microscopy literature (from memory; verify the prim
 
 ### Pairs where both receptors share a compartment
 
-Grm3 is counted in both sets. Grm6 is excluded. Heteromer notes are reports from heterologous-cell studies (Doumazane 2011; Kammermeier 2012; Yin 2014), not shown in vivo; verify.
+Grm3 is counted in both sets. Grm6 is excluded. Heteromer notes are reports from heterologous-cell studies (Doumazane 2011; Kammermeier 2012; Yin 2014), not shown in vivo; verify citations.
 
 | Set | Pair | Heteromer note |
 |---|---|---|
@@ -182,11 +187,11 @@ The 100 highest-expressing hits with zoomed axes; labeled points are ranks 16-45
 
 ## mGluR coexpression in serotonin neurons
 
-SSRIs block the serotonin transporter (SERT), which prolongs the time serotonin stays in the synaptic cleft and extracellular space. This acts on the serotonin neurons themselves through autoreceptors: 5-HT1A on the soma and dendrites, 5-HT1B on axon terminals (5-HT1D is also reported as a terminal autoreceptor in some species), and, in mouse, the excitatory 5-HT2B receptor on raphe neurons. It also acts on cells postsynaptic to serotonin, which express a range of other 5-HT receptors that modulate their signaling. Desensitization of 5-HT1A autoreceptors is thought to contribute to the delayed clinical effect of SSRIs.
+SSRIs block the serotonin transporter (SERT), which is expressed at high levels across most if not all of the membrane of the serotonergic neuron.  SSRIs thus prolong the time serotonin stays in the synaptic cleft and extracellular space. This acts on the serotonin neurons themselves through autoreceptors: 5-HT1A on the soma and dendrites, 5-HT1B on axon terminals (5-HT1D is also reported as a terminal autoreceptor in some species), and, in mouse, the excitatory 5-HT2B receptor on raphe neurons. It also acts on cells postsynaptic to serotonin, which express a range of other 5-HT receptors that modulate their signaling. Desensitization of 5-HT1A autoreceptors is thought to contribute to the delayed clinical effect of SSRIs.
 
-Drugs targeting mGluRs on serotonin neurons could have a synergistic or complementary effect to SSRIs.
+Serotonin signaling is also less strictly segregated into dendritic input and axonal output than classical synaptic transmission. Raphe neurons release serotonin from axonal varicosities, many without classical synapses, and from the soma and dendrites, with slow, diffusion-based (volume) transmission. This is established for serotonin release (e.g. Quentin et al. 2018, Front Neurosci).
 
-Serotonin signaling is also less strictly segregated into dendritic input and axonal output than classical synaptic transmission. Raphe neurons release serotonin from axonal varicosities, many without classical synapses, and from the soma and dendrites, with slow, diffusion-based (volume) transmission. This is established for serotonin release (e.g. Quentin et al. 2018, Front Neurosci). For mGluRs it is a hypothesis, not a finding: if serotonin neurons blur the dendrite/axon distinction, the pre- vs postsynaptic rules used in the section above may be less strict here, so co-expression of any Grm pair is considered in these cells.
+Modulating mGluRs on serotonin neurons could have a synergistic or complementary effect to SSRIs. As an example of analysis done on a pre-defined set of cell types (with >= 30 cells) to consider, mGluR coexpression analysis was conducted on the 2 cell types marked as serotonergic alongside measures for all neurons in aggregate as a reference. 
 
 Grm expression was then explored exclusively in the 2 serotonergic neuron type(s) in this dataset (matched by Allen label name, not by marker expression; types with >= 30 cells): 216 MB-MY Tph2 Glut-Sero (22 MB-HB Sero); 268 CS-PRNr-DR En1 Sox2 Gaba (26 P GABA). Panel A shows mean log2(CPM+1) per receptor; panel B shows the per-cell distributions. The top row is all neurons for reference. Other figures: [serotonergic folder](figures/allen_wmb/serotonergic/).
 
