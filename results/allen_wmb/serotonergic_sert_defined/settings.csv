@@ -1,0 +1,2 @@
+n_clusters_tested,n_serotonergic,n_cells_serotonergic,sert_cutoff,sert_pct,min_cells,cutoffs,main_cutoff,n_neurons_with_sert_data
+2067,16,1370,4.0,50.0,30,3 5 7,5,315609
