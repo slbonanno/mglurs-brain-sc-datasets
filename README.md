@@ -195,6 +195,33 @@ Modulating mGluRs on serotonin neurons could have a synergistic or complementary
 
 Serotonergic cells were defined from expression rather than from labels. Starting at the lowest level of the Allen taxonomy (cluster), clusters with >= 30 cells were scored for SERT (Slc6a4), the % of their cells with log2(CPM+1) >= 4. A cluster is called serotonergic when >= 50% of its cells pass: 16 of 2067 clusters tested (1,370 cells). Slc6a4 was re-extracted for the raphe-containing dissection regions (MB, P, MY) only; Tph2 is shown as an independent check.
 
+Serotonergic clusters:
+
+- **3884 MB-MY Tph2 Glut-Sero_1** (class 22 MB-HB Sero): 102 cells; 100% SERT-high, 100% Tph2-high
+- **3885 MB-MY Tph2 Glut-Sero_1** (class 22 MB-HB Sero): 135 cells; 100% SERT-high, 100% Tph2-high
+- **3881 MB-MY Tph2 Glut-Sero_1** (class 22 MB-HB Sero): 69 cells; 100% SERT-high, 100% Tph2-high
+- **3880 MB-MY Tph2 Glut-Sero_1** (class 22 MB-HB Sero): 77 cells; 100% SERT-high, 100% Tph2-high
+- **3883 MB-MY Tph2 Glut-Sero_1** (class 22 MB-HB Sero): 91 cells; 100% SERT-high, 100% Tph2-high
+- **3904 MB-MY Tph2 Glut-Sero_4** (class 22 MB-HB Sero): 107 cells; 100% SERT-high, 100% Tph2-high
+- **3902 MB-MY Tph2 Glut-Sero_4** (class 22 MB-HB Sero): 70 cells; 100% SERT-high, 100% Tph2-high
+- **3903 MB-MY Tph2 Glut-Sero_4** (class 22 MB-HB Sero): 53 cells; 100% SERT-high, 100% Tph2-high
+- **3911 MB-MY Tph2 Glut-Sero_7** (class 22 MB-HB Sero): 44 cells; 100% SERT-high, 100% Tph2-high
+- **3888 MB-MY Tph2 Glut-Sero_2** (class 22 MB-HB Sero): 68 cells; 100% SERT-high, 100% Tph2-high
+- **3910 MB-MY Tph2 Glut-Sero_6** (class 22 MB-HB Sero): 217 cells; 100% SERT-high, 100% Tph2-high
+- **3882 MB-MY Tph2 Glut-Sero_1** (class 22 MB-HB Sero): 81 cells; 96% SERT-high, 95% Tph2-high
+- **3886 MB-MY Tph2 Glut-Sero_1** (class 22 MB-HB Sero): 40 cells; 95% SERT-high, 57% Tph2-high
+- **3896 MB-MY Tph2 Glut-Sero_3** (class 22 MB-HB Sero): 55 cells; 71% SERT-high, 75% Tph2-high
+- **3887 MB-MY Tph2 Glut-Sero_1** (class 22 MB-HB Sero): 66 cells; 56% SERT-high, 48% Tph2-high
+- **3889 MB-MY Tph2 Glut-Sero_2** (class 22 MB-HB Sero): 95 cells; 55% SERT-high, 81% Tph2-high
+
+All pairs of Grm1-8 were then tested within these clusters: unit = cluster, one shared absolute cutoff for every receptor at log2(CPM+1) >= 3, 5, 7 (about 7, 31, 127 CPM), and the % of cells in which both receptors are above it. Grm6 pairs are excluded. At log2 >= 5 the pairs with the highest median co-expression across these clusters are Grm7 + Grm8 (73%), Grm5 + Grm7 (71%), Grm1 + Grm7 (57%).
+
+Mean Grm expression (A) and per-cell distributions (B) in the same clusters, with all neurons as a reference:
+
+Tables and figures: `results/allen_wmb/serotonergic_sert_defined/`, [figures/allen_wmb/serotonergic_sert_defined](figures/allen_wmb/serotonergic_sert_defined/).
+
+Serotonergic cells were defined from expression rather than from labels. Starting at the lowest level of the Allen taxonomy (cluster), clusters with >= 30 cells were scored for SERT (Slc6a4), the % of their cells with log2(CPM+1) >= 4. A cluster is called serotonergic when >= 50% of its cells pass: 16 of 2067 clusters tested (1,370 cells). Slc6a4 was re-extracted for the raphe-containing dissection regions (MB, P, MY) only; Tph2 is shown as an independent check.
+
 <img src="figures/allen_wmb/serotonergic_sert_defined/SERT_1_cluster_expression.png" width="900">
 
 Serotonergic clusters:
@@ -220,9 +247,13 @@ All pairs of Grm1-8 were then tested within these clusters: unit = cluster, one 
 
 <img src="figures/allen_wmb/serotonergic_sert_defined/SERT_2_allpairs_heatmap.png" width="1000">
 
-Mean Grm expression (A) and per-cell distributions (B) in the same clusters, with all neurons as a reference:
+Mean Grm expression in the same clusters, with all neurons as a reference:
 
-<img src="figures/allen_wmb/serotonergic_sert_defined/SERT_3_heatmap_violins.png" width="1000">
+<img src="figures/allen_wmb/serotonergic_sert_defined/SERT_3_mean_heatmap.png" width="800">
+
+Per-cell distributions of Grm1-8 in the same clusters (bar = mean):
+
+<img src="figures/allen_wmb/serotonergic_sert_defined/SERT_4_violins.png" width="1000">
 
 Tables and figures: `results/allen_wmb/serotonergic_sert_defined/`, [figures/allen_wmb/serotonergic_sert_defined](figures/allen_wmb/serotonergic_sert_defined/).
 
